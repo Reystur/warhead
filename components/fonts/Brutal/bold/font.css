@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Brutal Type';
+  src: url('BrutalBold.eot'); /* IE9 Compat Modes */
+  src: url('BrutalBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BrutalBold.woff') format('woff'), /* Modern Browsers */
+       url('BrutalBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BrutalBold.svg#741cb8ff704ac54b4e5035ec6ec84e62') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+

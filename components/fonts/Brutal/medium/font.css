@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Brutal Type';
+  src: url('BrutalMedium.eot'); /* IE9 Compat Modes */
+  src: url('BrutalMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BrutalMedium.woff') format('woff'), /* Modern Browsers */
+       url('BrutalMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('BrutalMedium.svg#da1417a78f413faf5b2694e8ddb1ce0f') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
