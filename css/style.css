@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .wrapper{
-    min-height: 2000px; /* TEMP */
+    min-height: 5000px; /* TEMP */
 }
 
 .banner{
@@ -243,9 +243,6 @@ h1, h2, h3, h4, h5, h6{
 
     .right-col{
         display: none;
-    }
-
-    .article{
     }
 
     .atricle__title{
@@ -630,5 +627,258 @@ h1, h2, h3, h4, h5, h6{
     .article__sum-box{
         margin-left: 52px;
         width: 600px;
+    }
+
+    .article__date{
+        font-size: 14px;
+        line-height: 22px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+        margin: 40px 0 11px 92px;
+    }
+
+    .markup-article{
+        margin-left: 52px;
+        width: 640px;
+    }
+
+    .markup-article p{
+        margin: 22px 40px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: brutal_regular, sans-serif;
+        color: #47453e;
+    }
+
+    .markup-article a{
+        color: #4693d4;
+        text-decoration: underline;
+    }
+
+    .markup-article h2{
+        margin: 50px 40px 20px;
+        font-size: 26px;
+        line-height: 26px;
+        font-family: brutal_medium, sans-serif;
+        color: #47453e;
+    }
+
+    .markup-article p.intro{
+        margin: 11px 40px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .markup-article p.full-pic{
+        margin: 35px 40px 0 0;
+    }
+
+    .markup-article p.full-pic img{
+        max-width: 100%;
+    }
+
+    .markup-article .half-pic{
+        margin: 35px 40px 0 0;
+        position: relative;
+    }
+
+    .markup-article .half-pic img{
+        max-width: 50%;
+        margin-right: 55%;
+        display: block;
+    }
+
+    .markup-article .half-pic__text{
+        float: right;
+        margin: 0;
+        width: 45%;
+    }
+
+    .markup-article .half-pic__note{
+        font-size: 14px;
+        line-height: 18px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+        position: absolute;
+        bottom: 0;
+        left: 55%;
+        width: 45%;
+    }
+
+    .markup-article blockquote{
+        margin: 35px 0;
+        padding: 23px 40px 25px;
+        background: url("../img/blockquote_bg/tl.png") top left no-repeat, url("../img/blockquote_bg/tr.png") top right no-repeat, url("../img/blockquote_bg/br.png") bottom right no-repeat, url("../img/blockquote_bg/bl.png") no-repeat bottom left;
+        background-size: 20px, 20px, 20px, 20px;
+    }
+
+    .markup-article blockquote p{
+        margin: 0;
+        font-size: 28px;
+        line-height: 34px;
+        font-family: brutal_medium, sans-serif;
+        color: #213036;
+    }
+
+    .markup-article .list-intro{
+        font-family: brutal_medium, sans-serif;
+        margin: 70px 40px 40px 40px;
+    }
+
+    .markup-article ul{
+        margin: 40px 40px 50px;
+        list-style: none;
+    }
+
+    .markup-article ol{
+        margin: 40px 40px 50px;
+    }
+
+    .markup-article ol li{
+        padding-left: 6px;
+        margin: 22px 0 22px 35px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: brutal_regular, sans-serif;
+        color: #47453e;
+    }
+
+    .markup-article ul li{
+        padding-left: 21px;
+        margin: 22px 0 22px 20px;
+        background: url("../img/rectangle-blue@2x.png") left 10px no-repeat;
+        background-size: 6px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: brutal_regular, sans-serif;
+        color: #47453e;
+    }
+
+    .authors{
+        margin: 40px 60px 40px 92px;
+        border-left: 3px solid #dcdcdc;
+        padding-left: 38px;
+    }
+
+    .authors__label{
+        font-size: 16px;
+        line-height: 18px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+    }
+
+    .authors__list{
+        font-size: 14px;
+        line-height: 28px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+    }
+
+    .authors__list a{
+        text-decoration: underline;
+        font-size: 14px;
+        line-height: 28px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+    }
+
+    .authors__materials-label{
+        margin: 35px 0 11px;
+        font-size: 16px;
+        line-height: 18px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+    }
+
+    .authors__material{
+        font-size: 14px;
+        line-height: 28px;
+        font-family: brutal_regular, sans-serif;
+        color: #8a8a8a;
+        text-decoration: underline;
+        padding-left: 20px;
+        margin: 0 0 0 20px;
+        background: url("../img/rectangle-grey@2x.png") left center no-repeat;
+        background-size: 6px;
+    }
+
+    .likes{
+        margin: 60px 40px 60px 52px;
+    }
+
+    .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box{
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid #dcdcdc;
+        width: 16%;
+        float: left;
+        height: 45px;
+    }
+
+    .likes__fb, .likes__vk, .likes__tw, .likes__od,.likes__to-favorite{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 14px 0;
+        font-family: brutal_regular, sans-serif;
+        color: #47453e;
+    }
+
+    .likes__fb-box{
+        border-right: none;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .likes__fb{
+        padding-left: 20px;
+        background: url("../img/socials/fb/fb@2x.png") no-repeat left center;
+        background-size: 10px 20px;
+    }
+
+
+    .likes__vk-box{
+        border-right: none;
+    }
+
+    .likes__vk{
+        padding-left: 36px;
+        background: url("../img/socials/vk/vk@2x.png") no-repeat left center;
+        background-size: 25px 14px;
+    }
+
+
+    .likes__tw-box{
+        border-right: none;
+    }
+
+    .likes__tw{
+        padding-left: 33px;
+        background: url("../img/socials/tw/tw@2x.png") no-repeat left center;
+        background-size: 21px 17px;
+    }
+
+
+    .likes__od-box{
+        border-right: none;
+    }
+
+    .likes__od{
+        padding-left: 23px;
+        background: url("../img/socials/od/od@2x.png") no-repeat left center;
+        background-size: 12px 20px;
+    }
+
+
+    .likes__to-favorite-box{
+        float: right;
+        border-radius: 0 3px 3px 0;
+        width: 36%;
+    }
+
+    .likes__to-favorite{
+        padding-left: 33px;
+        background: url("../img/favorite/fav@2x.png") no-repeat left center;
+        background-size: 22px 22px;
+        color: #4693d4;
     }
 }
