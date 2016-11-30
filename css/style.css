@@ -1,16 +1,49 @@
+/*@font-face {*/
+    /*font-family: 'brutal_regular';*/
+    /*src: url('font/BrutalRegular.ttf');*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'brutal_medium';*/
+    /*src: url('font/BrutalMedium.ttf');*/
+/*}*/
+
+/*@font-face {*/
+    /*font-family: 'brutal_bold';*/
+    /*src: url('font/BrutalBold.ttf');*/
+/*}*/
+
 @font-face {
     font-family: 'brutal_regular';
-    src: url('font/BrutalRegular.ttf');
+    src: url('fonts/Brutal/regular/BrutalRegular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Brutal/regular/BrutalRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Brutal/regular/BrutalRegular.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Brutal/regular/BrutalRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Brutal/regular/BrutalRegular.svg#e1281a2e4a9cbb869772bf364d6fd47b') format('svg'); /* Legacy iOS */
+    font-style:   normal;
+    font-weight:  400;
 }
 
 @font-face {
     font-family: 'brutal_medium';
-    src: url('font/BrutalMedium.ttf');
+    src: url('fonts/Brutal/medium/BrutalMedium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Brutal/medium/BrutalMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Brutal/medium/BrutalMedium.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Brutal/medium/BrutalMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Brutal/medium/BrutalMedium.svg#da1417a78f413faf5b2694e8ddb1ce0f') format('svg'); /* Legacy iOS */
+    font-style:   normal;
+    font-weight:  400;
 }
 
 @font-face {
     font-family: 'brutal_bold';
-    src: url('font/BrutalBold.ttf');
+    src: url('fonts/Brutal/bold/BrutalBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Brutal/bold/BrutalBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/Brutal/bold/BrutalBold.woff') format('woff'), /* Modern Browsers */
+    url('fonts/Brutal/bold/BrutalBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/Brutal/bold/BrutalBold.svg#741cb8ff704ac54b4e5035ec6ec84e62') format('svg'); /* Legacy iOS */
+    font-style:   normal;
+    font-weight:  700;
 }
 
 a{
@@ -206,6 +239,215 @@ h1, h2, h3, h4, h5, h6{
     color: #8a8a8a;
 }
 
+.comments {
+     font-family: 'brutal_regular', sans-serif;
+     min-width: 538px;
+ }
+
+.comments__header {
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: #47453e;
+}
+
+.comments__form {
+
+}
+
+.comments__avatar {
+
+}
+
+.comments__avatar a img {
+    width: 78px;
+    height: 78px;
+    float: left;
+}
+
+.comments__autor_avatar a img {
+    width: 78px;
+    height: 78px;
+    float: left;
+}
+
+.comments__avatar-name {
+    display: none;
+}
+
+.comments__textarea {
+    /*border: 1px solid green;*/
+    border-radius: 5px 5px;
+    background: #f5f5f5;
+    margin-left: 115px;
+    padding-bottom: 50px;
+}
+.comments__textarea textarea {
+    width: 92%;
+    height: 72px;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    margin: 16px 20px;
+    padding: 0;
+    resize: none;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'brutal_regular', sans-serif;
+    color: #47453e;
+}
+
+.comments__button-pos {
+    float: right;
+}
+
+.comments__button {
+    background-color: #4593d4;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    width: 160px;
+    height: 42px;
+    color: #FFF;
+    line-height: 40px;
+    display: block;
+    font-family: 'brutal_regular', sans-serif;
+}
+
+.comments__textarea-pannel {
+    float: left;
+    width: 98.8%;
+    margin-bottom: 5px;
+}
+
+.comments__textarea-pannel-pos_left {
+    float: left;
+}
+
+.comments__textarea-pannel-pos_right {
+    float: right;
+    display: none;
+}
+
+.comments__textbutt-pos {
+    float: left;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+.comments__textbutt2-pos {
+    float: left;
+    padding-top: 20px;
+    padding-left: 33px;
+}
+
+.comments__textbutt-pos_right {
+    float: right;
+    padding-top: 20px;
+    padding-right: 31px;
+}
+
+.comments__textbutt a img{
+    height: 15px;
+}
+
+.comments__comment {
+    margin-top: 50px;
+    color:#213036;
+    position: relative;
+}
+
+.comments__comment_lvl2 {
+    margin-left: 40px;
+}
+
+.comments__arrow {
+    position: absolute;
+    right: 0;
+}
+
+.comments__arrow img {
+    height: 10px;
+}
+
+.comments__commentarea {
+    margin-left: 115px;
+}
+
+.comments__autorarea {
+    margin-left: 115px;
+}
+
+.comments__commentarea-autor {
+    font-size: 16px;
+}
+
+.comments__middot {
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+.comments__commentarea-achives {
+    margin-top: 10px;
+    color: #4693d4;
+}
+
+.comments__commentarea-achives_left {
+    float: left;
+    margin-right: 14px;
+}
+
+.comments__commentarea-achives_name {
+    font-size: 16px;
+}
+
+
+.comments__commentarea-achives img{
+    height: 15px;
+    margin-right: 4px;
+}
+
+.comments__text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.comments__footer {
+    margin-top: 15px;
+}
+
+.comments__footer-reply {
+    font-size: 14px;
+    border-bottom: 1px dashed #4693d4;
+    color: #4693d4;
+}
+
+.comments__middot_blue {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4693d4;
+}
+
+.comments__middot_grey {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #adaeae;
+}
+
+.comments__like {
+    height: 15px;
+}
+
+.comments__like-counts {
+    color: #4693d4;
+    font-size: 14px;
+    padding: 0 4px;
+}
+
+.comments__datetime {
+    color: #adaeae;
+    font-size: 14px;
+}
+
 /*R320*/
 @media (max-width: 763px) {
     body{
@@ -244,7 +486,7 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .newsletter{
-        margin: 0 20px;
+        margin: 60px 20px 0;
     }
 
     .newsletter__title{
@@ -749,6 +991,101 @@ h1, h2, h3, h4, h5, h6{
         background-size: 22px 22px;
         color: #4693d4;
     }
+
+    .comments {
+        min-width: 320px;
+        margin: 35px 20px 20px;
+    }
+
+    .comments__autor_avatar {
+        margin-left: 8px;
+    }
+
+    .comments__avatar {
+        margin-left: 20px;
+    }
+
+    .comments__avatar a img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .comments__autor_avatar a img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .comments__avatar-name {
+        display: block;
+        margin-left: 62px;
+        padding-top: 5px;
+        padding-bottom: 18px;
+    }
+
+    .comments__textarea {
+        margin-left: 0;
+        padding-bottom: 105px;
+    }
+
+    .comments__button-pos {
+        float: none;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .comments__button {
+        width: 100%;
+    }
+
+    .comments__textarea-pannel-pos_right {
+        float: right;
+        display: block;
+    }
+
+    .comments__commentarea-autor {
+        font-size: 14px;
+    }
+
+    .comments__textarea textarea {
+        font-size: 16px;
+    }
+
+    .comments__comment {
+        margin-right: 10px;
+    }
+
+    .comments__commentarea-achives_name {
+        font-size: 14px;
+    }
+
+    .comments__text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0;
+        clear: both;
+    }
+
+    .comments__autorarea {
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    .comments__commentarea {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .comments__footer-reply {
+        font-size: 12px;
+    }
+
+    .comments__like-counts {
+        font-size: 12px;
+    }
+
+    .comments__datetime {
+        font-size: 12px;
+    }
 }
 
 /*R764*/
@@ -795,7 +1132,7 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .newsletter{
-        margin: 0 28px;
+        margin: 60px 28px 0;
         padding: 30px 40px;
         height: 130px;
         border-radius: 3px;
@@ -1307,6 +1644,10 @@ h1, h2, h3, h4, h5, h6{
         background: url("../img/favorite/fav@2x.png") no-repeat left center;
         background-size: 22px 22px;
         color: #4693d4;
+    }
+
+    .comments{
+        margin: 0 28px 0 68px;
     }
 }
 
@@ -1902,6 +2243,10 @@ h1, h2, h3, h4, h5, h6{
         background: url("../img/favorite/fav@2x.png") no-repeat left center;
         background-size: 22px 22px;
         color: #4693d4;
+    }
+
+    .comments{
+        margin: 0 40px 0 52px;
     }
 }
 
@@ -2542,5 +2887,9 @@ h1, h2, h3, h4, h5, h6{
         background: url("../img/favorite/fav@2x.png") no-repeat left center;
         background-size: 22px 22px;
         color: #4693d4;
+    }
+
+    .comments{
+        margin: 60px 40px 60px 52px;
     }
 }
