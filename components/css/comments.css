@@ -197,7 +197,9 @@
 }
 
 .comments__like {
-    height: 15px;
+    padding-left: 17px;
+    background: url('../img/comments/like.png') no-repeat center;
+    background-size: cover;
 }
 
 .comments__like-counts {
@@ -213,7 +215,13 @@
 
 @media screen and (min-width: 320px) and (max-width: 764px){
     .comments {
-        min-width: 320px;
+        min-width: 300px;
+    }
+
+    .comments__header {
+        font-size: 22px;
+        font-family: BrutalMedium;
+        margin-left: 20px;
     }
 
     .comments__autor_avatar {
@@ -268,8 +276,13 @@
 
     .comments__textarea textarea {
         font-size: 16px;
+        line-height: 22px;
     }
-    
+
+    .comments__textarea-pannel {
+        width: 100%;
+    }
+
     .comments__comment {
         margin-right: 10px;
     }
@@ -304,5 +317,9 @@
 
     .comments__datetime {
         font-size: 12px;
+    }
+
+    .comments__textbutt2-pos {
+        padding-left: 20px;
     }
 }
