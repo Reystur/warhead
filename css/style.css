@@ -332,6 +332,7 @@ h1, h2, h3, h4, h5, h6{
     padding-top: 20px;
     padding-left: 23px;
 }
+
 .comments__textbutt2-pos {
     float: left;
     padding-top: 20px;
@@ -437,7 +438,7 @@ h1, h2, h3, h4, h5, h6{
     padding-left: 17px;
     background: url('../img/comments/like.png') no-repeat center;
     background-size: cover;
-
+    height: 15px;
 }
 
 .comments__like-counts {
@@ -1036,10 +1037,6 @@ h1, h2, h3, h4, h5, h6{
         padding-bottom: 105px;
     }
 
-    .comments__textarea-pannel {
-        width: 100%;
-    }
-
     .comments__button-pos {
         float: none;
         margin-top: 50px;
@@ -1048,6 +1045,10 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .comments__button {
+        width: 100%;
+    }
+
+    .comments__textarea-pannel {
         width: 100%;
     }
 
