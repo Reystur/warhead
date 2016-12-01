@@ -434,7 +434,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .comments__like {
-    height: 15px;
+    padding-left: 17px;
+    background: url('../img/comments/like.png') no-repeat center;
+    background-size: cover;
+
 }
 
 .comments__like-counts {
@@ -997,6 +1000,12 @@ h1, h2, h3, h4, h5, h6{
         margin: 35px 20px 20px;
     }
 
+    .comments__header {
+         font-size: 22px;
+         font-family: 'brutal_medium', sans-serif;
+         margin-left: 20px;
+     }
+
     .comments__autor_avatar {
         margin-left: 8px;
     }
@@ -1027,6 +1036,10 @@ h1, h2, h3, h4, h5, h6{
         padding-bottom: 105px;
     }
 
+    .comments__textarea-pannel {
+        width: 100%;
+    }
+
     .comments__button-pos {
         float: none;
         margin-top: 50px;
@@ -1049,6 +1062,7 @@ h1, h2, h3, h4, h5, h6{
 
     .comments__textarea textarea {
         font-size: 16px;
+        line-height: 22px;
     }
 
     .comments__comment {
@@ -1085,6 +1099,10 @@ h1, h2, h3, h4, h5, h6{
 
     .comments__datetime {
         font-size: 12px;
+    }
+
+    .comments__textbutt2-pos {
+        padding-left: 20px;
     }
 }
 
