@@ -380,6 +380,17 @@ h1, h2, h3, h4, h5, h6{
     font-size: 16px;
 }
 
+.comments__commentarea-autorname {
+    display: inline-block;
+    padding-right: 23px;
+    background: url(../img/oval-black@2x.png) no-repeat right center;
+    background-size: 3px;
+}
+
+.comments__commentarea-autorrang {
+    margin-left: 18px;
+}
+
 .comments__middot {
     padding-left: 18px;
     padding-right: 18px;
@@ -416,6 +427,13 @@ h1, h2, h3, h4, h5, h6{
     margin-top: 15px;
 }
 
+.comments__footer-replybttn {
+    display: inline-block;
+    padding-right: 23px;
+    background: url(../img/comments/oval-blue.png) no-repeat right center;
+    background-size: 3px;
+}
+
 .comments__footer-reply {
     font-size: 14px;
     border-bottom: 1px dashed #4693d4;
@@ -434,8 +452,12 @@ h1, h2, h3, h4, h5, h6{
     color: #adaeae;
 }
 
+.comments__footer-likebttn {
+    margin-left: 18px;
+}
+
 .comments__like {
-    padding-left: 17px;
+    padding-left: 19px;
     background: url('../img/comments/like.png') no-repeat center;
     background-size: cover;
     height: 15px;
@@ -444,12 +466,16 @@ h1, h2, h3, h4, h5, h6{
 .comments__like-counts {
     color: #4693d4;
     font-size: 14px;
-    padding: 0 4px;
+    padding: 0 23px 0 4px;
+    display: inline-block;
+    background: url(../img/comments/oval-grey.png) no-repeat right 5px;
+    background-size: 3px;
 }
 
 .comments__datetime {
     color: #adaeae;
     font-size: 14px;
+    margin-left: 18px;
 }
 
 /*R320*/
