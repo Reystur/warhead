@@ -2918,10 +2918,10 @@ h1, h2, h3, h4, h5, h6{
 
     .same-article__favs{
         float: left;
-        background: url("../img/favorite/fav@2x.png") no-repeat left center;
-        background-size: 13px;
-        padding-left: 22px;
-        font-size: 14px;
+        background: url("../img/favorite/fav@2x.png") no-repeat left top;
+        background-size: 18px;
+        padding-left: 30px;
+        font-size: 16px;
         line-height: 20px;
         font-family: brutal_regular, sans-serif;
         color: #4693d4;
@@ -2932,16 +2932,16 @@ h1, h2, h3, h4, h5, h6{
         background: url("../img/oval-blue@2x.png") no-repeat center center;
         height: 20px;
         width: 3px;
-        margin: 0 17px;
+        margin: 0 25px;
         background-size: 3px;
     }
 
     .same-article__comments{
         float: left;
-        background: url("../img/comments-pic/com@2x.png") no-repeat left 5px;
-        background-size: 12px;
-        padding-left: 22px;
-        font-size: 14px;
+        background: url("../img/comments-pic/com@2x.png") no-repeat left 2px;
+        background-size: 16px;
+        padding-left: 27px;
+        font-size: 16px;
         line-height: 20px;
         font-family: brutal_regular, sans-serif;
         color: #4693d4;
