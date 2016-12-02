@@ -267,12 +267,12 @@ body{
     padding-bottom: 50px;
 }
 .comments__textarea textarea {
-    width: 92%;
-    height: 72px;
+    width: 100%;
+    height: 112px;
     background: #f5f5f5;
     border: 1px solid #f5f5f5;
-    margin: 16px 20px;
-    padding: 0;
+    padding: 16px 20px;
+    box-sizing: border-box;
     resize: none;
     font-size: 18px;
     line-height: 26px;
@@ -1104,7 +1104,7 @@ body{
 
     .comments {
         min-width: 320px;
-        margin: 35px 20px 20px;
+        margin: 35px 0 20px 0;
     }
 
     .comments__header {
@@ -1938,6 +1938,10 @@ body{
 
 /*R1024*/
 @media (min-width: 1024px) and (max-width: 1439px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .wrapper{
         width: 1024px;
         margin: 0 auto;
@@ -2723,6 +2727,10 @@ body{
 
 /*R1440*/
 @media (min-width: 1440px) {
+    body{
+        overflow-x: hidden;
+    }
+
     .wrapper{
         width: 1440px;
         margin: 0 auto;
