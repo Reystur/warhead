@@ -944,6 +944,12 @@ body{
         position: relative;
     }
 
+    .markup-article .half-pic:after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+
     .markup-article .half-pic img{
         max-width: 50%;
         margin-right: 55%;
