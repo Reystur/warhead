@@ -1,0 +1,43 @@
+/*R764*/
+@media (min-width: 764px) and (max-width: 1023px) {
+    .background_theme_hybrid-wars {
+        background: url("../img/bg-pic/bg-pic.png") repeat-x center 80px;
+        background-size: auto 412px;
+    }
+
+    .background_theme_hybrid-wars .wrapper {
+        padding-top: 260px;
+    }
+}
+
+/*R1024*/
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .background_theme_hybrid-wars{
+        background: url("../img/bg-pic/bg-pic.png") repeat-x center 100px;
+        background-size: auto 760px;
+    }
+
+    .background_theme_hybrid-wars .wrapper{
+        padding-top: 450px;
+    }
+
+    .background_theme_hybrid-wars .right-col{
+        top: 450px;
+    }
+}
+
+/*R1440*/
+@media (min-width: 1440px) {
+    .background_theme_hybrid-wars{
+        background: url("../img/bg-pic/bg-pic@2x.png") repeat-x center 132px;
+        background-size: auto 986px;
+    }
+
+    .background_theme_hybrid-wars .wrapper{
+        padding-top: 584px;
+    }
+
+    .background_theme_hybrid-wars .right-col{
+        top: 584px;
+    }
+}
