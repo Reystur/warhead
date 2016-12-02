@@ -432,35 +432,27 @@ h1, h2, h3, h4, h5, h6{
     padding-right: 23px;
     background: url(../img/comments/oval-blue.png) no-repeat right center;
     background-size: 3px;
+    line-height: 23px;
 }
 
 .comments__footer-reply {
     font-size: 14px;
     border-bottom: 1px dashed #4693d4;
     color: #4693d4;
-}
-
-.comments__middot_blue {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #4693d4;
-}
-
-.comments__middot_grey {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #adaeae;
+    line-height: 23px;
 }
 
 .comments__footer-likebttn {
     margin-left: 18px;
+    line-height: 23px;
 }
 
 .comments__like {
     padding-left: 19px;
     background: url('../img/comments/like.png') no-repeat center;
-    background-size: cover;
+    background-size: 17px 15px;
     height: 15px;
+    line-height: 23px;
 }
 
 .comments__like-counts {
@@ -468,14 +460,16 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
     padding: 0 23px 0 4px;
     display: inline-block;
-    background: url(../img/comments/oval-grey.png) no-repeat right 5px;
+    background: url(../img/comments/oval-grey.png) no-repeat right center;
     background-size: 3px;
+    line-height: 23px;
 }
 
 .comments__datetime {
     color: #adaeae;
     font-size: 14px;
     margin-left: 18px;
+    line-height: 23px;
 }
 
 /*R320*/
@@ -1878,6 +1872,68 @@ h1, h2, h3, h4, h5, h6{
     .comments{
         margin: 0 28px 0 68px;
     }
+
+    .comments__avatar a img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .comments__autor_avatar a img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .comments__textarea {
+        margin-left: 85px;
+    }
+
+    .comments__autorarea {
+        margin-left: 85px;
+    }
+
+    .comments__commentarea {
+        margin-left: 85px;
+    }
+
+    .comments__textarea textarea {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .comments__button {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .comments__button-pos {
+        margin-top: 12px;
+    }
+
+    .comments__commentarea-autor {
+        font-size: 14px;
+    }
+
+    .comments__commentarea-achives_name {
+        font-size: 14px;
+    }
+
+    .comments__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .comments__footer-reply {
+        font-size: 12px;
+    }
+
+    .comments__like-counts {
+        font-size: 12px;
+    }
+
+    .comments__datetime {
+        font-size: 12px;
+    }
 }
 
 /*R1024*/
@@ -2572,7 +2628,70 @@ h1, h2, h3, h4, h5, h6{
     .comments{
         margin: 0 40px 0 52px;
     }
+
+    .comments__avatar a img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .comments__autor_avatar a img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .comments__textarea {
+        margin-left: 85px;
+    }
+
+    .comments__autorarea {
+        margin-left: 85px;
+    }
+
+    .comments__commentarea {
+        margin-left: 85px;
+    }
+
+    .comments__textarea textarea {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .comments__button {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .comments__button-pos {
+        margin-top: 12px;
+    }
+
+    .comments__commentarea-autor {
+        font-size: 14px;
+    }
+
+    .comments__commentarea-achives_name {
+        font-size: 14px;
+    }
+
+    .comments__text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .comments__footer-reply {
+        font-size: 12px;
+    }
+
+    .comments__like-counts {
+        font-size: 12px;
+    }
+
+    .comments__datetime {
+        font-size: 12px;
+    }
 }
+
 
 /*R1440*/
 @media (min-width: 1440px) {
