@@ -1,0 +1,326 @@
+.comments
+  font-family: $font-regular
+  min-width: 538px
+
+.comments__header
+  font-size: 30px
+  padding-bottom: 40px
+  color: $color2
+
+.comments__avatar a img, .comments__autor_avatar a img
+  width: 78px
+  height: 78px
+  float: left
+
+.comments__avatar-name
+  display: none
+
+.comments__textarea
+  border-radius: 5px 5px
+  background: #f5f5f5
+  margin-left: 115px
+  padding-bottom: 50px
+
+  textarea
+    width: 100%
+    height: 112px
+    background: #f5f5f5
+    border: 1px solid #f5f5f5
+    padding: 16px 20px
+    box-sizing: border-box
+    resize: none
+    font-size: 18px
+    line-height: 26px
+    font-family: $font-regular
+    color: $color2
+
+.comments__button-pos
+  float: right
+
+.comments__button
+  background-color: $color9
+  border-radius: 3px
+  font-size: 16px
+  text-align: center
+  width: 160px
+  height: 42px
+  color: #FFF
+  line-height: 40px
+  display: block
+  font-family: $font-regular
+
+.comments__textarea-pannel
+  float: left
+  width: 98.8%
+  margin-bottom: 5px
+
+.comments__textarea-pannel-pos_left
+  float: left
+
+.comments__textarea-pannel-pos_right
+  float: right
+  display: none
+
+.comments__textbutt-pos
+  float: left
+  padding-top: 20px
+  padding-left: 23px
+
+.comments__textbutt2-pos
+  float: left
+  padding-top: 20px
+  padding-left: 33px
+
+.comments__textbutt-pos_right
+  float: right
+  padding-top: 20px
+  padding-right: 31px
+
+.comments__textbutt a img
+  height: 15px
+
+.comments__comment
+  margin-top: 50px
+  color: $color1
+  position: relative
+
+.comments__comment_lvl2
+  margin-left: 40px
+
+.comments__arrow
+  position: absolute
+  right: 0
+
+  img
+    height: 10px
+
+.comments__commentarea, .comments__autorarea
+  margin-left: 115px
+
+.comments__commentarea-autor
+  font-size: 16px
+
+.comments__commentarea-autorname
+  display: inline-block
+  padding-right: 23px
+  background: url(../img/oval-black.png) no-repeat right center
+  background-size: 3px
+
+.comments__commentarea-autorrang
+  margin-left: 18px
+
+.comments__middot
+  padding-left: 18px
+  padding-right: 18px
+
+.comments__commentarea-achives
+  margin-top: 10px
+  color: $color5
+
+.comments__commentarea-achives_left
+  float: left
+  margin-right: 14px
+
+.comments__commentarea-achives_name
+  font-size: 16px
+
+.comments__commentarea-achives img
+  height: 15px
+  margin-right: 4px
+
+.comments__text
+  font-size: 18px
+  line-height: 26px
+  margin-top: 15px
+
+.comments__footer
+  margin-top: 15px
+
+.comments__footer-replybttn
+  display: inline-block
+  padding-right: 23px
+  background: url(../img/oval-blue.png) no-repeat right center
+  background-size: 3px
+  line-height: 23px
+
+.comments__footer-reply
+  font-size: 14px
+  border-bottom: 1px dashed $color5
+  color: $color5
+  line-height: 23px
+
+.comments__footer-likebttn
+  margin-left: 18px
+  line-height: 23px
+
+.comments__like
+  padding-left: 19px
+  background: url('../img/like.png') no-repeat center
+  background-size: 17px 15px
+  height: 15px
+  line-height: 23px
+
+.comments__like-counts
+  color: $color5
+  font-size: 14px
+  padding: 0 23px 0 4px
+  display: inline-block
+  background: url(../img/oval-grey.png) no-repeat right center
+  background-size: 3px
+  line-height: 23px
+
+.comments__datetime
+  color: #adaeae
+  font-size: 14px
+  margin-left: 18px
+  line-height: 23px
+
+/*R320
+@media (max-width: $tablet - 1 + px)
+  .comments__header
+    font-size: 22px
+    font-family: $font-medium
+    margin-left: 20px
+
+  .comments__autor_avatar
+    margin-left: 8px
+
+  .comments__avatar
+    margin-left: 20px
+
+    a img
+      width: 32px
+      height: 32px
+
+  .comments__autor_avatar a img
+    width: 32px
+    height: 32px
+
+  .comments__avatar-name
+    display: block
+    margin-left: 62px
+    padding-top: 5px
+    padding-bottom: 18px
+
+  .comments__textarea
+    margin-left: 0
+    padding-bottom: 105px
+
+  .comments__button-pos
+    float: none
+    margin-top: 50px
+    margin-left: 20px
+    margin-right: 20px
+
+  .comments__button, .comments__textarea-pannel
+    width: 100%
+
+  .comments__textarea-pannel-pos_right
+    float: right
+    display: block
+
+  .comments__commentarea-autor
+    font-size: 14px
+
+  .comments__textarea textarea
+    font-size: 16px
+    line-height: 22px
+
+  .comments__comment
+    margin-right: 10px
+
+  .comments__commentarea-achives_name
+    font-size: 14px
+
+  .comments__text
+    font-size: 16px
+    line-height: 24px
+    margin-top: 0
+    clear: both
+
+  .comments__autorarea
+    margin-left: 50px
+    padding-top: 10px
+
+  .comments__commentarea
+    margin-left: 20px
+    margin-right: 20px
+
+  .comments__footer-reply, .comments__like-counts, .comments__datetime
+    font-size: 12px
+
+  .comments__textbutt2-pos
+    padding-left: 20px
+
+/*R764
+@media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
+  .comments
+    margin: 0 28px 0 68px
+
+  .comments__avatar a img, .comments__autor_avatar a img
+    width: 65px
+    height: 65px
+
+  .comments__textarea, .comments__autorarea, .comments__commentarea
+    margin-left: 85px
+
+  .comments__textarea textarea
+    font-size: 16px
+    line-height: 24px
+
+  .comments__button
+    height: 30px
+    line-height: 30px
+    font-size: 14px
+
+  .comments__button-pos
+    margin-top: 12px
+
+  .comments__commentarea-autor, .comments__commentarea-achives_name
+    font-size: 14px
+
+  .comments__text
+    font-size: 16px
+    line-height: 24px
+
+  .comments__footer-reply, .comments__like-counts, .comments__datetime
+    font-size: 12px
+
+/*R1024
+@media (min-width: 1024px) and (max-width: 1439px)
+  .comments
+    margin: 0 40px 0 52px
+
+  .comments__avatar a img, .comments__autor_avatar a img
+    width: 65px
+    height: 65px
+
+  .comments__textarea, .comments__autorarea, .comments__commentarea
+    margin-left: 85px
+
+  .comments__textarea textarea
+    font-size: 16px
+    line-height: 24px
+
+  .comments__button
+    height: 30px
+    line-height: 30px
+    font-size: 14px
+
+  .comments__button-pos
+    margin-top: 12px
+
+  .comments__commentarea-autor, .comments__commentarea-achives_name
+    font-size: 14px
+
+  .comments__text
+    font-size: 16px
+    line-height: 24px
+
+  .comments__footer-reply, .comments__like-counts, .comments__datetime
+    font-size: 12px
+
+/*R1440
+@media (min-width: $desktop-wide + px)
+  .comments
+    margin: 60px 40px 60px 52px

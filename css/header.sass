@@ -1,0 +1,248 @@
+.header
+  background-color: $color1
+
+.header__user-pic
+  float: right
+  a
+    width: 100%
+    height: 100%
+    display: block
+  img
+    width: 100%
+    height: 100%
+
+.header__menu
+  float: left
+  background: url("../img/menu-badge.png") no-repeat center center
+
+.header__logo
+  float: left
+  a
+    width: 100%
+    height: 100%
+    display: block
+    img
+      width: 100%
+      height: 100%
+
+.header__menu-link
+  display: block
+  color: #fff
+
+.header__search
+  float: right
+  border-radius: 3px
+  background-color: #f5f5f5
+
+.header__search-btn
+  display: block
+  float: right
+  padding: 8px
+  width: 14px
+  height: 14px
+  background: url("../img/search-badge.png") no-repeat center center
+  background-size: 14px 14px
+
+.header__search-input
+  width: 152px
+  padding: 8px 0 8px 8px
+  font-size: 14px
+  line-height: 14px
+  color: $color2
+
+/*R320
+@media (max-width: $tablet - 1 + px)
+  .header__wrapper
+    height: 60px
+  .header__user-pic
+    width: 36px
+    height: 36px
+    padding: 12px 20px 12px 0
+  .header__menu
+    width: 20px
+    height: 17px
+    padding: 10px
+    margin: 12px 0 11px 10px
+    background-size: 20px 17px
+  .header__logo
+    width: 149px
+    height: 36px
+    margin: 14px 0 10px 33px
+  .header__menu-list
+    display: none
+
+/*R764
+@media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
+  .header__wrapper
+    height: 80px
+  .header__user-pic
+    width: 43px
+    height: 43px
+    padding: 20px 27px 0 0
+    margin-bottom: 17px
+  .header__menu
+    width: 22px
+    height: 19px
+    padding: 16px
+    margin: 16px 0 13px 12px
+    background-size: 22px 19px
+  .header__logo
+    width: 156px
+    height: 38px
+    margin: 22px 0 20px 42px
+  .header__menu-list
+    margin: 0 125px 0 270px
+    padding-top: 28px
+    height: 30px
+    clear: none
+  .header__search
+    width: 184px
+    margin: 0
+  .header__search-input
+    width: 146px
+  .header__menu-links
+    display: none
+
+/*R1024
+@media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
+  .header__wrapper
+    width: 1024px
+    height: 100px
+    margin: 0 auto
+  .header__user-pic
+    width: 50px
+    height: 50px
+    padding: 25px 25px 25px 27px
+  .header__search
+    width: 190px
+    height: 30px
+    margin: 0
+  .header__menu
+    display: none
+  .header__logo
+    width: 180px
+    height: 44px
+    margin: 29px 0 0 52px
+  .header__menu-list
+    margin: 0 75px 0 253px
+    padding-top: 38px
+    height: 16px
+    clear: none
+  .header__menu-links
+    margin-right: 192px
+    padding-top: 1px
+  .header__menu-link
+    font-size: 14px
+    line-height: 16px
+    font-family: $font-medium
+    color: #fff
+    display: block
+    float: left
+    margin-left: 0
+    padding: 6px 7px
+    position: relative
+  .header__menu-link_active
+    color: $color1
+    background-color: $color3
+  .header__menu-more
+    &.header__menu-link_active
+      &:after
+        position: absolute
+        content: ""
+        width: 26px
+        height: 13px
+        top: 49px
+        left: 50%
+        margin-left: -13px
+        background: url("../img/menu-active.png") no-repeat center center
+        background-size: 26px 13px
+        display: block
+      background: url("../img/menu-more-active.png") no-repeat 45px center $color3
+      background-size: 10px 7px
+    padding-right: 27px
+    background: url("../img/menu-more.png") no-repeat 45px center
+    background-size: 10px 7px
+  .header__menu-random-page
+    width: 19px
+    height: 16px
+    background: url("../img/menu-random.png") no-repeat center center
+    background-size: 19px 16px
+
+/*R1440
+@media (min-width: $desktop-wide + px)
+  .header__wrapper
+    width: 1440px
+    height: 132px
+    margin: 0 auto
+  .header__user-pic
+    width: 60px
+    height: 60px
+    padding: 39px 100px 0 0
+  .header__menu
+    display: none
+  .header__logo
+    width: 247px
+    height: 60px
+    margin: 36px 0 0 100px
+  .header__search
+    width: 266px
+    height: 42px
+    margin: 0
+  .header__search-btn
+    display: block
+    float: right
+    padding: 11px
+    width: 20px
+    height: 20px
+    background: url("../img/search-badge.png") no-repeat center center
+    background-size: 20px 20px
+  .header__search-input
+    width: 210px
+    padding: 11px 0 11px 11px
+    font-size: 16px
+    line-height: 20px
+    color: $color2
+  .header__menu-list
+    margin: 0 190px 0 374px
+    padding-top: 48px
+    height: 42px
+  .header__menu-links
+    margin-right: 270px
+    padding-top: 9px
+    height: 42px
+  .header__menu-link
+    font-size: 16px
+    line-height: 22px
+    font-family: $font-medium
+    color: #fff
+    display: block
+    float: left
+    padding: 4px 9px
+    position: relative
+  .header__menu-link_active
+    color: $color1
+    background-color: $color3
+  .header__menu-more
+    &.header__menu-link_active
+      &:after
+        position: absolute
+        content: ""
+        width: 26px
+        height: 13px
+        top: 62px
+        left: 50%
+        margin-left: -13px
+        background: url("../img/menu-active.png") no-repeat center center
+        background-size: 26px 13px
+        display: block
+      background: url("../img/menu-more-active.png") no-repeat 53px 8px $color3
+      background-size: 15px 10px
+    padding-right: 33px
+    background: url("../img/menu-more.png") no-repeat 53px 13px
+    background-size: 15px 10px
+  .header__menu-random-page
+    width: 27px
+    height: 22px
+    background: url("../img/menu-random.png") no-repeat center center
+    background-size: 27px 22px
+    margin-left: 25px

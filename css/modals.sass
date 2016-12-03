@@ -1,0 +1,104 @@
+@import resolutions
+@import fonts
+@import colors
+
+.modal-box
+  width: 400px
+  padding: 40px
+  border-radius: 3px
+  background-color: #ffffff
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+  position: relative
+
+.modal-box__close
+  position: absolute
+  top: 37px
+  right: 35px
+  background: url("../img/close.png") no-repeat center center
+  background-size: 20px
+  padding: 5px
+  width: 20px
+  height: 20px
+
+.modal-socials__title
+  font-size: 24px
+  line-height: 24px
+  font-family: $font-medium
+  color: $color1
+
+.modal-socials__table-box
+  width: 240px
+  margin: 34px auto 30px
+
+.modal-socials__table
+  width: 100%
+
+.modal-socials__table-box
+  td
+    width: 33.33%
+    text-align: center
+  a
+    width: 58px
+    height: 58px
+    border: 1px solid $color6
+    border-radius: 3px
+    display: inline-block
+
+.modal-socials__fb
+  background: url("../img/socials/fb.png") no-repeat center center
+  background-size: 12px 26px
+  margin-bottom: 15px
+
+.modal-socials__vk
+  background: url("../img/socials/vk.png") no-repeat center center
+  background-size: 28px 16px
+  margin-bottom: 15px
+
+.modal-socials__tw
+  background: url("../img/socials/tw.png") no-repeat center center
+  background-size: 25px 20px
+  margin-bottom: 15px
+
+.modal-socials__od
+  background: url("../img/socials/od.png") no-repeat center center
+  background-size: 16px 27px
+
+.modal-socials__in
+  background: url("../img/socials/in.png") no-repeat center center
+  background-size: 22px 21px
+
+.modal-socials__gp
+  background: url("../img/socials/gp.png") no-repeat center center
+  background-size: 30px 19px
+
+.modal-socials__bot-link-box
+  margin-top: 30px
+  text-align: center
+
+.modal-socials__bot-link
+  font-size: 16px
+  line-height: 16px
+  font-family: $font-regular
+  color: $color5
+  text-decoration: underline
+
+@media (max-width: $tablet - 1 + px)
+  .modal-box
+    width: 240px
+    padding: 20px
+  .modal-box__close
+    top: 13px
+    right: 15px
+  .modal-socials__title
+    font-size: 18px
+    line-height: 20px
+    text-align: left
+    padding-right: 35%
+  .modal-socials__table-box
+    width: 100%
+    margin: 18px 0 28px
+    td
+      text-align: left
+  .modal-socials__bot-link-box
+    margin-top: 28px
+    text-align: left

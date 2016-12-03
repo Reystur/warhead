@@ -1,0 +1,896 @@
+.article__sum-box
+  min-height: 79px
+  border-radius: 0 0 3px 3px
+  background-color: #e9e9e9
+  margin: 0
+
+.article__share-link-box
+  float: right
+  width: 56px
+  height: 79px
+  padding-top: 23px
+
+.article__share-link
+  display: block
+  padding: 2px
+  width: 25px
+  height: 25px
+  background: url("../img/circles.png") no-repeat center center
+  background-size: 25px
+
+.article__aurhor-pics-box
+  width: 76px
+  height: 79px
+  float: left
+
+.article__aurhor-pic-box
+  padding-top: 12px
+  text-align: right
+  img
+    width: 35px
+    height: 35px
+
+.article__tag-box
+  text-align: right
+  img
+    width: 16px
+    height: 15px
+
+.article__info-box
+  margin: 0 56px 0 76px
+
+.article__author-name-box
+  padding: 18px 0 0 16px
+
+.article__author-name-link
+  font-size: 16px
+  line-height: 16px
+  font-family: $font-medium
+  color: $color2
+
+.article__connections
+  padding: 9px 0 12px 16px
+
+.article__topic
+  display: inline-block
+  padding-right: 23px
+  background: url("../img/oval-black.png") no-repeat right center
+  background-size: 3px
+
+.article__topic-link
+  font-size: 14px
+  line-height: 12px
+  font-family: $font-medium
+  color: $color2
+  display: inline-block
+
+.article__tags
+  display: inline-block
+  margin-left: 17px
+  a
+    font-size: 12px
+    line-height: 12px
+    font-family: $font-regular
+    color: $color2
+
+.article__date
+  font-size: 14px
+  line-height: 22px
+  font-family: $font-regular
+  color: $color4
+
+/*R320
+@media (max-width: $tablet - 1 + px)
+  .banner
+    display: none
+  .same-articles
+    margin: 50px 0
+  .same-articles__title
+    margin: 20px
+    font-size: 18px
+    line-height: 28px
+    font-family: $font-medium
+    color: $color2
+  .same-article
+    background-color: #f8f8f8
+    margin-bottom: 20px
+    position: relative
+    height: 147px
+    &:nth-child(4)
+      display: none
+  .same-article__pic-box
+    display: block
+    float: left
+    width: 45%
+    height: 147px
+    text-align: center
+    overflow: hidden
+    position: relative
+  .same-article__pic-box-img
+    display: block
+    width: 100%
+    object-fit: cover
+  .same-article__title
+    display: block
+    font-size: 12px
+    line-height: 14px
+    font-family: $font-bold
+    color: $color3
+    width: 4%
+    margin-left: 51%
+    padding-top: 18px
+  .same-article__intro
+    display: block
+    margin: 5px 0 0 51%
+    font-size: 14px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+    width: 44%
+  .same-article__likes-box
+    height: 20px
+    position: absolute
+    left: 51%
+    bottom: 13px
+  .same-article__favs
+    float: left
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 13px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .same-article__dot
+    float: left
+    background: url("../img/oval-blue.png") no-repeat center center
+    height: 20px
+    width: 3px
+    margin: 0 17px
+    background-size: 3px
+  .same-article__comments
+    float: left
+    background: url("../img/comments.png") no-repeat left 5px
+    background-size: 12px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .article__title
+    font-size: 24px
+    line-height: 26px
+    font-family: $font-bold
+    color: $color2
+    padding: 20px 0 20px 20px
+    background-color: #fff
+  .article__pic
+    width: 100%
+    img
+      width: 100%
+      display: block
+  .article__sum-box
+    border-radius: 0
+  .article__share-link-box
+    width: 52px
+    padding-top: 9px
+  .article__share-link
+    width: 30px
+    height: 30px
+    background-size: 30px
+  .article__aurhor-pics-box
+    width: 52px
+  .article__aurhor-pic-box
+    padding-top: 10px
+    img
+      width: 32px
+      height: 32px
+  .article__info-box
+    margin: 0 52px
+  .article__author-name-box
+    padding: 16px 0 0 13px
+  .article__author-name-link
+    font-size: 16px
+    line-height: 16px
+    font-family: $font-medium
+    color: $color2
+  .article__connections
+    padding: 5px 0 12px 13px
+  .article__topic
+    display: block
+    padding-right: 0
+    background: transparent
+  .article__topic-link
+    line-height: 14px
+    display: inline
+  .article__tags
+    padding-top: 2px
+    display: block
+    margin-left: 0
+    a
+      font-size: 14px
+      line-height: 16px
+  .article__date
+    display: none
+  .authors
+    display: none
+  .likes
+    margin: 30px 20px
+    height: 110px
+  .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box
+    text-align: center
+    box-sizing: border-box
+    border: 1px solid $color6
+    width: 25%
+    float: left
+    height: 45px
+  .likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite
+    display: inline-block
+    font-size: 16px
+    line-height: 18px
+    padding: 14px 0
+    font-family: $font-regular
+    color: $color2
+  .likes__fb-box
+    border-right: none
+    border-radius: 3px 0 0 3px
+  .likes__fb
+    padding-left: 20px
+    background: url("../img/socials/fb.png") no-repeat left center
+    background-size: 10px 20px
+  .likes__vk-box
+    border-right: none
+  .likes__vk
+    padding-left: 36px
+    background: url("../img/socials/vk.png") no-repeat left center
+    background-size: 25px 14px
+  .likes__tw-box
+    border-right: none
+  .likes__tw
+    padding-left: 33px
+    background: url("../img/socials/tw.png") no-repeat left center
+    background-size: 21px 17px
+  .likes__od-box
+    border-radius: 0 3px 3px 0
+  .likes__od
+    padding-left: 23px
+    background: url("../img/socials/od.png") no-repeat left center
+    background-size: 12px 20px
+  .likes__to-favorite-box
+    border: none
+    float: none
+    width: auto
+    margin-bottom: 20px
+  .likes__to-favorite
+    padding-left: 33px
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 22px 22px
+    color: $color5
+  .comments
+    min-width: 320px
+    margin: 35px 0 20px 0
+
+/*R764
+@media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
+  .banner
+    display: none
+  .same-articles
+    margin: 50px 28px
+  .same-articles__title
+    margin: 20px 0
+    font-size: 18px
+    line-height: 28px
+    font-family: $font-medium
+    color: $color2
+  .same-articles__box:after
+    content: ""
+    clear: both
+    display: table
+  .same-article
+    background-color: #f8f8f8
+    border-radius: 3px
+    padding-bottom: 14px
+    width: 47%
+    float: left
+    margin-left: 0
+    margin-bottom: 0
+    &:nth-child(3), &:nth-child(4)
+      display: none
+    &:first-child
+      margin-right: 6%
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box-img
+    display: block
+    width: 100%
+    height: auto
+  .same-article__title
+    display: block
+    margin: 13px 16px 5px 16px
+    font-size: 14px
+    line-height: 16px
+    font-family: $font-bold
+    color: $color3
+  .same-article__intro
+    display: block
+    margin: 5px 16px 5px
+    font-size: 16px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+  .same-article__likes-box
+    margin: 5px 16px
+    height: 20px
+  .same-article__favs
+    float: left
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 13px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .same-article__dot
+    float: left
+    background: url("../img/oval-blue.png") no-repeat center center
+    height: 20px
+    width: 3px
+    margin: 0 17px
+    background-size: 3px
+  .same-article__comments
+    float: left
+    background: url("../img/comments.png") no-repeat left 5px
+    background-size: 12px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .article__title
+    font-size: 30px
+    line-height: 34px
+    font-family: $font-bold
+    color: $color2
+    margin: 0 28px
+    padding: 29px 60px 43px 40px
+    background-color: #fff
+    border-radius: 3px
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+    position: relative
+    z-index: 2
+  .article__pic
+    width: 100%
+    margin-top: -22px
+    position: relative
+    z-index: 1
+    img
+      width: 100%
+      display: block
+  .article__sum-box
+    margin: 0 28px
+  .article__tag-box
+    display: none
+  .article__date
+    margin: 40px 0 11px 68px
+  .authors
+    margin: 40px 60px 40px 68px
+    border-left: 3px solid $color6
+    padding-left: 38px
+  .authors__label
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+  .authors__list
+    font-size: 14px
+    line-height: 28px
+    font-family: $font-regular
+    color: $color7
+    a
+      text-decoration: underline
+      font-size: 14px
+      line-height: 28px
+      font-family: $font-regular
+      color: $color7
+  .authors__materials-label
+    margin: 35px 0 11px
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+  .authors__material
+    font-size: 14px
+    line-height: 28px
+    font-family: $font-regular
+    color: $color7
+    text-decoration: underline
+    padding-left: 20px
+    margin: 0 0 0 20px
+    background: url("../img/rectangle-grey.png") left center no-repeat
+    background-size: 6px
+  .likes
+    margin: 60px 28px 60px 68px
+    height: 45px
+  .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box
+    text-align: center
+    box-sizing: border-box
+    border: 1px solid $color6
+    width: 16%
+    float: left
+    height: 45px
+  .likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite
+    display: inline-block
+    font-size: 16px
+    line-height: 18px
+    padding: 14px 0
+    font-family: $font-regular
+    color: $color2
+  .likes__fb-box
+    border-right: none
+    border-radius: 3px 0 0 3px
+  .likes__fb
+    padding-left: 20px
+    background: url("../img/socials/fb.png") no-repeat left center
+    background-size: 10px 20px
+  .likes__vk-box
+    border-right: none
+  .likes__vk
+    padding-left: 36px
+    background: url("../img/socials/vk.png") no-repeat left center
+    background-size: 25px 14px
+  .likes__tw-box
+    border-right: none
+  .likes__tw
+    padding-left: 33px
+    background: url("../img/socials/tw.png") no-repeat left center
+    background-size: 21px 17px
+  .likes__od-box
+    border-right: none
+  .likes__od
+    padding-left: 23px
+    background: url("../img/socials/od.png") no-repeat left center
+    background-size: 12px 20px
+  .likes__to-favorite-box
+    float: right
+    border-radius: 0 3px 3px 0
+    width: 36%
+  .likes__to-favorite
+    padding-left: 33px
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 22px 22px
+    color: $color5
+
+/*R1024
+@media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
+  .right-col
+    width: 331px
+    position: absolute
+    left: 693px
+    top: 50px
+  .banner
+    width: 240px
+    height: 400px
+    margin: 70px 0 0 40px
+  .same-articles
+    margin: 50px 0 0 40px
+  .same-articles__title
+    margin: 20px 0
+    font-size: 18px
+    line-height: 28px
+    font-family: $font-medium
+    color: $color2
+  .same-articles__box_horizontal:after
+    content: ""
+    clear: both
+    display: table
+  .same-article
+    background-color: #f8f8f8
+    border-radius: 3px
+    width: 240px
+    padding-bottom: 14px
+    margin-bottom: 30px
+  .same-article__horizontal
+    width: 200px
+    float: left
+    margin-left: 40px
+    margin-bottom: 0
+    &:first-child
+      margin-left: 0
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box-img
+    width: 240px
+    height: 163px
+    display: block
+  .same-article__pic-box-img_horizontal
+    width: 200px
+    height: 136px
+  .same-article__title
+    display: block
+    margin: 13px 16px 5px 16px
+    font-size: 14px
+    line-height: 16px
+    font-family: $font-bold
+    color: $color3
+  .same-article__intro
+    display: block
+    margin: 5px 16px 5px
+    font-size: 16px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+  .same-article__likes-box
+    margin: 5px 16px
+    height: 20px
+  .same-article__favs
+    float: left
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 13px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .same-article__dot
+    float: left
+    background: url("../img/oval-blue.png") no-repeat center center
+    height: 20px
+    width: 3px
+    margin: 0 17px
+    background-size: 3px
+  .same-article__comments
+    float: left
+    background: url("../img/comments.png") no-repeat left 5px
+    background-size: 12px
+    padding-left: 22px
+    font-size: 14px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .article
+    width: 693px
+  .article__title
+    font-size: 32px
+    line-height: 38px
+    font-family: $font-bold
+    color: $color2
+    margin-left: 52px
+    width: 532px
+    padding: 26px 28px 38px 40px
+    background-color: #fff
+    border-radius: 3px
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+    position: relative
+    z-index: 2
+  .article__pic
+    width: 692px
+    height: 378px
+    margin-top: -22px
+    position: relative
+    z-index: 1
+    img
+      width: 100%
+      height: 100%
+      display: block
+  .article__sum-box
+    margin-left: 52px
+    width: 600px
+  .article__date
+    margin: 40px 0 11px 92px
+  .authors
+    margin: 40px 60px 40px 92px
+    border-left: 3px solid $color6
+    padding-left: 38px
+  .authors__label
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+  .authors__list
+    font-size: 14px
+    line-height: 28px
+    font-family: $font-regular
+    color: $color7
+    a
+      text-decoration: underline
+      font-size: 14px
+      line-height: 28px
+      font-family: $font-regular
+      color: $color7
+  .authors__materials-label
+    margin: 35px 0 11px
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+  .authors__material
+    font-size: 14px
+    line-height: 28px
+    font-family: $font-regular
+    color: $color7
+    text-decoration: underline
+    padding-left: 20px
+    margin: 0 0 0 20px
+    background: url("../img/rectangle-grey.png") left center no-repeat
+    background-size: 6px
+  .likes
+    margin: 60px 40px 60px 52px
+    height: 45px
+  .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box
+    text-align: center
+    box-sizing: border-box
+    border: 1px solid $color6
+    width: 16%
+    float: left
+    height: 45px
+  .likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite
+    display: inline-block
+    font-size: 16px
+    line-height: 18px
+    padding: 14px 0
+    font-family: $font-regular
+    color: $color2
+  .likes__fb-box
+    border-right: none
+    border-radius: 3px 0 0 3px
+  .likes__fb
+    padding-left: 20px
+    background: url("../img/socials/fb.png") no-repeat left center
+    background-size: 10px 20px
+  .likes__vk-box
+    border-right: none
+  .likes__vk
+    padding-left: 36px
+    background: url("../img/socials/vk.png") no-repeat left center
+    background-size: 25px 14px
+  .likes__tw-box
+    border-right: none
+  .likes__tw
+    padding-left: 33px
+    background: url("../img/socials/tw.png") no-repeat left center
+    background-size: 21px 17px
+  .likes__od-box
+    border-right: none
+  .likes__od
+    padding-left: 23px
+    background: url("../img/socials/od.png") no-repeat left center
+    background-size: 12px 20px
+  .likes__to-favorite-box
+    float: right
+    border-radius: 0 3px 3px 0
+    width: 36%
+  .likes__to-favorite
+    padding-left: 33px
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 22px 22px
+    color: $color5
+
+/*R1440
+@media (min-width: $desktop-wide + px)
+  .right-col
+    width: 420px
+    position: absolute
+    left: 960px
+    top: 50px
+  .banner
+    width: 320px
+    height: 534px
+    margin: 120px 0 0 60px
+    img
+      width: 320px
+      height: 534px
+  .same-articles
+    margin: 60px 0 0 60px
+  .same-articles__title
+    margin: 20px 0
+    font-size: 22px
+    line-height: 28px
+    font-family: $font-medium
+    color: $color2
+  .same-articles__box_horizontal:after
+    content: ""
+    clear: both
+    display: table
+  .same-article
+    background-color: #f8f8f8
+    border-radius: 3px
+    width: 320px
+    padding-bottom: 14px
+    margin-bottom: 30px
+  .same-article__horizontal
+    width: 280px
+    float: left
+    margin-left: 40px
+    margin-bottom: 0
+    &:first-child
+      margin-left: 0
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box-img
+    width: 320px
+    height: 218px
+    display: block
+  .same-article__pic-box-img_horizontal
+    width: 280px
+    height: 190px
+  .same-article__title
+    display: block
+    margin: 20px 40px 5px 40px
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-bold
+    color: $color3
+  .same-article__intro
+    display: block
+    margin: 5px 40px
+    font-size: 18px
+    line-height: 24px
+    font-family: $font-medium
+    color: $color1
+  .same-article__likes-box
+    margin: 15px 40px 0
+    height: 20px
+  .same-article__favs
+    float: left
+    background: url("../img/fav.png") no-repeat left top
+    background-size: 18px
+    padding-left: 30px
+    font-size: 16px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .same-article__dot
+    float: left
+    background: url("../img/oval-blue.png") no-repeat center center
+    height: 20px
+    width: 3px
+    margin: 0 25px
+    background-size: 3px
+  .same-article__comments
+    float: left
+    background: url("../img/comments.png") no-repeat left 2px
+    background-size: 16px
+    padding-left: 27px
+    font-size: 16px
+    line-height: 20px
+    font-family: $font-regular
+    color: $color5
+  .article
+    width: 960px
+  .article__title
+    font-size: 36px
+    line-height: 44px
+    font-family: $font-bold
+    color: $color2
+    margin-left: 100px
+    width: 680px
+    padding: 32px 60px 40px
+    background-color: #fff
+    border-radius: 3px
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+    position: relative
+    z-index: 2
+  .article__pic
+    width: 960px
+    height: 525px
+    margin-top: -30px
+    position: relative
+    z-index: 1
+    img
+      width: 100%
+      height: 100%
+      display: block
+  .article__sum-box
+    margin-left: 100px
+    width: 800px
+    min-height: 109px
+  .article__aurhor-pics-box
+    width: 95px
+    height: 83px
+  .article__aurhor-pic-box
+    padding-top: 25px
+  .article__info-box
+    margin: 0 56px 0 95px
+  .article__author-name-box
+    padding: 32px 0 0 15px
+  .article__author-name-link
+    font-size: 18px
+    line-height: 18px
+  .article__connections
+    padding: 8px 0 12px 16px
+  .article__topic-link
+    font-size: 16px
+    line-height: 16px
+  .article__tags a
+    font-size: 14px
+    line-height: 16px
+  .article__date
+    margin: 40px 0 11px 160px
+  .authors
+    margin: 70px 60px 40px 160px
+    border-left: 3px solid $color6
+    padding-left: 58px
+  .authors__label
+    font-size: 18px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+    margin-top: 3px
+  .authors__list
+    font-size: 16px
+    line-height: 28px
+    font-family: $font-regular
+    color: $color7
+    a
+      text-decoration: underline
+      font-size: 16px
+      line-height: 28px
+      font-family: $font-regular
+      color: $color7
+  .authors__materials-label
+    margin: 35px 0 11px
+    font-size: 18px
+    line-height: 18px
+    font-family: $font-regular
+    color: $color7
+  .authors__material
+    font-size: 16px
+    line-height: 30px
+    font-family: $font-regular
+    color: $color7
+    text-decoration: underline
+    padding-left: 20px
+    margin: 0 0 0 20px
+    background: url("../img/rectangle-grey.png") left center no-repeat
+    background-size: 6px
+  .likes
+    margin: 60px 40px 60px 52px
+    height: 45px
+  .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box
+    text-align: center
+    box-sizing: border-box
+    border: 1px solid $color6
+    width: 16%
+    float: left
+    height: 45px
+  .likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite
+    display: inline-block
+    font-size: 16px
+    line-height: 18px
+    padding: 14px 0
+    font-family: $font-regular
+    color: $color2
+  .likes__fb-box
+    border-right: none
+    border-radius: 3px 0 0 3px
+  .likes__fb
+    padding-left: 20px
+    background: url("../img/socials/fb.png") no-repeat left center
+    background-size: 10px 20px
+  .likes__vk-box
+    border-right: none
+  .likes__vk
+    padding-left: 36px
+    background: url("../img/socials/vk.png") no-repeat left center
+    background-size: 25px 14px
+  .likes__tw-box
+    border-right: none
+  .likes__tw
+    padding-left: 33px
+    background: url("../img/socials/tw.png") no-repeat left center
+    background-size: 21px 17px
+  .likes__od-box
+    border-right: none
+  .likes__od
+    padding-left: 23px
+    background: url("../img/socials/od.png") no-repeat left center
+    background-size: 12px 20px
+  .likes__to-favorite-box
+    float: right
+    border-radius: 0 3px 3px 0
+    width: 36%
+  .likes__to-favorite
+    padding-left: 33px
+    background: url("../img/fav.png") no-repeat left center
+    background-size: 22px 22px
+    color: $color5
