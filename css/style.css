@@ -129,73 +129,37 @@ body {
 .header__menu-link {
   display: block;
   color: #fff;
+  font-family: brutal_medium, sans-serif;
+  float: left;
+  position: relative;
 }
 
-.header__main-page-addition {
-  margin: 0 0 9px 7px;
-  height: 40px;
+.header__menu-link_active {
+  color: #213036;
+  background-color: #f7ab32;
 }
 
-.header__tagline {
-  font-size: 16px;
-  line-height: 18px;
-  color: #f7ab32;
-  font-family: brutal_regular, sans-serif;
-}
-
-.header__socials-box {
-  float: right;
-  width: 195px;
-  height: 30px;
-}
-
-.header__fb {
-  background: url("../img/header/fb.svg") no-repeat center center;
-  background-size: 10px 20px;
-  height: 20px;
-  width: 10px;
-  padding: 5px;
+.header__menu-more.header__menu-link_active:after {
+  position: absolute;
+  content: "";
+  width: 26px;
+  height: 13px;
+  left: 50%;
+  margin-left: -13px;
+  background: url("../img/menu-active.png") no-repeat center center;
+  background-size: 26px 13px;
   display: block;
-  float: right;
-  margin-right: 30px;
 }
 
-.header__vk {
-  background: url("../img/header/vk.svg") no-repeat center center;
-  background-size: 24px 14px;
-  width: 24px;
-  height: 20px;
-  padding: 5px;
-  display: block;
-  float: right;
-  margin-right: 30px;
-}
-
-.header__tw {
-  background: url("../img/header/tw.svg") no-repeat center center;
-  background-size: 21px 17px;
-  height: 20px;
-  width: 21px;
-  padding: 5px;
-  display: block;
-  float: right;
-  margin-right: 30px;
-}
-
-.header__od {
-  background: url("../img/header/od.svg") no-repeat center center;
-  background-size: 11px 20px;
-  height: 20px;
-  width: 10px;
-  padding: 5px;
-  display: block;
-  float: right;
+.header__menu-random-page {
+  background: url("../img/menu-random.png") no-repeat center center;
 }
 
 .header__search {
   float: right;
   border-radius: 3px;
   background-color: #f5f5f5;
+  margin: 0;
 }
 
 .header__search-btn {
@@ -209,11 +173,51 @@ body {
 }
 
 .header__search-input {
-  width: 152px;
   padding: 8px 0 8px 8px;
   font-size: 14px;
   line-height: 14px;
   color: #47453e;
+}
+
+.header__main-page-addition {
+  height: 40px;
+}
+
+.header__tagline {
+  color: #f7ab32;
+  font-family: brutal_regular, sans-serif;
+}
+
+.header__socials-box {
+  float: right;
+}
+
+.header__fb {
+  background: url("../img/header/fb.svg") no-repeat center center;
+  padding: 5px;
+  display: block;
+  float: right;
+}
+
+.header__vk {
+  background: url("../img/header/vk.svg") no-repeat center center;
+  padding: 5px;
+  display: block;
+  float: right;
+}
+
+.header__tw {
+  background: url("../img/header/tw.svg") no-repeat center center;
+  padding: 5px;
+  display: block;
+  float: right;
+}
+
+.header__od {
+  background: url("../img/header/od.svg") no-repeat center center;
+  padding: 5px;
+  display: block;
+  float: right;
 }
 
 /*R320 */
@@ -247,14 +251,6 @@ body {
     width: 149px;
     height: 36px;
     margin: 14px 0 10px 33px;
-  }
-
-  .header__logo-pic {
-    display: block;
-  }
-
-  .header__logo-pic_main-page {
-    display: none;
   }
 
   .header__menu-list {
@@ -295,19 +291,15 @@ body {
     margin: 22px 0 20px 42px;
   }
 
-  .header__logo-pic {
-    display: block;
-  }
-
-  .header__logo-pic_main-page {
-    display: none;
-  }
-
   .header__menu-list {
     margin: 0 125px 0 270px;
     padding-top: 28px;
     height: 30px;
     clear: none;
+  }
+
+  .header__menu-links {
+    display: none;
   }
 
   .header__main-page-addition {
@@ -316,15 +308,10 @@ body {
 
   .header__search {
     width: 184px;
-    margin: 0;
   }
 
   .header__search-input {
     width: 146px;
-  }
-
-  .header__menu-links {
-    display: none;
   }
 }
 /*R1024 */
@@ -357,12 +344,6 @@ body {
     padding: 28px 25px 21px 27px;
   }
 
-  .header__search {
-    width: 190px;
-    height: 30px;
-    margin: 0;
-  }
-
   .header__menu {
     display: none;
   }
@@ -388,18 +369,8 @@ body {
   .header__menu-link {
     font-size: 14px;
     line-height: 16px;
-    font-family: brutal_medium, sans-serif;
-    color: #fff;
-    display: block;
-    float: left;
     margin-left: 0;
     padding: 6px 7px;
-    position: relative;
-  }
-
-  .header__menu-link_active {
-    color: #213036;
-    background-color: #f7ab32;
   }
 
   .header__menu-more {
@@ -412,23 +383,63 @@ body {
     background-size: 10px 7px;
   }
   .header__menu-more.header__menu-link_active:after {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 13px;
     top: 49px;
-    left: 50%;
-    margin-left: -13px;
-    background: url("../img/menu-active.png") no-repeat center center;
-    background-size: 26px 13px;
-    display: block;
   }
 
   .header__menu-random-page {
     width: 19px;
     height: 16px;
-    background: url("../img/menu-random.png") no-repeat center center;
     background-size: 19px 16px;
+  }
+
+  .header__search {
+    width: 190px;
+    height: 30px;
+  }
+
+  .header__search-input {
+    width: 152px;
+  }
+
+  .header__main-page-addition {
+    margin: 0 0 9px 7px;
+  }
+
+  .header__tagline {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .header__socials-box {
+    width: 195px;
+    height: 30px;
+  }
+
+  .header__fb {
+    background-size: 10px 20px;
+    height: 20px;
+    width: 10px;
+    margin-right: 30px;
+  }
+
+  .header__vk {
+    background-size: 24px 14px;
+    width: 24px;
+    height: 20px;
+    margin-right: 30px;
+  }
+
+  .header__tw {
+    background-size: 21px 17px;
+    height: 20px;
+    width: 21px;
+    margin-right: 30px;
+  }
+
+  .header__od {
+    background-size: 11px 20px;
+    height: 20px;
+    width: 10px;
   }
 }
 /*R1440 */
@@ -471,89 +482,6 @@ body {
     margin: 36px 0 0 100px;
   }
 
-  .header__search {
-    width: 266px;
-    height: 42px;
-    margin: 0;
-  }
-
-  .header__search-btn {
-    display: block;
-    float: right;
-    padding: 11px;
-    width: 20px;
-    height: 20px;
-    background: url("../img/search-badge.png") no-repeat center center;
-    background-size: 20px 20px;
-  }
-
-  .header__main-page-addition {
-    margin: 0 0 24px 7px;
-    height: 40px;
-  }
-
-  .header__tagline {
-    font-size: 22px;
-    line-height: 24px;
-  }
-
-  .header__socials-box {
-    float: right;
-    width: 270px;
-    height: 38px;
-  }
-
-  .header__fb {
-    background: url("../img/header/fb.svg") no-repeat center center;
-    background-size: 13px 28px;
-    width: 13px;
-    height: 28px;
-    padding: 5px;
-    display: block;
-    float: right;
-    margin-right: 45px;
-  }
-
-  .header__vk {
-    background: url("../img/header/vk.svg") no-repeat center center;
-    background-size: 35px 20px;
-    width: 35px;
-    height: 28px;
-    padding: 5px;
-    display: block;
-    float: right;
-    margin-right: 45px;
-  }
-
-  .header__tw {
-    background: url("../img/header/tw.svg") no-repeat center center;
-    background-size: 30px 24px;
-    width: 30px;
-    height: 28px;
-    padding: 5px;
-    display: block;
-    float: right;
-    margin-right: 45px;
-  }
-
-  .header__od {
-    background: url("../img/header/od.svg") no-repeat center center;
-    background-size: 16px 28px;
-    width: 16px;
-    height: 28px;
-    padding: 5px;
-    display: block;
-    float: right;
-  }
-
-  .header__search-input {
-    width: 210px;
-    padding: 11px 0 11px 11px;
-    font-size: 16px;
-    line-height: 20px;
-    color: #47453e;
-  }
-
   .header__menu-list {
     margin: 0 190px 0 374px;
     padding-top: 48px;
@@ -569,17 +497,7 @@ body {
   .header__menu-link {
     font-size: 16px;
     line-height: 22px;
-    font-family: brutal_medium, sans-serif;
-    color: #fff;
-    display: block;
-    float: left;
     padding: 4px 9px;
-    position: relative;
-  }
-
-  .header__menu-link_active {
-    color: #213036;
-    background-color: #f7ab32;
   }
 
   .header__menu-more {
@@ -592,24 +510,74 @@ body {
     background-size: 15px 10px;
   }
   .header__menu-more.header__menu-link_active:after {
-    position: absolute;
-    content: "";
-    width: 26px;
-    height: 13px;
     top: 62px;
-    left: 50%;
-    margin-left: -13px;
-    background: url("../img/menu-active.png") no-repeat center center;
-    background-size: 26px 13px;
-    display: block;
   }
 
   .header__menu-random-page {
     width: 27px;
     height: 22px;
-    background: url("../img/menu-random.png") no-repeat center center;
     background-size: 27px 22px;
     margin-left: 25px;
+  }
+
+  .header__search {
+    width: 266px;
+    height: 42px;
+  }
+
+  .header__search-btn {
+    padding: 11px;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+
+  .header__search-input {
+    width: 210px;
+    padding: 11px 0 11px 11px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__main-page-addition {
+    margin: 0 0 24px 7px;
+  }
+
+  .header__tagline {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .header__socials-box {
+    width: 270px;
+    height: 38px;
+  }
+
+  .header__fb {
+    background-size: 13px 28px;
+    width: 13px;
+    height: 28px;
+    margin-right: 45px;
+  }
+
+  .header__vk {
+    background-size: 35px 20px;
+    width: 35px;
+    height: 28px;
+    margin-right: 45px;
+  }
+
+  .header__tw {
+    background-size: 30px 24px;
+    width: 30px;
+    height: 28px;
+    margin-right: 45px;
+  }
+
+  .header__od {
+    background-size: 16px 28px;
+    width: 16px;
+    height: 28px;
   }
 }
 /*R320 */
@@ -1029,7 +997,7 @@ body {
   .newsletter__submit-box {
     height: 40px;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: solid 1px #4593d4;
     margin-top: 10px;
   }
@@ -1145,7 +1113,7 @@ body {
   .newsletter__submit-box {
     height: 43px;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: solid 1px #4593d4;
     margin-top: 10px;
     width: 168px;
@@ -1260,7 +1228,7 @@ body {
   .newsletter__submit-box {
     height: 35px;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: solid 1px #4593d4;
     margin-top: 10px;
   }
@@ -1371,7 +1339,7 @@ body {
   .newsletter__submit-box {
     height: 44px;
     border-radius: 3px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: solid 1px #4593d4;
     margin-top: 14px;
   }
@@ -2745,7 +2713,7 @@ body {
   text-align: center;
   width: 160px;
   height: 42px;
-  color: #FFF;
+  color: #fff;
   line-height: 40px;
   display: block;
   font-family: brutal_regular, sans-serif;
