@@ -1,0 +1,128 @@
+.dropdown-menu{
+    border-top: 3px solid #faaf3f;
+    background-color: #fff;
+}
+
+.dropdown-menu__wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 37px 52px 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.dropdown-menu__main-menu{
+    height: 14px;
+}
+
+.dropdown-menu__main-link{
+    font-size: 14px;
+    line-height: 14px;
+    font-family: brutal_medium, sans-serif;
+    color: #213036;
+    margin-left: 13px;
+}
+
+.dropdown-menu__main-link:first-child{
+    margin-left: 0;
+}
+
+.dropdown-menu__all-categories-show-box{
+    margin: 5px 0 24px;
+}
+
+.dropdown-menu__all-categories-show{
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: brutal_regular, sans-serif;
+    color: #4693d4;
+    text-decoration: underline dotted #4693d4;
+}
+
+.dropdown-menu__all-categories-box{
+    margin: 22px 0 40px;
+    width: 680px;
+    background-color: #f8f8f8;
+    padding: 17px 30px;
+    box-sizing: border-box;
+}
+
+.dropdown-menu__all-categories-columns:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.dropdown-menu__all-categories-column{
+    width: 170px;
+    float: left;
+    margin-left: 55px;
+}
+
+.dropdown-menu__all-categories-column:first-child{
+    margin-left: 0;
+}
+
+.dropdown-menu__all-category{
+}
+
+.dropdown-menu__all-category-new{
+    float: right;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: brutal_regular, sans-serif;
+    color: #4693d4;
+}
+
+.dropdown-menu__all-category-link{
+    font-size: 14px;
+    line-height: 28px;
+    font-family: brutal_medium, sans-serif;
+    color: #213036;
+}
+
+.dropdown-menu__all-category-link_new{
+    font-family: brutal_bold, sans-serif;
+}
+
+.dropdown-menu__all-categories-hide-box{
+    margin-top: 5px;
+}
+
+.dropdown-menu__all-categories-hide{
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: brutal_regular, sans-serif;
+    color: #4693d4;
+    text-decoration: underline dotted #4693d4;
+}
+
+.dropdown-menu__same-articles{
+    margin: 0 0 0 0;
+    width: 680px;
+}
+
+.dropdown-menu__same-articles-box:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.dropdown-menu__site-menu{
+    position: absolute;
+    top: 87px;
+    left: 772px;
+    width: 200px;
+}
+
+.dropdown-menu__site-menu-link-box{
+}
+
+.dropdown-menu__site-menu-link{
+    font-size: 14px;
+    line-height: 34px;
+    font-family: brutal_medium, sans-serif;
+    color: #4e6873;
+}
