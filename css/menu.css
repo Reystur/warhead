@@ -1,3 +1,123 @@
+/*R764*/
+@media (min-width: 764px) and (max-width: 1023px) {
+    .dropdown-menu{
+        background-color: #fff;
+    }
+
+    .dropdown-menu__wrapper{
+        margin: 0 auto;
+        padding: 20px 28px 40px 58px;
+        position: relative;
+    }
+
+    .dropdown-menu__main-menu{
+        width: 50%;
+        margin-left: 44px;
+    }
+
+    .dropdown-menu__main-link{
+        font-size: 16px;
+        line-height: 40px;
+        font-family: brutal_medium, sans-serif;
+        color: #213036;
+        display: block;
+    }
+
+    .dropdown-menu__all-categories-show-box{
+        margin: 12px 0 0 44px;
+    }
+
+    .dropdown-menu__all-categories-show{
+        font-size: 16px;
+        line-height: 16px;
+        font-family: brutal_regular, sans-serif;
+        color: #4693d4;
+        border-bottom: dashed 1px #4693d4;
+    }
+
+    .dropdown-menu__all-categories-box{
+        margin: 22px 0 40px;
+        background-color: #f8f8f8;
+        padding: 15px 44px 28px;
+        box-sizing: border-box;
+    }
+
+    .dropdown-menu__all-categories-columns:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .dropdown-menu__all-categories-column{
+        width: 45%;
+        float: left;
+        margin-left: 10%;
+    }
+
+    .dropdown-menu__all-categories-column:nth-child(odd){
+        margin-left: 0;
+        clear: both;
+    }
+
+    .dropdown-menu__all-category{
+    }
+
+    .dropdown-menu__all-category-new{
+        float: right;
+        font-size: 16px;
+        line-height: 40px;
+        font-family: brutal_regular, sans-serif;
+        color: #4693d4;
+    }
+
+    .dropdown-menu__all-category-link{
+        font-size: 16px;
+        line-height: 40px;
+        font-family: brutal_medium, sans-serif;
+        color: #213036;
+    }
+
+    .dropdown-menu__all-category-link_new{
+        font-family: brutal_bold, sans-serif;
+    }
+
+    .dropdown-menu__all-categories-hide-box{
+        margin-top: 5px;
+        clear: both;
+    }
+
+    .dropdown-menu__all-categories-hide{
+        font-size: 14px;
+        line-height: 14px;
+        font-family: brutal_regular, sans-serif;
+        color: #4693d4;
+        border-bottom: dashed 1px #4693d4;
+    }
+
+    .dropdown-menu__same-articles{
+        display: none;
+    }
+
+    .dropdown-menu__site-menu{
+        position: absolute;
+        top: 20px;
+        right: 80px;
+        width: 200px;
+        padding-left: 28px;
+        border-left: 1px #dcdcdc solid;
+    }
+
+    .dropdown-menu__site-menu-link-box{
+    }
+
+    .dropdown-menu__site-menu-link{
+        font-size: 16px;
+        line-height: 40px;
+        font-family: brutal_medium, sans-serif;
+        color: #213036;
+    }
+}
+
 /*R1024*/
 @media (min-width: 1024px) and (max-width: 1439px) {
     .dropdown-menu{
@@ -34,7 +154,6 @@
     }
 
     .dropdown-menu__all-categories-show{
-        padding: 5px 0;
         font-size: 12px;
         line-height: 12px;
         font-family: brutal_regular, sans-serif;
