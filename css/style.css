@@ -1375,7 +1375,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
   .newsletter__social-vk {
@@ -1385,7 +1385,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 50px;
+    margin-left: 55px;
   }
 
   .newsletter__social-tw {
@@ -1395,7 +1395,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 42px;
+    margin-left: 50px;
   }
 
   .newsletter__social-od {
@@ -1405,7 +1405,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 40px;
+    margin-left: 50px;
   }
 }
 .article__sum-box {
