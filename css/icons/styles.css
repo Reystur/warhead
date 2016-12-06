@@ -38,12 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-angle-down:before {
-  content: "\61";
-}
-.icon-ios-arrow-down:before {
-  content: "\62";
-}
 .icon-w-clip:before {
   content: "\63";
 }
@@ -100,4 +94,13 @@
 }
 .icon-w-comment:before {
   content: "\75";
+}
+.icon-w-burger:before {
+  content: "\76";
+}
+.icon-w-g:before {
+  content: "\77";
+}
+.icon-w-in:before {
+  content: "\78";
 }
