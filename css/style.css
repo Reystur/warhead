@@ -133,10 +133,25 @@ body {
   float: left;
   position: relative;
 }
+.header__menu-link:hover {
+  color: #f7ab32;
+  text-decoration: underline;
+}
+
+.header__menu-arrow {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-size: 11px;
+}
 
 .header__menu-link_active {
   color: #213036;
   background-color: #f7ab32;
+}
+.header__menu-link_active:hover {
+  color: #213036;
+  text-decoration: none;
 }
 
 .header__menu-more.header__menu-link_active:after {
@@ -341,7 +356,7 @@ body {
   .header__user-pic {
     width: 50px;
     height: 50px;
-    padding: 28px 25px 21px 27px;
+    padding: 24px 25px 21px 27px;
   }
 
   .header__menu {
@@ -370,7 +385,11 @@ body {
     font-size: 14px;
     line-height: 16px;
     margin-left: 0;
-    padding: 6px 7px;
+    padding: 4px 7px 2px 7px;
+  }
+
+  .header__menu-arrow {
+    top: 6px;
   }
 
   .header__menu-more {
@@ -390,11 +409,13 @@ body {
     width: 19px;
     height: 16px;
     background-size: 19px 16px;
+    padding: 3px 7px;
   }
 
   .header__search {
     width: 190px;
     height: 30px;
+    margin-top: -4px;
   }
 
   .header__search-input {
@@ -469,7 +490,7 @@ body {
   .header__user-pic {
     width: 60px;
     height: 60px;
-    padding: 40px 100px 0 0;
+    padding: 32px 100px 0 0;
   }
 
   .header__menu {
@@ -490,19 +511,19 @@ body {
 
   .header__menu-links {
     margin-right: 270px;
-    padding-top: 9px;
+    padding-top: 2px;
     height: 42px;
   }
 
   .header__menu-link {
     font-size: 16px;
     line-height: 22px;
-    padding: 4px 9px;
+    padding: 4px 9px 2px 9px;
   }
 
   .header__menu-more {
     padding-right: 33px;
-    background: url("../img/menu-more.png") no-repeat 53px 13px;
+    background: url("../img/menu-more.png") no-repeat 53px 10px;
     background-size: 15px 10px;
   }
   .header__menu-more.header__menu-link_active {
@@ -511,6 +532,10 @@ body {
   }
   .header__menu-more.header__menu-link_active:after {
     top: 63px;
+  }
+
+  .header__menu-arrow {
+    top: 6px;
   }
 
   .header__menu-random-page {
@@ -523,6 +548,7 @@ body {
   .header__search {
     width: 266px;
     height: 42px;
+    margin-top: -7px;
   }
 
   .header__search-btn {
@@ -1833,7 +1859,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 50px;
+    margin-left: 53px;
   }
 
   .newsletter__social-od {
@@ -1843,7 +1869,7 @@ body {
     height: 30px;
     display: block;
     float: left;
-    margin-left: 50px;
+    margin-left: 53px;
   }
 }
 .article__sum-box {
@@ -2619,7 +2645,7 @@ body {
     color: #47453e;
     margin-left: 52px;
     width: 532px;
-    padding: 26px 28px 38px 40px;
+    padding: 26px 28px 26px 40px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -2908,7 +2934,7 @@ body {
     color: #47453e;
     margin-left: 100px;
     width: 680px;
-    padding: 32px 60px 40px;
+    padding: 32px 60px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -3150,9 +3176,8 @@ body {
   font-size: 16px;
   text-align: center;
   width: 160px;
-  height: 42px;
   color: #fff;
-  line-height: 40px;
+  padding: 11px 0;
   display: block;
   font-family: brutal_regular, sans-serif;
 }
@@ -3426,8 +3451,7 @@ body {
   }
 
   .comments__button {
-    height: 30px;
-    line-height: 30px;
+    padding: 7px 0 6px;
     font-size: 14px;
   }
 
@@ -3469,8 +3493,7 @@ body {
   }
 
   .comments__button {
-    height: 30px;
-    line-height: 30px;
+    padding: 7px 0 6px;
     font-size: 14px;
   }
 

@@ -35,10 +35,22 @@
   font-family: $font-medium
   float: left
   position: relative
+  &:hover
+    color: $color3
+    text-decoration: underline
+
+.header__menu-arrow
+  position: absolute
+  top: 8px
+  right: 0
+  font-size: 11px
 
 .header__menu-link_active
   color: $color1
   background-color: $color3
+  &:hover
+    color: #213036
+    text-decoration: none
 
 .header__menu-more
   &.header__menu-link_active
@@ -191,7 +203,7 @@
   .header__user-pic
     width: 50px
     height: 50px
-    padding: 28px 25px 21px 27px
+    padding: 24px 25px 21px 27px
   .header__menu
     display: none
   .header__logo
@@ -210,7 +222,9 @@
     font-size: 14px
     line-height: 16px
     margin-left: 0
-    padding: 6px 7px
+    padding: 4px 7px 2px 7px
+  .header__menu-arrow
+    top: 6px
   .header__menu-more
     &.header__menu-link_active
       &:after
@@ -224,9 +238,11 @@
     width: 19px
     height: 16px
     background-size: 19px 16px
+    padding: 3px 7px
   .header__search
     width: 190px
     height: 30px
+    margin-top: -4px
   .header__search-input
     width: 152px
   .header__main-page-addition
@@ -276,7 +292,7 @@
   .header__user-pic
     width: 60px
     height: 60px
-    padding: 40px 100px 0 0
+    padding: 32px 100px 0 0
   .header__menu
     display: none
   .header__logo
@@ -289,12 +305,12 @@
     height: 42px
   .header__menu-links
     margin-right: 270px
-    padding-top: 9px
+    padding-top: 2px
     height: 42px
   .header__menu-link
     font-size: 16px
     line-height: 22px
-    padding: 4px 9px
+    padding: 4px 9px 2px 9px
   .header__menu-more
     &.header__menu-link_active
       &:after
@@ -302,9 +318,10 @@
       background: url("../img/menu-more-active.png") no-repeat 53px 8px $color3
       background-size: 15px 10px
     padding-right: 33px
-    background: url("../img/menu-more.png") no-repeat 53px 13px
+    background: url("../img/menu-more.png") no-repeat 53px 10px
     background-size: 15px 10px
-
+  .header__menu-arrow
+    top: 6px
   .header__menu-random-page
     width: 27px
     height: 22px
@@ -314,6 +331,7 @@
   .header__search
     width: 266px
     height: 42px
+    margin-top: -7px
   .header__search-btn
     padding: 11px
     width: 20px
