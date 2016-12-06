@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/modals.css">
+    <link rel="stylesheet" href="css/fonts/icons/styles.css">
     <title>Modals</title>
 </head>
-<body style="padding: 20px">
-<div class="modal-box modal-socials">
+<body style="padding: 20px; background-color: #47453e">
+<div class="modal-box">
     <a href="#" class="modal-box__close"></a>
-    <div class="modal-socials__title">Войти через социальную сеть</div>
-    <div class="modal-socials__table-box">
+    <div class="modal-box__title">Войти через социальную сеть</div>
+    <div class="modal-socials">
         <table class="modal-socials__table">
             <tr>
                 <td>
@@ -38,8 +39,104 @@
             </tr>
         </table>
     </div>
-    <div class="modal-socials__bot-link-box">
-        <a href="#" class="modal-socials__bot-link">I don’t want to go on the cart</a>
+    <div class="modal-box__bot-link-box">
+        <a href="#" class="modal-box__bot-link">I don’t want to go on the cart</a>
+    </div>
+</div>
+<div style="margin: 30px 0; height: 10px"></div>
+<div class="modal-box">
+    <a href="#" class="modal-box__close"></a>
+    <div class="modal-box__title">Войти с помощью WG.NET id</div>
+    <div class="modal-box__text">
+        Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola
+    </div>
+    <div class="modal-wg-net">
+        <a href="#"><img src="img/wg-net.png" alt="WG net"></a>
+    </div>
+    <div class="modal-box__text">
+        Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola
+    </div>
+    <div class="modal-box__bot-link-box">
+        <a href="#" class="modal-box__bot-link">I don’t want to go on the cart</a>
+    </div>
+</div>
+<div style="margin: 30px 0; height: 10px"></div>
+<div class="modal-box">
+    <a href="#" class="modal-box__close"></a>
+    <div class="modal-box__title">Следите за новостями</div>
+    <div class="modal-news">
+        <div class="modal-news__social-box">
+            <div class="modal-news__left">
+                <a href="#" class="modal-news__link">
+                    <span class="icon icon-w-fb"></span>
+                    <span class="modal-news__link-text">Warhead</span>
+                </a>
+                <a href="#" class="modal-news__link">
+                    <span class="icon icon-w-vk"></span>
+                    <span class="modal-news__link-text">Warhead</span>
+                </a>
+            </div>
+            <div class="modal-news__right">
+                <a href="#" class="modal-news__link">
+                    <span class="icon icon-w-tw"></span>
+                    <span class="modal-news__link-text">Warhead</span>
+                </a>
+                <a href="#" class="modal-news__link">
+                    <span class="icon icon-w-tw"></span>
+                    <span class="modal-news__link-text">Warhead</span>
+                </a>
+            </div>
+        </div>
+        <div class="modal-news__text">
+            Присылайте мне самое интересное раз в неделю<br>
+            <a href="#">пример письма</a>
+        </div>
+        <div class="modal-news__newslatter-form">
+            <input type="email" placeholder="Ваш email" class="modal-news__input">
+            <input type="submit" value="Подписаться" class="button-ok modal-news__submit">
+        </div>
+    </div>
+</div>
+<div style="margin: 30px 0; height: 10px"></div>
+<div class="modal-box">
+    <a href="#" class="modal-box__close"></a>
+    <div class="modal-box__title">Вы полностью уверены?</div>
+    <div class="modal-question">
+        <div class="modal-question__text-box">
+            <div class="modal-question__pic-box">
+                <img src="img/modal-question.png" alt="Question" class="modal-question__pic">
+            </div>
+            <div class="modal-question__text">
+                Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola
+            </div>
+        </div>
+        <div class="modal-question__button-box">
+            <div class="modal-question__button-cancel">Нет</div>
+            <div class="modal-question__button-ok">Да</div>
+        </div>
+    </div>
+</div>
+<div style="margin: 30px 0; height: 10px"></div>
+<div class="modal-box">
+    <a href="#" class="modal-box__close"></a>
+    <div class="modal-box__title">Обновить профиль</div>
+    <div class="modal-profile">
+        <div class="modal-profile__edit-photo">
+            <img src="img/modal-user-profile.png" alt="User pic" class="modal-profile__edit-photo-pic">
+            <div class="modal-profile__edit-photo-button"></div>
+        </div>
+        <div class="modal-profile__label-box">
+            <div class="modal-profile__label">Псевдоним:</div>
+        </div>
+        <div class="modal-profile__input-box">
+            <input type="text" class="modal-profile__input" value="Tommy Richardson">
+        </div>
+        <div class="modal-profile__label-box">
+            <div class="modal-profile__label">Подпись:</div>
+        </div>
+        <div class="modal-profile__input-box">
+            <input type="text" class="modal-profile__input" value="One Who Never Knocks">
+        </div>
     </div>
 </div>
 </body>
