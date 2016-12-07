@@ -1,0 +1,290 @@
+.category__description-box
+  border-radius: 3px
+  background-color: $color4
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2)
+
+.category__title-line
+  width: 90px
+  height: 3px
+  background-color: $color12
+
+.category__title
+  color: $color2
+
+.category__descriptions-cols
+  margin: 19px 0 21px
+
+.category__descriptions-cols:after
+  display: table
+  content: ""
+  clear: both
+
+.category__description-box-left
+  float: left
+  color: $color2
+
+//.category__description-box-right
+
+.category__main-box
+  height: 480px
+  margin-top: 40px
+
+.category__main-article
+  float: left
+  display: block
+  width: 492px
+  height: 480px
+  position: relative
+  &:hover
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5)
+    .category__main-article-hover
+      opacity: .3
+
+.category__main-article_small
+  width: 440px
+  height: 220px
+
+.category__main-article_orange
+  background-color: $color3
+
+.category__main-article_red
+  background-color: $color13
+
+.category__main-article_blue
+  background-color: $color14
+
+.category__main-article-pic
+  display: block
+  width: 100%
+  height: 100%
+  mix-blend-mode: multiply
+
+.category__main-article-bottom-gradient
+  position: absolute
+  top: 322px
+  left: 0
+  width: 100%
+  height: 158px
+  mix-blend-mode: overlay
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #000000)
+
+.category__main-article-bottom-gradient_small
+  top: 62px
+
+.category__main-article-hover
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background-color: $color1
+  opacity: 0
+  transition: opacity .5s
+
+.category__main-article-inner
+  width: 468px
+  height: 456px
+  position: absolute
+  top: 12px
+  left: 12px
+  box-sizing: border-box
+  padding: 28px
+  background: url("../img/blockquote_bg/tl.png") top left no-repeat, url("../img/blockquote_bg/tr.png") top right no-repeat, url("../img/blockquote_bg/br.png") bottom right no-repeat, url("../img/blockquote_bg/bl.png") no-repeat bottom left
+  background-size: 20px, 20px, 20px, 20px
+
+.category__main-article-inner_small
+  width: 416px
+  height: 196px
+  padding: 88px 28px 28px
+
+.category__main-article-inner-bottom
+  box-sizing: border-box
+  width: 412px
+  position: absolute
+  bottom: 30px
+  left: 28px
+  overflow: hidden
+
+.category__main-article-inner-bottom_small
+  width: 360px
+
+.category__main-article-inner-title
+  font-size: 16px
+  line-height: 22px
+  font-family: $font-bold
+  color: $color3
+
+.category__main-article-inner-text
+  margin-top: 8px
+  font-size: 20px
+  line-height: 24px
+  font-family: $font-bold
+  color: $color4
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+
+.category__main-small-articles
+  margin-left: 532px
+
+.category__main-article_small
+  &:first-child
+    margin-bottom: 40px
+
+.category__part
+  margin: 60px 0 0 52px
+
+.category__popular-line
+  width: 40px
+  height: 3px
+  background-color: $color3
+
+.category__earlier-line
+  width: 40px
+  height: 3px
+  background-color: $color14
+
+.category__sub-title
+  font-size: 25px
+  line-height: 37px
+  font-family: $font-bold
+  color: $color2
+  margin: 8px 0 20px
+
+.pop-articles:after
+  display: table
+  content: ""
+  clear: both
+
+.pop-article
+  display: block
+  float: left
+  position: relative
+  width: 440px
+  margin-bottom: -30px
+  &:first-child
+    margin-right: 40px
+  &:hover
+    .pop-article__hover
+      opacity: .3
+    .pop-article__text
+      text-decoration: underline
+
+.pop-article__pic
+  display: block
+  width: 440px
+  height: 200px
+
+.pop-article__hover
+  display: block
+  position: absolute
+  width: 440px
+  height: 200px
+  top: 0
+  left: 0
+  background-color: $color1
+  opacity: 0
+  transition: opacity .5s
+
+.pop-article__box
+  display: block
+  position: relative
+  top: -30px
+  margin: 0 0 0 20px
+  height: 141px
+  box-sizing: border-box
+  padding: 17px 40px
+  border-radius: 3px
+  background-color: $color13
+  border-top-left-radius: 0
+  border-top-right-radius: 0
+
+.pop-article__box_blue
+  background-color: #587b89
+
+.pop-article__title
+  font-size: 14px
+  line-height: 18px
+  font-family: $font-bold
+  color: $color3
+
+.pop-article__text
+  font-size: 18px
+  line-height: 22px
+  font-family: $font-medium
+  color: $color4
+  margin-top: 13px
+
+.pop-article__stats
+  margin-top: 8px
+
+.category__load-more-box
+  text-align: center
+  margin-top: 40px
+
+.category__load-more
+  background: url("../img/load-more.png") no-repeat center center / 154px 68px
+  width: 154px
+  height: 68px
+  display: inline-block
+  text-align: center
+  font-size: 14px
+  line-height: 16px
+  font-family: $font-medium
+  color: $color4
+  cursor: pointer
+  padding-top: 15px
+  box-sizing: border-box
+  &:hover
+    background: url("../img/load-more-hover.png") no-repeat center center / 154px 68px
+
+/*R320
+@media (max-width: $tablet - 1 + px)
+
+/*R764
+@media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
+
+/*R1024
+@media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
+  .category
+    width: 972px
+  .category__description-box
+    padding: 25px 40px
+    margin-left: 52px
+  .category__title-line
+    margin-bottom: 20px
+  .category__title
+    font-size: 34px
+    line-height: 38px
+  .category__descriptions-cols
+    margin: 19px 0 21px
+  .category__description-box-left
+    width: 360px
+    font-size: 16px
+    line-height: 22px
+  .category__description-box-right
+    margin-left: 480px
+    width: 360px
+    font-size: 16px
+    line-height: 22px
+/*R1440
+@media (min-width: $desktop-wide + px)
+  .category
+    width: 1340px
+  .category__description-box
+    padding: 30px 60px
+    margin-left: 100px
+  .category__title-line
+    margin-bottom: 23px
+  .category__title
+    font-size: 36px
+    line-height: 38px
+  .category__descriptions-cols
+    margin: 22px 0 24px
+  .category__description-box-left
+    width: 480px
+    font-size: 18px
+    line-height: 22px
+  .category__description-box-right
+    margin-left: 640px
+    width: 480px
+    font-size: 18px
+    line-height: 22px

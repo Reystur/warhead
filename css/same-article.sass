@@ -1,0 +1,212 @@
+.same-article
+  display: block
+
+/*R320
+@media (max-width: $tablet - 1 + px)
+  .same-article
+    background-color: $color16
+    margin-bottom: 20px
+    position: relative
+    height: 147px
+  .same-article_mobile_hide
+    display: none
+  .same-article__pic-box
+    display: block
+    float: left
+    width: 45%
+    height: 147px
+    text-align: center
+    overflow: hidden
+    position: relative
+  .same-article__pic-box-img
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+  .same-article__title
+    display: block
+    font-size: 12px
+    line-height: 14px
+    font-family: $font-bold
+    color: $color3
+    width: 4%
+    margin-left: 51%
+    padding-top: 18px
+  .same-article__intro
+    display: block
+    margin: 5px 0 0 51%
+    font-size: 14px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+    width: 44%
+  .same-article__stats
+    position: absolute
+    left: 51%
+    bottom: 13px
+
+/*R764
+@media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
+  .same-article
+    background-color: $color16
+    border-radius: 3px
+    padding-bottom: 14px
+    width: 47%
+    float: left
+    margin-left: 0
+    margin-bottom: 0
+    &:first-child
+      margin-right: 6%
+  .same-article_tablet_hide
+    display: none
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box-img
+    display: block
+    width: 100%
+    height: auto
+  .same-article__title
+    display: block
+    margin: 13px 16px 5px 16px
+    font-size: 14px
+    line-height: 16px
+    font-family: $font-bold
+    color: $color3
+  .same-article__intro
+    display: block
+    margin: 5px 16px 5px
+    font-size: 16px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+  .same-article__stats
+    margin: 5px 16px
+
+/*R1024
+@media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
+  .same-article
+    background-color: #f8f8f8
+    border-radius: 3px
+    width: 240px
+    padding-bottom: 14px
+    margin-bottom: 30px
+    &:visited
+      .same-article__intro
+        color: #67b2cf
+    &:hover
+      box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5)
+      .same-article__intro
+        color: $color5
+        text-decoration: underline
+  .same-article_big
+    width: 440px
+    height: 200px
+    padding-bottom: 0
+    position: relative
+    float: left
+    margin: 40px 0 0 40px
+    &:first-child, &:nth-child(2)
+      margin-top: 0
+    &:nth-child(odd)
+      margin-left: 0
+    /* 3 4 7 8 11 12 */
+    &:nth-child(4n-1), &:nth-child(4n)
+      .same-article__pic-box_big
+        float: right
+      .same-article__title_big
+        margin: 0 240px 0 40px
+      .same-article__intro_big
+        margin: 12px 240px 0 40px
+      .same-article__stats_big
+        left: 40px
+  .same-article__horizontal
+    width: 200px
+    float: left
+    margin-left: 40px
+    margin-bottom: 0
+    &:first-child
+      margin-left: 0
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box_big
+    display: block
+    float: left
+    width: 200px
+    height: 200px
+  .same-article__pic-box-img
+    width: 240px
+    height: 163px
+    display: block
+  .same-article__pic-box-img_big
+    width: 100%
+    height: 100%
+  .same-article__pic-box-img_horizontal
+    width: 200px
+    height: 136px
+  .same-article__title
+    display: block
+    margin: 13px 16px 5px 16px
+    font-size: 14px
+    line-height: 16px
+    font-family: $font-bold
+    color: $color3
+  .same-article__title_big
+    margin: 0 25px 0 240px
+    padding-top: 18px
+  .same-article__intro
+    display: block
+    margin: 5px 16px 5px
+    font-size: 16px
+    line-height: 22px
+    font-family: $font-medium
+    color: $color1
+  .same-article__intro_big
+    margin: 12px 25px 0 240px
+  .same-article__stats
+    margin: 5px 16px
+  .same-article__stats_big
+    margin: 0
+    position: absolute
+    bottom: 13px
+    left: 240px
+
+/*R1440
+@media (min-width: $desktop-wide + px)
+  .same-article
+    background-color: $color16
+    border-radius: 3px
+    width: 320px
+    padding-bottom: 14px
+    margin-bottom: 30px
+  .same-article__horizontal
+    width: 280px
+    float: left
+    margin-left: 40px
+    margin-bottom: 0
+    &:first-child
+      margin-left: 0
+  .same-article__pic-box
+    display: block
+  .same-article__pic-box-img
+    width: 320px
+    height: 218px
+    display: block
+  .same-article__pic-box-img_horizontal
+    width: 280px
+    height: 190px
+  .same-article__title
+    display: block
+    margin: 20px 40px 5px 40px
+    font-size: 16px
+    line-height: 18px
+    font-family: $font-bold
+    color: $color3
+  .same-article__intro
+    display: block
+    margin: 5px 40px
+    font-size: 18px
+    line-height: 24px
+    font-family: $font-medium
+    color: $color1
+  .same-article__stats
+    margin: 15px 40px 0
