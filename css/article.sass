@@ -79,6 +79,16 @@
   font-family: $font-regular
   color: $color7
 
+.likes__likeicon
+  float: left
+  margin: -2px 12px 0 0
+  font-size: 20px
+
+.likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box
+  display: block
+  &:hover
+    background-color: #f6f6f6
+
 /*R320
 @media (max-width: $tablet - 1 + px)
   .banner
@@ -196,9 +206,6 @@
     width: auto
     margin-bottom: 20px
   .likes__to-favorite
-    padding-left: 33px
-    background: url("../img/fav.png") no-repeat left center
-    background-size: 22px 22px
     color: $color5
   .comments
     min-width: 320px
@@ -329,9 +336,6 @@
     border-radius: 0 3px 3px 0
     width: 36%
   .likes__to-favorite
-    padding-left: 33px
-    background: url("../img/fav.png") no-repeat left center
-    background-size: 22px 22px
     color: $color5
 
 /*R1024
@@ -470,9 +474,6 @@
     border-radius: 0 3px 3px 0
     width: 36%
   .likes__to-favorite
-    padding-left: 33px
-    background: url("../img/fav.png") no-repeat left center
-    background-size: 22px 22px
     color: $color5
 
 /*R1440
@@ -636,7 +637,4 @@
     border-radius: 0 3px 3px 0
     width: 36%
   .likes__to-favorite
-    padding-left: 33px
-    background: url("../img/fav.png") no-repeat left center
-    background-size: 22px 22px
     color: $color5
