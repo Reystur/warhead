@@ -1,0 +1,123 @@
+.w-btn
+  display: inline-block
+  padding: 5px 10px
+  box-sizing: border-box
+  font-family: $font-medium
+  color: $color5
+  background-color: $color4
+  border: solid 1px $color9
+  cursor: pointer
+  transition: background-color .5s, color .5s
+  font-size: 16px
+  line-height: 34px
+  border-radius: 5px
+  &:hover
+    background-color: $color9
+    color: $color4
+    border-radius: 5px
+
+.w-btn_cancel
+  color: $color7
+  background-color: $color4
+  border: solid 1px $color7
+  &:hover
+    background-color: $color7
+    color: $color4
+
+.w-btn_block
+  display: block
+  width: 100%
+  text-align: center
+
+.w-input
+  display: block
+  width: 100%
+  height: 42px
+  box-sizing: border-box
+  padding: 5px 12px
+  font-size: 16px
+  line-height: 32px
+  color: $color2
+  font-family: $font-regular
+  border-radius: 3px
+  background-color: $color10
+  border: solid 1px transparent
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03)
+  &:focus
+    box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5)
+    border: solid 1px $color15
+
+.w-input-label
+  font-size: 16px
+  line-height: 20px
+  color: $color11
+  font-family: $font-regular
+
+.w-dropdown
+  display: block
+  width: 100%
+  height: 42px
+  box-sizing: border-box
+  border-radius: 3px
+  background-color: $color10
+  border: solid 1px transparent
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03)
+  cursor: pointer
+  position: relative
+
+.w-dropdown__arrow
+  display: block
+  float: right
+  width: 42px
+  height: 26px
+  padding-top: 16px
+  background-color: $color9
+  font-size: 13px
+  color: $color4
+  text-align: center
+  border-radius: 0 3px 3px 0
+//&:hover
+//  .icon-w-arr-down
+//    transform: rotate(180deg) translate(0, 5px)
+//.icon-w-arr-down
+  //transition: transform .5s
+.w-dropdown__origin
+  padding: 5px 12px
+  margin-right: 45px
+  font-size: 16px
+  line-height: 32px
+  color: $color2
+  font-family: $font-regular
+.w-dropdown__extend
+  display: none
+  position: absolute
+  top: 44px
+  left: 0
+  right: 0
+  width: 100%
+  background-color: $color10
+  border-radius: 3px
+.w-dropdown__extend-element
+  padding: 13px 12px
+  font-size: 16px
+  line-height: 16px
+  color: $color2
+  font-family: $font-regular
+  &:hover
+    background-color: $color9
+    color: $color4
+
+.w-textarea
+  font-size: 16px
+  line-height: 22px
+  color: $color2
+  padding: 10px 12px
+  height: 70px
+  border-radius: 3px
+  background-color: $color10
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03)
+  overflow-y: auto
+  width: 100%
+  box-sizing: border-box
+  resize: none
+  border: none
