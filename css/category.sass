@@ -151,8 +151,14 @@
   border-top-left-radius: 0
   border-top-right-radius: 0
 
-.pop-article__box_blue
+.pop-article__box_color_0
   background-color: #587b89
+
+.pop-article__box_color_1
+  background-color: $color1
+
+.pop-article__box_color_2
+  background-color: $color2
 
 .pop-article__title
   font-family: $font-bold
@@ -449,7 +455,13 @@
   .pop-article
     width: 440px
     margin-bottom: -30px
+    margin-top: 40px
     &:first-child
+      margin-top: 0
+      margin-right: 40px
+    &:nth-child(2)
+      margin-top: 0
+    &:nth-child(odd)
       margin-right: 40px
   .pop-article__pic
     width: 440px

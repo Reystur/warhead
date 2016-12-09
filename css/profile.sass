@@ -1,0 +1,290 @@
+.profile
+  margin: 0 52px
+  width: 920px
+
+.profile__info-box
+  position: relative
+  min-height: 240px
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.profile__pic-box
+  float: left
+  width: 200px
+
+.profile__pic
+  width: 100%
+  height: 100%
+  border-radius: 50%
+  display: block
+
+.profile__info
+  float: left
+  width: 440px
+  margin-left: 40px
+  padding-top: 40px
+
+.profile__info-name-box
+  height: 32px
+  position: relative
+  overflow: hidden
+
+.profile__info-name
+  width: 150%
+  font-size: 25px
+  line-height: 32px
+  color: $color1
+  font-family: $font-medium
+
+.profile__shade
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  width: 100px
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff)
+
+.profile__shade_small
+  width: 25px
+
+.profile__info-signature
+  font-size: 18px
+  line-height: 28px
+  color: $color1
+  font-family: $font-regular
+  margin-top: 7px
+
+//.profile__info-rank-box
+
+.profile__info-medal
+  display: inline-block
+  vertical-align: baseline
+  margin-right: 4px
+  position: relative
+  top: 3px
+  img
+    width: 10px
+    height: 15px
+
+.profile__info-rank
+  margin-left: 10px
+  font-size: 14px
+  line-height: 28px
+  color: $color5
+  font-family: $font-regular
+
+.profile__info-bio
+  margin-top: 23px
+  font-size: 16px
+  line-height: 22px
+  color: $color2
+  font-family: $font-regular
+
+.profile__edit-link-box
+  position: absolute
+  left: 0
+  top: 220px
+  width: 200px
+
+.profile__socials
+  padding-top: 157px
+  margin-left: 720px
+
+.profile__socials-title
+  font-size: 16px
+  line-height: 24px
+  color: $color2
+  font-family: $font-medium
+  margin-bottom: 17px
+
+.profile__social-link
+  height: 40px
+  overflow: hidden
+  position: relative
+  display: block
+  margin-bottom: 20px
+  &:last-child
+    margin-bottom: 0
+  &:hover
+    .profile__social-name
+      text-decoration: underline
+    .profile__social-icon-box
+      color: $color4
+      border: solid 1px $color5
+      background-color: $color5
+
+.profile__social-icon-box
+  float: left
+  border-radius: 3px
+  border: solid 1px $color6
+  width: 40px
+  height: 40px
+  box-sizing: border-box
+  color: $color5
+  transition: color .5s, border .5s, background-color .5s
+
+.profile__social-icon
+  text-align: center
+  font-size: 18px
+  line-height: 1
+  padding-top: 10px
+
+.profile__social-name
+  margin-left: 50px
+  font-size: 14px
+  line-height: 40px
+  color: $color5
+  font-family: $font-regular
+  width: 150%
+
+.tabs
+  margin-top: 40px
+  height: 134px
+
+.tabs_3
+  .tabs__tab
+    width: 32%
+    margin-left: 2%
+    &:first-child
+      margin-left: 0
+.tabs_4
+  .tabs__tab
+    width: 23.5%
+    margin-left: 2%
+    &:first-child
+      margin-left: 0
+.tabs_5
+  .tabs__tab
+    width: 19%
+    margin-left: 1.25%
+    &:first-child
+      margin-left: 0
+
+.tabs__tab
+  display: block
+  float: left
+  height: 126px
+  border-bottom: 4px solid $color9
+  position: relative
+  background-color: $color16
+  transition: border .5s
+  cursor: pointer
+  &:hover
+    border-bottom: 4px solid $color12
+    .tabs__count
+      color: $color13
+.tabs__tab_active
+  background-color: $color4
+  border-bottom: 8px solid $color12
+  .tabs__count
+    color: $color13
+  &:hover
+    border-bottom: 8px solid $color12
+    .tabs__count
+      color: $color13
+  &:after
+    position: absolute
+    content: ""
+    width: 25px
+    height: 12px
+    left: 50%
+    bottom: -20px
+    margin-left: -12.5px
+    background: url("../img/tab-active.png") no-repeat center center
+    background-size: 25px 12px
+    display: block
+  .tabs__name
+    color: $color1
+    border-bottom: 1px solid transparent
+.tabs__hollow
+  text-align: center
+  padding-top: 27px
+  img
+    width: 76px
+    height: 77px
+    display: inline-block
+
+.tabs__name-box
+  padding-top: 23px
+  text-align: center
+.tabs__icon-box
+  display: inline-block
+  vertical-align: top
+  color: $color6
+  font-size: 24px
+  line-height: 1
+.tabs__name
+  display: inline-block
+  vertical-align: top
+  font-size: 16px
+  line-height: 18px
+  padding-top: 3px
+  font-family: $font-medium
+  color: $color9
+  border-bottom: 1px dashed $color9
+.tabs__count
+  padding-top: 5px
+  text-align: center
+  font-size: 48px
+  line-height: 52px
+  color: $color1
+  font-family: $font-medium
+  transition: color .5s
+
+.profile__tab
+  margin-top: 52px
+
+.profile__tab-line
+  display: none
+
+.profile__tab-title
+  display: none
+
+.comment-link
+  margin-left: 80px
+  width: 640px
+  position: relative
+  height: 120px
+  display: block
+  background-color: #f8f8f8
+  &:after
+    position: absolute
+    content: ""
+    width: 20px
+    height: 20px
+    right: 30px
+    top: 50%
+    margin-top: -10px
+    background: url("../img/comments-link.png") no-repeat center center
+    background-size: 20px
+    display: block
+.comment-link__pic-box
+  width: 120px
+  height: 120px
+  float: left
+  img
+    width: 100%
+    height: 100%
+    display: block
+.comment-link__text-box
+  margin: 0 60px 0 160px
+.comment-link__title
+  padding-top: 19px
+  font-size: 18px
+  line-height: 22px
+  color: $color1
+  font-family: $font-bold
+.comment-link__text
+  margin-top: 2px
+  font-size: 18px
+  line-height: 22px
+  color: $color5
+  font-family: $font-regular
+
+.profile__comments-box
+  margin-left: 103px
+  width: 660px
+  .comments__arrow
+    display: none
