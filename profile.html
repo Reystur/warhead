@@ -10,6 +10,35 @@
     <title>Profile</title>
 </head>
 <body>
+<div class="header">
+    <div class="header__wrapper">
+        <div class="header__user-pic">
+            <a href="#" class="header__user-pic_a">
+                <img src="img/user.png" alt="User name" class="header__user-pic_img">
+            </a>
+        </div>
+        <div class="header__menu"></div>
+        <div class="header__logo">
+            <a href="#" class="header__logo-a"><img src="img/logo.svg" alt="Main page" class="header__logo-pic"></a>
+        </div>
+        <div class="header__menu-list">
+            <div class="header__search">
+                <input type="text" class="w-input header__search-input">
+            </div>
+            <div class="header__menu-links">
+                <a href="#" class="header__menu-link">ВТОРАЯ МИРОВАЯ</a>
+                <a href="#" class="header__menu-link">НАШИ ДНИ</a>
+                <a href="#" class="header__menu-link header__menu-link_active">РОССИЯ</a>
+                <a href="#" class="header__menu-link">ТЕХНИКА</a>
+                <a href="#" class="header__menu-link">
+                    <span class="header__menu-more-text">ЕЩЁ</span>
+                    <span class="icon icon-w-arr-down header__menu-arrow"></span>
+                </a>
+                <a href="#" class="header__menu-link header__menu-random-page icon icon-w-arr"></a>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="wrapper">
     <div class="profile">
         <div class="profile__info-box">
@@ -34,7 +63,10 @@
                 </div>
             </div>
             <div class="profile__edit-link-box">
-                <a href="#" class="w-btn w-btn_block">Редактировать</a>
+                <a href="#" class="w-btn w-btn_block">
+                    <span class="icon icon-w-pan"></span>
+                    Редактировать
+                </a>
             </div>
             <div class="profile__socials">
                 <div class="profile__socials-title">Привязанные соцсети:</div>
