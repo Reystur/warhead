@@ -592,7 +592,8 @@ body {
   }
 
   .header__menu-link_active {
-    height: 17px;
+    box-sizing: border-box;
+    height: 20px;
   }
 
   .header__menu-more.header__menu-link_active:after {
