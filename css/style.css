@@ -1988,13 +1988,40 @@ body {
   float: left;
 }
 
-.article__aurhor-pic-box {
+.article__aurhor-pic {
   padding-top: 12px;
-  text-align: right;
+  float: right;
+  position: relative;
 }
-.article__aurhor-pic-box img {
+
+.article__aurhor-pic-link {
   width: 35px;
   height: 35px;
+  position: relative;
+  display: block;
+}
+.article__aurhor-pic-link img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.article__aurhor-pic-link:hover .article__aurhor-pic-hover {
+  border: 3px solid #4593d4;
+}
+
+.article__aurhor-pic-hover {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  transition: border 0.5s;
 }
 
 .article__tag-box {
@@ -2018,10 +2045,12 @@ body {
   line-height: 16px;
   font-family: brutal_medium, sans-serif;
   color: #47453e;
-  transition: color 0.5s;
+  transition: color 0.5s, border 0.5s;
+  border-bottom: 1px solid transparent;
 }
 .article__author-name-link:hover {
   color: #4593d4;
+  border-bottom: 1px solid #4593d4;
 }
 
 .article__connections {
@@ -2037,10 +2066,16 @@ body {
 
 .article__topic-link {
   font-size: 14px;
-  line-height: 12px;
+  line-height: 16px;
   font-family: brutal_medium, sans-serif;
   color: #47453e;
   display: inline-block;
+  transition: color 0.5s, border 0.5s;
+  border-bottom: 1px solid transparent;
+}
+.article__topic-link:hover {
+  color: #4693d4;
+  border-bottom: 1px solid #4693d4;
 }
 
 .article__tags {
@@ -2049,9 +2084,15 @@ body {
 }
 .article__tags a {
   font-size: 12px;
-  line-height: 12px;
+  line-height: 16px;
   font-family: brutal_regular, sans-serif;
   color: #47453e;
+  transition: color 0.5s, border 0.5s;
+  border-bottom: 1px solid transparent;
+}
+.article__tags a:hover {
+  color: #4693d4;
+  border-bottom: 1px solid #4693d4;
 }
 
 .article__date {
@@ -2677,7 +2718,7 @@ body {
     height: 83px;
   }
 
-  .article__aurhor-pic-box {
+  .article__aurhor-pic {
     padding-top: 25px;
   }
 
@@ -2691,7 +2732,7 @@ body {
 
   .article__author-name-link {
     font-size: 18px;
-    line-height: 18px;
+    line-height: 22px;
   }
 
   .article__connections {
