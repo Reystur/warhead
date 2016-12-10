@@ -295,7 +295,7 @@ body {
   font-family: brutal_medium, sans-serif;
   float: left;
   position: relative;
-  padding: 0 8px;
+  padding: 3px 7px 4px;
 }
 .header__menu-link:hover {
   color: #f7ab32;
@@ -307,7 +307,6 @@ body {
 .header__menu-link-box {
   display: inline-block;
   vertical-align: top;
-  line-height: 1;
 }
 
 .header__menu-arrow {
