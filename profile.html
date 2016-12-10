@@ -10,36 +10,6 @@
     <title>Profile</title>
 </head>
 <body>
-<div class="header">
-    <div class="header__wrapper">
-        <div class="header__user-pic">
-            <a href="#">
-                <img src="img/user.png" alt="User name">
-            </a>
-        </div>
-        <div class="header__menu"></div>
-        <div class="header__logo">
-            <a href="#"><img src="img/logo.svg" alt="Main page" class="header__logo-pic"></a>
-        </div>
-        <div class="header__menu-list">
-            <div class="header__search">
-                <a href="#" class="header__search-btn"></a>
-                <input type="text" class="header__search-input">
-            </div>
-            <div class="header__menu-links">
-                <a href="#" class="header__menu-link">ВТОРАЯ МИРОВАЯ</a>
-                <a href="#" class="header__menu-link">НАШИ ДНИ</a>
-                <a href="#" class="header__menu-link header__menu-link_active">РОССИЯ</a>
-                <a href="#" class="header__menu-link">ТЕХНИКА</a>
-                <a href="#" class="header__menu-link">
-                    <span class="header__menu-more-text">ЕЩЁ</span>
-                    <span class="icon icon-w-arr-down header__menu-arrow"></span>
-                </a>
-                <a href="#" class="header__menu-link header__menu-random-page"></a>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="wrapper">
     <div class="profile">
         <div class="profile__info-box">
@@ -126,7 +96,7 @@
                 <a href="#" class="tabs__tab">
                     <div class="tabs__name-box">
                         <div class="tabs__icon-box">
-                            <div class="icon icon-w-layka tabs__icon"></div>
+                            <div class="icon icon-w-article tabs__icon"></div>
                         </div>
                         <div class="tabs__name">Статьи</div>
                     </div>
@@ -135,7 +105,7 @@
                 <a href="#" class="tabs__tab">
                     <div class="tabs__name-box">
                         <div class="tabs__icon-box">
-                            <div class="icon icon-w-layka tabs__icon"></div>
+                            <div class="icon icon-w-excomment tabs__icon"></div>
                         </div>
                         <div class="tabs__name">Комментарии</div>
                     </div>
@@ -145,7 +115,7 @@
         </div>
         <div class="profile__tab">
             <div class="profile__tab-line"></div>
-            <div class="profile__tab-title">Ранее</div>
+            <div class="profile__tab-title">Избранное</div>
             <div class="pop-articles">
                 <a href="#" class="same-article same-article_big">
                     <div class="same-article__pic-box same-article__pic-box_big">
@@ -247,7 +217,7 @@
             <a href="#" class="tabs__tab tabs__tab_active">
                 <div class="tabs__name-box">
                     <div class="tabs__icon-box">
-                        <div class="icon icon-w-layka tabs__icon"></div>
+                        <div class="icon icon-w-article tabs__icon"></div>
                     </div>
                     <div class="tabs__name">Статьи</div>
                 </div>
@@ -256,7 +226,7 @@
             <a href="#" class="tabs__tab">
                 <div class="tabs__name-box">
                     <div class="tabs__icon-box">
-                        <div class="icon icon-w-layka tabs__icon"></div>
+                        <div class="icon icon-w-excomment tabs__icon"></div>
                     </div>
                     <div class="tabs__name">Комментарии</div>
                 </div>
@@ -268,7 +238,7 @@
         </div>
         <div class="profile__tab">
             <div class="profile__tab-line"></div>
-            <div class="profile__tab-title">Ранее</div>
+            <div class="profile__tab-title">Статьи</div>
             <div class="pop-articles">
                 <div class="pop-article">
                     <a href="#" class="pop-article__link">
@@ -382,7 +352,7 @@
             <a href="#" class="tabs__tab">
                 <div class="tabs__name-box">
                     <div class="tabs__icon-box">
-                        <div class="icon icon-w-layka tabs__icon"></div>
+                        <div class="icon icon-w-article tabs__icon"></div>
                     </div>
                     <div class="tabs__name">Статьи</div>
                 </div>
@@ -391,7 +361,7 @@
             <a href="#" class="tabs__tab tabs__tab_active">
                 <div class="tabs__name-box">
                     <div class="tabs__icon-box">
-                        <div class="icon icon-w-layka tabs__icon"></div>
+                        <div class="icon icon-w-excomment tabs__icon"></div>
                     </div>
                     <div class="tabs__name">Комментарии</div>
                 </div>
@@ -406,13 +376,15 @@
         </div>
         <div class="profile__tab">
             <div class="profile__tab-line"></div>
-            <div class="profile__tab-title">Ранее</div>
+            <div class="profile__tab-title">Комментарии</div>
             <a href="#" class="comment-link">
                 <div class="comment-link__pic-box"><img src="img/category/pic4.png" alt="Tank"></div>
                 <div class="comment-link__text-box">
                     <div class="comment-link__title">Комментарии к статье</div>
+                    <div class="comment-link__theme">РОССИЯ</div>
                     <div class="comment-link__text">«Танк Merkava 4 показал активную защиту во время учений»</div>
                 </div>
+                <div class="comment-link__shade"></div>
             </a>
             <div class="profile__comments-box">
                 <div class="comments">
@@ -538,30 +510,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="footer">
-    <div class="footer__wrapper">
-        <div class="footer__nav-box">
-            <div class="footer__links-box">
-                <a href="#" class="footer__link">About Us</a>
-                <div class="footer__link-dot"></div>
-                <a href="#" class="footer__link">Terms of Service</a>
-                <div class="footer__link-dot"></div>
-                <a href="#" class="footer__link">Trademarks</a>
-                <div class="footer__link-dot"></div>
-                <a href="#" class="footer__link">Privacy Policy</a>
+            <div class="category__load-more-box profile__comments-more">
+                <div class="category__load-more">
+                    Загрузить<br>больше
+                </div>
             </div>
-            <div class="footer__copyright">
-                © 2016 Warhead. All Rights Reserved
-            </div>
-        </div>
-        <div class="footer__socials-box">
-            <a href="#" class="footer__od"></a>
-            <a href="#" class="footer__tw"></a>
-            <a href="#" class="footer__vk"></a>
-            <a href="#" class="footer__fb"></a>
         </div>
     </div>
 </div>
