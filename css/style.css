@@ -221,7 +221,12 @@ body {
   width: 100%;
   box-sizing: border-box;
   resize: none;
-  border: none;
+  border: solid 1px #f5f5f5;
+  outline: none;
+}
+.w-textarea:focus {
+  box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5);
+  border: solid 1px #a2d0e3;
 }
 
 .header {
@@ -797,6 +802,7 @@ body {
     width: 35px;
     height: 28px;
     margin-right: 45px;
+    margin-top: -2px;
   }
 
   .header__tw {
@@ -1586,6 +1592,50 @@ body {
   }
 }
 /*R320 */
+.newsletter__social-fb, .newsletter__social-vk, .newsletter__social-tw, .newsletter__social-od {
+  color: #4593d4;
+}
+.newsletter__social-fb:hover, .newsletter__social-vk:hover, .newsletter__social-tw:hover, .newsletter__social-od:hover {
+  color: #347bb6;
+}
+
+.newsletter__social-fb {
+  width: 10px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+.newsletter__social-vk {
+  width: 25px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-left: 42px;
+  font-size: 24px;
+  margin-top: -1px;
+}
+
+.newsletter__social-tw {
+  width: 21px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-left: 40px;
+  font-size: 21px;
+}
+
+.newsletter__social-od {
+  width: 12px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-left: 38px;
+  font-size: 20px;
+}
+
 @media (max-width: 763px) {
   .newsletter {
     margin: 60px 20px 0;
@@ -1636,43 +1686,32 @@ body {
   }
 
   .newsletter__social-fb {
-    background: url("../img/socials/fb.png") no-repeat center center;
-    background-size: 15px 30px;
     width: 15px;
     height: 30px;
-    display: block;
-    float: left;
-    margin-left: 10px;
+    margin-left: 0;
+    font-size: 30px;
   }
 
   .newsletter__social-vk {
-    background: url("../img/socials/vk.png") no-repeat center center;
-    background-size: 37px 21px;
     width: 37px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 42px;
+    margin-top: -2px;
+    font-size: 35px;
   }
 
   .newsletter__social-tw {
-    background: url("../img/socials/tw.png") no-repeat center center;
-    background-size: 30px 25px;
     width: 30px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 34px;
+    font-size: 31px;
   }
 
   .newsletter__social-od {
-    background: url("../img/socials/od.png") no-repeat center center;
-    background-size: 18px 30px;
     width: 18px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 32px;
+    font-size: 30px;
   }
 }
 /*R764 */
@@ -1737,42 +1776,14 @@ body {
   }
 
   .newsletter__social-fb {
-    background: url("../img/socials/fb.png") no-repeat center center;
-    background-size: 10px 20px;
-    width: 10px;
-    height: 20px;
-    display: block;
-    float: left;
     margin-left: 10px;
   }
 
-  .newsletter__social-vk {
-    background: url("../img/socials/vk.png") no-repeat center center;
-    background-size: 25px 14px;
-    width: 25px;
-    height: 20px;
-    display: block;
-    float: left;
-    margin-left: 42px;
-  }
-
   .newsletter__social-tw {
-    background: url("../img/socials/tw.png") no-repeat center center;
-    background-size: 21px 17px;
-    width: 21px;
-    height: 20px;
-    display: block;
-    float: left;
     margin-left: 34px;
   }
 
   .newsletter__social-od {
-    background: url("../img/socials/od.png") no-repeat center center;
-    background-size: 12px 20px;
-    width: 12px;
-    height: 20px;
-    display: block;
-    float: left;
     margin-left: 32px;
   }
 }
@@ -1832,46 +1843,6 @@ body {
     height: 20px;
     margin-top: 22px;
   }
-
-  .newsletter__social-fb {
-    background: url("../img/socials/fb.png") no-repeat center center;
-    background-size: 10px 20px;
-    width: 10px;
-    height: 20px;
-    display: block;
-    float: left;
-    margin-left: 10px;
-  }
-
-  .newsletter__social-vk {
-    background: url("../img/socials/vk.png") no-repeat center center;
-    background-size: 25px 14px;
-    width: 25px;
-    height: 20px;
-    display: block;
-    float: left;
-    margin-left: 42px;
-  }
-
-  .newsletter__social-tw {
-    background: url("../img/socials/tw.png") no-repeat center center;
-    background-size: 21px 17px;
-    width: 21px;
-    height: 20px;
-    display: block;
-    float: left;
-    margin-left: 34px;
-  }
-
-  .newsletter__social-od {
-    background: url("../img/socials/od.png") no-repeat center center;
-    background-size: 12px 20px;
-    width: 12px;
-    height: 20px;
-    display: block;
-    float: left;
-    margin-left: 32px;
-  }
 }
 /*R1440 */
 @media (min-width: 1440px) {
@@ -1927,43 +1898,31 @@ body {
   }
 
   .newsletter__social-fb {
-    background: url("../img/socials/fb.png") no-repeat center center;
-    background-size: 15px 30px;
     width: 15px;
     height: 30px;
-    display: block;
-    float: left;
-    margin-left: 10px;
+    font-size: 30px;
   }
 
   .newsletter__social-vk {
-    background: url("../img/socials/vk.png") no-repeat center center;
-    background-size: 37px 21px;
     width: 37px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 55px;
+    font-size: 35px;
+    margin-top: -2px;
   }
 
   .newsletter__social-tw {
-    background: url("../img/socials/tw.png") no-repeat center center;
-    background-size: 30px 25px;
     width: 30px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 53px;
+    font-size: 30px;
   }
 
   .newsletter__social-od {
-    background: url("../img/socials/od.png") no-repeat center center;
-    background-size: 18px 30px;
     width: 18px;
     height: 30px;
-    display: block;
-    float: left;
     margin-left: 53px;
+    font-size: 30px;
   }
 }
 .article__sum-box {
@@ -1988,7 +1947,6 @@ body {
   height: 25px;
   color: #47453e;
   font-size: 25px;
-  transition: color 0.5s;
 }
 .article__share-link:hover {
   color: #4593d4;
@@ -2025,7 +1983,6 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  transition: border 0.5s;
   border: 2px solid transparent;
   border-radius: 50%;
 }
@@ -2045,7 +2002,6 @@ body {
   box-sizing: border-box;
   border-radius: 50%;
   border: 3px solid transparent;
-  transition: border 0.5s;
 }
 
 .article__tag-box {
@@ -2069,7 +2025,6 @@ body {
   line-height: 16px;
   font-family: brutal_medium, sans-serif;
   color: #47453e;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__author-name-link:hover {
@@ -2094,7 +2049,6 @@ body {
   font-family: brutal_medium, sans-serif;
   color: #47453e;
   display: inline-block;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__topic-link:hover {
@@ -2111,7 +2065,6 @@ body {
   line-height: 16px;
   font-family: brutal_regular, sans-serif;
   color: #47453e;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__tags a:hover {
@@ -2363,7 +2316,7 @@ body {
     font-family: brutal_bold, sans-serif;
     color: #47453e;
     margin: 0 28px;
-    padding: 29px 60px 43px 40px;
+    padding: 29px 60px 29px 40px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -3830,7 +3783,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 30px 20px 10px 20px;
@@ -3943,7 +3901,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 50px 64px 20px 40px;
@@ -4053,7 +4016,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 50px 40px 20px;
@@ -4163,7 +4131,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 58px 60px 28px;
