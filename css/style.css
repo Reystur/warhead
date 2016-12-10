@@ -665,6 +665,10 @@ body {
     width: 10px;
     font-size: 20px;
   }
+
+  .header__menu-link-box {
+    height: 17px;
+  }
 }
 /*R1440 */
 @media (min-width: 1440px) {
