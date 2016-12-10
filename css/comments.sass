@@ -20,18 +20,19 @@
   margin-left: 115px
   padding-bottom: 50px
 
-  textarea
-    width: 100%
-    height: 112px
-    background: $color10
-    border: 1px solid $color10
-    padding: 16px 20px
-    box-sizing: border-box
-    resize: none
-    font-size: 18px
-    line-height: 26px
-    font-family: $font-regular
-    color: $color2
+.comments__textarea-input
+  width: 100%
+  height: 112px
+  background: $color10
+  border: 1px solid $color10
+  padding: 16px 20px
+  box-sizing: border-box
+  resize: none
+  font-size: 18px
+  line-height: 26px
+  font-family: $font-regular
+  color: $color2
+  outline: none
 
 .comments__button-pos
   float: right
@@ -46,18 +47,21 @@
   padding: 11px 0
   display: block
   font-family: $font-regular
+  &:hover
+    background-color: $color18
 
 .comments__textarea-pannel
   float: left
   width: 98.8%
   margin-bottom: 5px
+  position: relative
 
 .comments__textarea-pannel-pos_left
   float: left
 
 .comments__textarea-pannel-pos_right
   float: right
-  display: none
+  display: block
 
 .comments__textbutt-pos
   float: left
@@ -74,8 +78,11 @@
   padding-top: 20px
   padding-right: 31px
 
-.comments__textbutt a img
-  height: 15px
+.comments__button-b
+  color: $color9
+  font-size: 15px
+  &:hover
+    color: $color18
 
 .comments__comment
   margin-top: 50px
@@ -100,12 +107,28 @@
 
 .comments__commentarea-autorname
   display: inline-block
-  padding-right: 23px
-  background: url(../img/oval-black.png) no-repeat right center
-  background-size: 3px
+  color: $color1
+  float: left
+  &:hover
+    color: $color9
+    border-bottom: 1px solid $color9
 
-.comments__commentarea-autorrang
-  margin-left: 18px
+.comments__dot
+  float: left
+  margin: 8px 17px 0 17px
+  font-size: 3px
+
+.comments__dot-blue
+  color: $color5
+  float: left
+  margin: 9px 17px 0 17px
+  font-size: 3px
+
+.comments__dot-grey
+  color: $color19
+  float: left
+  margin: 9px 17px 0 17px
+  font-size: 3px
 
 .comments__middot
   padding-left: 18px
@@ -136,42 +159,46 @@
 
 .comments__footer-replybttn
   display: inline-block
-  padding-right: 23px
-  background: url(../img/oval-blue.png) no-repeat right center
-  background-size: 3px
   line-height: 23px
+  float: left
 
 .comments__footer-reply
   font-size: 14px
   border-bottom: 1px dashed $color5
   color: $color5
   line-height: 23px
+  &:hover
+    color: $color18
 
 .comments__footer-likebttn
-  margin-left: 18px
   line-height: 23px
+  float: left
 
 .comments__like
-  padding-left: 19px
-  background: url('../img/like.png') no-repeat center
-  background-size: 17px 15px
-  height: 15px
-  line-height: 23px
+  font-size: 16px
+  margin-top: 2px
+  display: block
+  color: $color5
+  margin-right: 5px
+  &:hover
+    color: $color18
 
 .comments__like-counts
   color: $color5
   font-size: 14px
-  padding: 0 23px 0 4px
+  padding: 0 4px 0 4px
   display: inline-block
-  background: url(../img/oval-grey.png) no-repeat right center
-  background-size: 3px
   line-height: 23px
+  float: left
 
 .comments__datetime
-  color: #adaeae
+  color: $color19
   font-size: 14px
-  margin-left: 18px
   line-height: 23px
+  float: left
+
+.comments__clear
+  clear: both
 
 /*R320
 @media (max-width: $tablet - 1 + px)
@@ -220,7 +247,7 @@
   .comments__commentarea-autor
     font-size: 14px
 
-  .comments__textarea textarea
+  .comments__textarea-input
     font-size: 16px
     line-height: 22px
 
@@ -247,6 +274,18 @@
   .comments__footer-reply, .comments__like-counts, .comments__datetime
     font-size: 12px
 
+  .comments__like
+    font-size: 13px
+
+  .comments__dot
+    margin: 6px 17px 0 17px
+
+  .comments__dot-blue
+    margin: 10px 17px 0 17px
+
+  .comments__dot-grey
+    margin: 10px 17px 0 17px
+
   .comments__textbutt2-pos
     padding-left: 20px
 
@@ -262,7 +301,7 @@
   .comments__textarea, .comments__autorarea, .comments__commentarea
     margin-left: 85px
 
-  .comments__textarea textarea
+  .comments__textarea-input
     font-size: 16px
     line-height: 24px
 
@@ -282,6 +321,22 @@
 
   .comments__footer-reply, .comments__like-counts, .comments__datetime
     font-size: 12px
+
+  .comments__like
+    font-size: 13px
+
+  .comments__dot
+    margin: 6px 17px 0 17px
+
+  .comments__dot-blue
+    margin: 6px 17px 0 17px
+
+  .comments__dot-grey
+    margin: 10px 17px 0 17px
+
+  .comments__textarea-pannel-pos_right
+    position: absolute
+    right: 170px
 
 /*R1024
 @media (min-width: 1024px) and (max-width: 1439px)
@@ -295,7 +350,7 @@
   .comments__textarea, .comments__autorarea, .comments__commentarea
     margin-left: 85px
 
-  .comments__textarea textarea
+  .comments__textarea-input
     font-size: 16px
     line-height: 24px
 
@@ -316,7 +371,29 @@
   .comments__footer-reply, .comments__like-counts, .comments__datetime
     font-size: 12px
 
+  .comments__like
+    font-size: 13px
+
+  .comments__dot
+    margin: 6px 17px 0 17px
+
+  .comments__dot-blue
+    margin: 10px 17px 0 17px
+
+  .comments__dot-grey
+    margin: 10px 17px 0 17px
+
+  .comments__textarea-pannel-pos_right
+    position: absolute
+    right: 170px
+
+
+
 /*R1440
 @media (min-width: $desktop-wide + px)
   .comments
     margin: 60px 40px 60px 52px
+
+  .comments__textarea-pannel-pos_right
+    position: absolute
+    right: 170px

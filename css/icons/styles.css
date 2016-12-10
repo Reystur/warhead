@@ -107,3 +107,9 @@
 .icon-w-layka:before {
   content: "\61";
 }
+.icon-w-article:before {
+  content: "\62";
+}
+.icon-w-excomment:before {
+  content: "\79";
+}
