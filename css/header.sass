@@ -1,6 +1,7 @@
 .header
   background-color: $color1
   clear: both
+  position: relative
 
 .header__user-pic
   float: right
@@ -53,18 +54,21 @@
   font-family: $font-medium
   float: left
   position: relative
+  padding: 0 8px
   &:hover
     color: $color3
-    text-decoration: underline
-
-.header__menu-more-text
-  padding-right: 10px
+    .header__menu-link-box
+      text-decoration: underline
+.header__menu-link-box
+  display: inline-block
+  vertical-align: top
+  line-height: 1
 
 .header__menu-arrow
-  position: absolute
-  top: 8px
-  right: 0
+  display: inline-block
+  vertical-align: top
   font-size: 11px
+  margin-left: 5px
 
 .header__menu-link_active
   color: $color1
@@ -264,20 +268,11 @@
     padding-top: 1px
   .header__menu-link
     font-size: 14px
-    line-height: 16px
     margin-left: 0
-    padding: 4px 7px 2px 7px
-  .header__menu-arrow
-    top: 6px
   .header__menu-more
     &.header__menu-link_active
       &:after
         top: 49px
-      background: url("../img/menu-more-active.png") no-repeat 45px center $color3
-      background-size: 10px 7px
-    padding-right: 27px
-    background: url("../img/menu-more.png") no-repeat 45px center
-    background-size: 10px 7px
   .header__menu-random-page
     width: 19px
     height: 16px
@@ -365,17 +360,10 @@
     height: 42px
   .header__menu-link
     font-size: 16px
-    line-height: 22px
-    padding: 4px 9px 2px 9px
   .header__menu-more
     &.header__menu-link_active
       &:after
-        top: 63px
-      background: url("../img/menu-more-active.png") no-repeat 53px 8px $color3
-      background-size: 15px 10px
-    padding-right: 33px
-    background: url("../img/menu-more.png") no-repeat 53px 10px
-    background-size: 15px 10px
+        top: 70px
   .header__menu-arrow
     top: 6px
   .header__menu-random-page
