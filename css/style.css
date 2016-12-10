@@ -5128,6 +5128,10 @@ body {
   display: none;
 }
 
+.tabs__icon-box {
+  margin-right: 5px;
+}
+
 /*R320 */
 @media (max-width: 763px) {
   .profile {
@@ -5364,6 +5368,7 @@ body {
     color: #dcdcdc;
     font-size: 24px;
     line-height: 1;
+    margin-right: 0;
   }
 
   .tabs__name {
