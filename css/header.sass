@@ -1,6 +1,7 @@
 .header
   background-color: $color1
   clear: both
+  position: relative
 
 .header__user-pic
   float: right
@@ -58,12 +59,12 @@
     text-decoration: underline
 
 .header__menu-more-text
-  padding-right: 10px
+  padding-right: 12px
 
 .header__menu-arrow
   position: absolute
   top: 8px
-  right: 0
+  right: 5px
   font-size: 11px
 
 .header__menu-link_active
@@ -273,11 +274,6 @@
     &.header__menu-link_active
       &:after
         top: 49px
-      background: url("../img/menu-more-active.png") no-repeat 45px center $color3
-      background-size: 10px 7px
-    padding-right: 27px
-    background: url("../img/menu-more.png") no-repeat 45px center
-    background-size: 10px 7px
   .header__menu-random-page
     width: 19px
     height: 16px
@@ -370,12 +366,7 @@
   .header__menu-more
     &.header__menu-link_active
       &:after
-        top: 63px
-      background: url("../img/menu-more-active.png") no-repeat 53px 8px $color3
-      background-size: 15px 10px
-    padding-right: 33px
-    background: url("../img/menu-more.png") no-repeat 53px 10px
-    background-size: 15px 10px
+        top: 70px
   .header__menu-arrow
     top: 6px
   .header__menu-random-page
