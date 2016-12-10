@@ -3816,7 +3816,7 @@ body {
     max-width: 100%;
   }
   .markup-article .half-pic {
-    margin: 35px 40px 0 0;
+    margin: 35px 0 0 0;
     position: relative;
   }
   .markup-article .half-pic:after {
@@ -3825,24 +3825,18 @@ body {
     display: table;
   }
   .markup-article .half-pic img {
-    max-width: 50%;
-    margin-right: 55%;
+    width: 100%;
     display: block;
   }
   .markup-article .half-pic__text {
-    float: right;
-    margin: 0;
-    width: 45%;
+    margin: 10px 20px;
   }
   .markup-article .half-pic__note {
     font-size: 14px;
     line-height: 18px;
     font-family: brutal_regular, sans-serif;
     color: #8a8a8a;
-    position: absolute;
-    bottom: 0;
-    left: 55%;
-    width: 45%;
+    margin: 10px 20px 5px;
   }
   .markup-article blockquote {
     margin: 30px 20px;
