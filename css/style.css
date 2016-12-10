@@ -802,6 +802,7 @@ body {
     width: 35px;
     height: 28px;
     margin-right: 45px;
+    margin-top: -2px;
   }
 
   .header__tw {
@@ -1946,7 +1947,6 @@ body {
   height: 25px;
   color: #47453e;
   font-size: 25px;
-  transition: color 0.5s;
 }
 .article__share-link:hover {
   color: #4593d4;
@@ -1983,7 +1983,6 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  transition: border 0.5s;
   border: 2px solid transparent;
   border-radius: 50%;
 }
@@ -2003,7 +2002,6 @@ body {
   box-sizing: border-box;
   border-radius: 50%;
   border: 3px solid transparent;
-  transition: border 0.5s;
 }
 
 .article__tag-box {
@@ -2027,7 +2025,6 @@ body {
   line-height: 16px;
   font-family: brutal_medium, sans-serif;
   color: #47453e;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__author-name-link:hover {
@@ -2052,7 +2049,6 @@ body {
   font-family: brutal_medium, sans-serif;
   color: #47453e;
   display: inline-block;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__topic-link:hover {
@@ -2069,7 +2065,6 @@ body {
   line-height: 16px;
   font-family: brutal_regular, sans-serif;
   color: #47453e;
-  transition: color 0.5s, border 0.5s;
   border-bottom: 1px solid transparent;
 }
 .article__tags a:hover {
@@ -2321,7 +2316,7 @@ body {
     font-family: brutal_bold, sans-serif;
     color: #47453e;
     margin: 0 28px;
-    padding: 29px 60px 43px 40px;
+    padding: 29px 60px 29px 40px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
