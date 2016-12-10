@@ -2018,6 +2018,10 @@ body {
   line-height: 16px;
   font-family: brutal_medium, sans-serif;
   color: #47453e;
+  transition: color 0.5s;
+}
+.article__author-name-link:hover {
+  color: #4593d4;
 }
 
 .article__connections {
