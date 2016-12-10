@@ -69,8 +69,9 @@
   vertical-align: top
   font-size: 11px
   margin-left: 5px
+  padding-top: 3px
 
-.header__menu-shuffle
+//.header__menu-shuffle
 
 .header__menu-link_active
   color: $color1
@@ -78,6 +79,8 @@
   &:hover
     color: $color1
     text-decoration: none
+  .header__menu-arrow
+    transform: translate(0, 1px) rotate(-180deg)
 
 .header__menu-more
   &.header__menu-link_active
