@@ -44,6 +44,9 @@
   width: 20px;
   height: 20px;
 }
+.modal-box__close:hover {
+  background: url("../img/close-hover.svg") no-repeat center center;
+}
 
 .modal-box__title {
   font-size: 24px;
@@ -68,42 +71,31 @@
 .modal-socials a {
   width: 58px;
   height: 58px;
+  box-sizing: border-box;
   border: 1px solid #dcdcdc;
   border-radius: 3px;
+  color: #4593d4;
   display: inline-block;
+  font-size: 29px;
+  padding-top: 15px;
+  transition: color 0.5s, border 0.5s, background-color 0.5s;
+}
+.modal-socials a:hover {
+  color: #fff;
+  border: 1px solid #4593d4;
+  background-color: #4593d4;
 }
 
 .modal-socials__fb {
-  background: url("../img/socials/fb.png") no-repeat center center;
-  background-size: 12px 26px;
   margin-bottom: 15px;
 }
 
 .modal-socials__vk {
-  background: url("../img/socials/vk.png") no-repeat center center;
-  background-size: 28px 16px;
   margin-bottom: 15px;
 }
 
 .modal-socials__tw {
-  background: url("../img/socials/tw.png") no-repeat center center;
-  background-size: 25px 20px;
   margin-bottom: 15px;
-}
-
-.modal-socials__od {
-  background: url("../img/socials/od.png") no-repeat center center;
-  background-size: 16px 27px;
-}
-
-.modal-socials__in {
-  background: url("../img/socials/in.png") no-repeat center center;
-  background-size: 22px 21px;
-}
-
-.modal-socials__gp {
-  background: url("../img/socials/gp.png") no-repeat center center;
-  background-size: 30px 19px;
 }
 
 .modal-box__bot-link-box {
