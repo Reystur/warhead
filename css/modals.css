@@ -108,6 +108,8 @@
   line-height: 16px;
   font-family: brutal_regular, sans-serif;
   color: #4693d4;
+}
+.modal-box__bot-link:hover {
   text-decoration: underline;
 }
 
@@ -199,6 +201,8 @@
 }
 .modal-news__text a {
   color: #4693d4;
+}
+.modal-news__text a:hover {
   text-decoration: underline;
 }
 
