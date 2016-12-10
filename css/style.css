@@ -2120,6 +2120,10 @@ body {
   background-color: #f6f6f6;
 }
 
+.authors__material-a {
+  color: #8a8a8a;
+}
+
 /*R320 */
 @media (max-width: 763px) {
   .banner {
