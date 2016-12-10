@@ -3783,7 +3783,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 30px 20px 10px 20px;
@@ -3896,7 +3901,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 50px 64px 20px 40px;
@@ -4006,7 +4016,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 50px 40px 20px;
@@ -4116,7 +4131,12 @@ body {
   }
   .markup-article a {
     color: #4693d4;
+  }
+  .markup-article a:hover {
     text-decoration: underline;
+  }
+  .markup-article a:visited {
+    color: #67b2cf;
   }
   .markup-article h2 {
     margin: 58px 60px 28px;
