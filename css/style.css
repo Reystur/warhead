@@ -6524,6 +6524,161 @@ body {
     display: none;
   }
 }
+/*R320 */
+@media (max-width: 763px) {
+  .about {
+    margin: 0 auto;
+  }
+
+  .about__description-box {
+    margin: 40px 20px;
+  }
+
+  .about__title-line {
+    width: 90px;
+    height: 3px;
+    background-color: #faaf3f;
+  }
+
+  .about__title {
+    font-family: brutal_bold, sans-serif;
+    font-size: 34px;
+    line-height: 38px;
+    color: #47453e;
+    margin: 10px 0 0;
+  }
+
+  .about__intro {
+    font-family: brutal_regular, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #47453e;
+    margin: 19px 0 0;
+  }
+
+  .about__author-box {
+    padding: 0 20px;
+  }
+
+  .about__author-box_grey {
+    padding: 40px 20px 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #f8f8f8;
+  }
+  .about__author-box_grey .author {
+    margin-top: 30px;
+  }
+  .about__author-box_grey .author:first-child {
+    margin-top: 0;
+  }
+  .about__author-box_grey .author:last-child {
+    margin-bottom: 0;
+  }
+
+  .author {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .about__author-box:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
+
+  .author__pic-box {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 13px;
+    float: left;
+  }
+
+  .author__pic {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .author__info {
+    margin-left: 74px;
+  }
+
+  .author__name {
+    font-family: brutal_medium, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #213036;
+  }
+
+  .author__signature {
+    margin-top: 12px;
+    font-family: brutal_regular, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #213036;
+  }
+
+  .author__rank-box {
+    margin-top: 1px;
+  }
+
+  .author__medal {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+  }
+  .author__medal img {
+    width: 10px;
+    height: 15px;
+  }
+
+  .author__rank {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #4693d4;
+    font-family: brutal_regular, sans-serif;
+  }
+
+  .author__article-count {
+    margin-top: 1px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4693d4;
+    font-family: brutal_regular, sans-serif;
+    text-decoration: underline;
+  }
+
+  .author__bio {
+    margin-top: 28px;
+    color: #47453e;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: brutal_regular, sans-serif;
+  }
+
+  .about__most-active-box {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .about__most-active-line {
+    width: 40px;
+    height: 3px;
+    background-color: #e6502d;
+  }
+
+  .about__most-active-title {
+    margin-top: 11px;
+    color: #47453e;
+    font-size: 25px;
+    line-height: 27px;
+    font-family: brutal_bold, sans-serif;
+  }
+}
 /*R764 */
 @media (min-width: 764px) and (max-width: 1023px) {
   .about {
