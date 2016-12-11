@@ -6649,6 +6649,11 @@ body {
     line-height: 16px;
     color: #4693d4;
     font-family: brutal_regular, sans-serif;
+  }
+  .author__article-count a {
+    color: #4693d4;
+  }
+  .author__article-count a:hover {
     text-decoration: underline;
   }
 
@@ -6807,6 +6812,11 @@ body {
     line-height: 16px;
     color: #4693d4;
     font-family: brutal_regular, sans-serif;
+  }
+  .author__article-count a {
+    color: #4693d4;
+  }
+  .author__article-count a:hover {
     text-decoration: underline;
   }
 
@@ -7000,6 +7010,11 @@ body {
     line-height: 16px;
     color: #4693d4;
     font-family: brutal_regular, sans-serif;
+  }
+  .author__article-count a {
+    color: #4693d4;
+  }
+  .author__article-count a:hover {
     text-decoration: underline;
   }
 
@@ -7204,6 +7219,11 @@ body {
     line-height: 16px;
     color: #4693d4;
     font-family: brutal_regular, sans-serif;
+  }
+  .author__article-count a {
+    color: #4693d4;
+  }
+  .author__article-count a:hover {
     text-decoration: underline;
   }
 
