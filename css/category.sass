@@ -75,6 +75,7 @@
   left: 0
   background-color: $color1
   opacity: 0
+  -webkit-transform: translateZ(0)
   transition: opacity .5s
 
 .category__main-article-inner
@@ -112,73 +113,6 @@
 .category__sub-title
   font-family: $font-bold
   color: $color2
-
-.pop-articles:after
-  display: table
-  content: ""
-  clear: both
-
-.pop-article
-  float: left
-
-.pop-article__link
-  display: block
-  position: relative
-  &:hover
-    .pop-article__hover
-      opacity: .3
-    .pop-article__text
-      text-decoration: underline
-
-.pop-article__pic
-  display: block
-
-.pop-article__hover
-  display: block
-  position: absolute
-  top: 0
-  left: 0
-  background-color: $color1
-  opacity: 0
-  transition: opacity .5s
-
-.pop-article__box
-  display: block
-  position: relative
-  box-sizing: border-box
-  border-radius: 3px
-  background-color: $color13
-  border-top-left-radius: 0
-  border-top-right-radius: 0
-
-.pop-article__box_color_0
-  background-color: #587b89
-
-.pop-article__box_color_1
-  background-color: $color1
-
-.pop-article__box_color_2
-  background-color: $color2
-
-.pop-article__title
-  font-family: $font-bold
-  color: $color3
-
-.pop-article__text
-  font-family: $font-medium
-  color: $color4
-
-.category__load-more-box
-  text-align: center
-  margin-top: 40px
-
-.category__load-more
-  display: inline-block
-  text-align: center
-  font-family: $font-medium
-  color: $color4
-  cursor: pointer
-  box-sizing: border-box
 
 /*R320
 @media (max-width: $tablet - 1 + px)
@@ -242,39 +176,6 @@
     font-size: 25px
     line-height: 37px
     margin: 10px 20px 15px
-  .pop-article
-    float: none
-    margin-bottom: -33px
-    margin-top: 20px
-    &:first-child
-      margin-top: 0
-  .pop-article__pic
-    width: 100%
-  .pop-article__hover
-    display: none
-  .pop-article__box
-    top: -33px
-    margin: 0 0 0 10px
-    padding: 20px
-  .pop-article__title
-    font-size: 14px
-    line-height: 18px
-  .pop-article__text
-    font-size: 18px
-    line-height: 22px
-    margin-top: 5px
-  .pop-article__stats
-    margin-top: 8px
-  .category__load-more-box
-    margin-top: 30px
-  .category__load-more
-    background: url("../img/load-more.png") no-repeat center center / 134px 68px
-    width: 134px
-    height: 68px
-    font-size: 14px
-    line-height: 16px
-    padding-top: 15px
-
 
 /*R764
 @media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
@@ -362,42 +263,6 @@
     font-size: 25px
     line-height: 37px
     margin: 10px 28px 15px
-  .pop-article
-    width: 50%
-    box-sizing: border-box
-    padding-left: 28px
-    margin-bottom: -36px
-    margin-top: 28px
-    &:first-child
-      margin-top: 0
-    &:nth-child(2)
-      margin-top: 0
-  .pop-article__pic
-    width: 100%
-  .pop-article__hover
-    display: none
-  .pop-article__box
-    top: -36px
-    margin: 0 0 0 15px
-    padding: 17px 25px
-  .pop-article__title
-    font-size: 12px
-    line-height: 16px
-  .pop-article__text
-    font-size: 16px
-    line-height: 20px
-    margin-top: 8px
-  .pop-article__stats
-    margin-top: 8px
-  .category__load-more-box
-    margin: 28px 0 0 28px
-  .category__load-more
-    background: url("../img/load-more.png") no-repeat center center / 134px 68px
-    width: 134px
-    height: 68px
-    font-size: 14px
-    line-height: 16px
-    padding-top: 15px
 
 /*R1024
 @media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
@@ -457,46 +322,7 @@
     font-size: 25px
     line-height: 37px
     margin: 8px 0 20px
-  .pop-article
-    width: 440px
-    margin-bottom: -30px
-    margin-top: 40px
-    &:first-child
-      margin-top: 0
-      margin-right: 40px
-    &:nth-child(2)
-      margin-top: 0
-    &:nth-child(odd)
-      margin-right: 40px
-  .pop-article__pic
-    width: 440px
-    height: 200px
-  .pop-article__hover
-    width: 440px
-    height: 200px
-  .pop-article__box
-    top: -30px
-    margin: 0 0 0 20px
-    height: 141px
-    padding: 17px 40px
-  .pop-article__title
-    font-size: 14px
-    line-height: 18px
-  .pop-article__text
-    font-size: 18px
-    line-height: 22px
-    margin-top: 13px
-  .pop-article__stats
-    margin-top: 8px
-  .category__load-more
-    background: url("../img/load-more.png") no-repeat center center / 154px 68px
-    width: 154px
-    height: 68px
-    font-size: 14px
-    line-height: 16px
-    padding-top: 15px
-    &:hover
-      background: url("../img/load-more-hover.png") no-repeat center center / 154px 68px
+
 /*R1440
 @media (min-width: $desktop-wide + px)
   .category
@@ -551,47 +377,3 @@
     margin-left: 740px
   .category__part
     margin: 80px 0 0 100px
-  .category__sub-title
-    font-size: 30px
-    line-height: 37px
-    margin: 8px 0 31px
-  .pop-article
-    width: 600px
-    margin-bottom: -60px
-    margin-top: 40px
-    &:first-child
-      margin-top: 0
-      //margin-right: 40px
-    &:nth-child(2)
-      margin-top: 0
-    &:nth-child(odd)
-      margin-right: 40px
-  .pop-article__pic
-    width: 600px
-    height: 272px
-  .pop-article__hover
-    width: 600px
-    height: 272px
-  .pop-article__box
-    top: -60px
-    margin: 0 0 0 60px
-    height: 192px
-    padding: 22px 30px 0 60px
-  .pop-article__title
-    font-size: 20px
-    line-height: 24px
-  .pop-article__text
-    font-size: 24px
-    line-height: 30px
-    margin-top: 18px
-  .pop-article__stats
-    margin-top: 13px
-  .category__load-more
-    background: url("../img/load-more.png") no-repeat center center / 176px 79px
-    width: 176px
-    height: 79px
-    font-size: 16px
-    line-height: 19px
-    padding-top: 16px
-    &:hover
-      background: url("../img/load-more-hover.png") no-repeat center center / 176px 79px
