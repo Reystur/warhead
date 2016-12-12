@@ -143,11 +143,21 @@ body {
   border: solid 1px #a2d0e3;
 }
 
+.w-input-label-box {
+  margin: 10px 0 5px;
+}
+
 .w-input-label {
   font-size: 16px;
   line-height: 20px;
   color: #949494;
   font-family: brutal_regular, sans-serif;
+}
+
+.w-input-error {
+  font-size: 13px;
+  line-height: 20px;
+  color: #e6502d;
 }
 
 .w-dropdown {
@@ -161,6 +171,13 @@ body {
   box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03);
   cursor: pointer;
   position: relative;
+}
+
+.w-dropdown-active .icon-w-arr-down {
+  transform: rotate(180deg) translate(0, 5px);
+}
+.w-dropdown-active .w-dropdown__extend {
+  display: block;
 }
 
 .w-dropdown__arrow {
@@ -227,6 +244,107 @@ body {
 .w-textarea:focus {
   box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5);
   border: solid 1px #a2d0e3;
+}
+
+.w-radio-box {
+  margin-top: 10px;
+}
+
+.w-radio {
+  display: inline-block;
+  cursor: pointer;
+}
+.w-radio:hover .w-radio-icon {
+  border: solid 1px #4593d4;
+}
+.w-radio:hover .w-radio-text {
+  color: #4593d4;
+}
+
+.w-radio-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: top;
+}
+
+.w-radio-icon_active {
+  border: solid 1px #4593d4;
+}
+.w-radio-icon_active:after {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: #4593d4;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+}
+
+.w-radio-text {
+  padding-top: 2px;
+  margin-left: 5px;
+  color: #47453e;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.w-checkbox-box {
+  margin-top: 10px;
+}
+
+.w-checkbox {
+  display: inline-block;
+  cursor: pointer;
+}
+.w-checkbox:hover .w-checkbox-icon {
+  border: solid 1px #4593d4;
+}
+.w-checkbox:hover .w-checkbox-text {
+  color: #4593d4;
+}
+
+.w-checkbox-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: solid 1px #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 3px;
+  position: relative;
+  vertical-align: top;
+}
+
+.w-checkbox-icon_active {
+  border: solid 1px #4593d4;
+}
+.w-checkbox-icon_active:after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border-bottom: 2px solid #4593d4;
+  border-right: 2px solid #4593d4;
+  top: 1px;
+  left: 5px;
+  transform: rotate(45deg);
+}
+
+.w-checkbox-text {
+  padding-top: 2px;
+  margin-left: 5px;
+  color: #47453e;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
 }
 
 .header {

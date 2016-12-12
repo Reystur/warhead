@@ -48,11 +48,19 @@
     box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5)
     border: solid 1px $color15
 
+.w-input-label-box
+  margin: 10px 0 5px
+
 .w-input-label
   font-size: 16px
   line-height: 20px
   color: $color11
   font-family: $font-regular
+
+.w-input-error
+  font-size: 13px
+  line-height: 20px
+  color: $color13
 
 .w-dropdown
   display: block
@@ -66,6 +74,12 @@
   cursor: pointer
   position: relative
 
+.w-dropdown-active
+  .icon-w-arr-down
+    transform: rotate(180deg) translate(0, 5px)
+  .w-dropdown__extend
+    display: block
+
 .w-dropdown__arrow
   display: block
   float: right
@@ -77,11 +91,7 @@
   color: $color4
   text-align: center
   border-radius: 0 3px 3px 0
-//&:hover
-//  .icon-w-arr-down
-//    transform: rotate(180deg) translate(0, 5px)
-//.icon-w-arr-down
-  //transition: transform .5s
+
 .w-dropdown__origin
   padding: 5px 12px
   margin-right: 45px
@@ -126,3 +136,91 @@
   &:focus
     box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5)
     border: solid 1px $color15
+
+.w-radio-box
+  margin-top: 10px
+
+.w-radio
+  display: inline-block
+  cursor: pointer
+  &:hover
+    .w-radio-icon
+      border: solid 1px $color9
+    .w-radio-text
+      color: $color9
+
+.w-radio-icon
+  display: inline-block
+  width: 20px
+  height: 20px
+  border: solid 1px $color7
+  box-sizing: border-box
+  border-radius: 50%
+  position: relative
+  vertical-align: top
+
+.w-radio-icon_active
+  border: solid 1px $color9
+  &:after
+    display: block
+    content: ""
+    position: absolute
+    background-color: $color9
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    top:  4px
+    left: 4px
+
+.w-radio-text
+  padding-top: 2px
+  margin-left: 5px
+  color: $color2
+  font-size: 16px
+  line-height: 20px
+  vertical-align: top
+
+.w-checkbox-box
+  margin-top: 10px
+
+.w-checkbox
+  display: inline-block
+  cursor: pointer
+  &:hover
+    .w-checkbox-icon
+      border: solid 1px $color9
+    .w-checkbox-text
+      color: $color9
+
+.w-checkbox-icon
+  display: inline-block
+  width: 20px
+  height: 20px
+  border: solid 1px $color7
+  box-sizing: border-box
+  border-radius: 3px
+  position: relative
+  vertical-align: top
+
+.w-checkbox-icon_active
+  border: solid 1px $color9
+  &:after
+    display: block
+    content: ""
+    position: absolute
+    width: 6px
+    height: 10px
+    border-bottom: 2px solid $color9
+    border-right: 2px solid $color9
+    top: 1px
+    left: 5px
+    transform: rotate(45deg)
+
+.w-checkbox-text
+  padding-top: 2px
+  margin-left: 5px
+  color: $color2
+  font-size: 16px
+  line-height: 20px
+  vertical-align: top
+
