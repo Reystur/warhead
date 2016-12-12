@@ -1,0 +1,229 @@
+@font-face {
+  font-family: "brutal_regular";
+  src: url("fonts/Brutal/regular/BrutalRegular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Brutal/regular/BrutalRegular.eot?#iefix") format("embedded-opentype"), url("fonts/Brutal/regular/BrutalRegular.woff") format("woff"), url("fonts/Brutal/regular/BrutalRegular.ttf") format("truetype"), url("fonts/Brutal/regular/BrutalRegular.svg#e1281a2e4a9cbb869772bf364d6fd47b") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "brutal_medium";
+  src: url("fonts/Brutal/medium/BrutalMedium.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Brutal/medium/BrutalMedium.eot?#iefix") format("embedded-opentype"), url("fonts/Brutal/medium/BrutalMedium.woff") format("woff"), url("fonts/Brutal/medium/BrutalMedium.ttf") format("truetype"), url("fonts/Brutal/medium/BrutalMedium.svg#da1417a78f413faf5b2694e8ddb1ce0f") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "brutal_bold";
+  src: url("fonts/Brutal/bold/BrutalBold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/Brutal/bold/BrutalBold.eot?#iefix") format("embedded-opentype"), url("fonts/Brutal/bold/BrutalBold.woff") format("woff"), url("fonts/Brutal/bold/BrutalBold.ttf") format("truetype"), url("fonts/Brutal/bold/BrutalBold.svg#741cb8ff704ac54b4e5035ec6ec84e62") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700;
+}
+.no-branding .wrapper {
+  padding-top: 0;
+  width: auto;
+}
+.no-branding .p404-wrap {
+  width: auto;
+}
+.no-branding .p404 {
+  background-color: #fff;
+}
+
+.p404-wrap {
+  background-color: #213036;
+}
+
+.p404__title {
+  color: #fff;
+  font-family: brutal_medium, sans-serif;
+  text-align: center;
+}
+
+.p404__pic-box {
+  text-align: center;
+}
+
+.p404__text {
+  color: #fff;
+  font-family: brutal_regular, sans-serif;
+}
+
+.p404__similar-line {
+  width: 40px;
+  height: 3px;
+  background-color: #67b2d0;
+}
+
+.p404__similar-title {
+  color: #47453e;
+  font-family: brutal_bold, sans-serif;
+}
+
+/*R320 */
+@media (max-width: 763px) {
+  .p404-wrap {
+    margin: 0;
+  }
+
+  .p404__main {
+    padding: 60px 0;
+  }
+
+  .p404__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .p404__pic {
+    width: 257px;
+  }
+
+  .p404__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .p404__similar {
+    margin: 40px 0 0;
+  }
+
+  .p404__similar-line {
+    margin-left: 20px;
+  }
+
+  .p404__similar-title {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 40px 19px 20px;
+  }
+}
+/*R764 */
+@media (min-width: 764px) and (max-width: 1023px) {
+  .p404-wrap {
+    margin: 0 28px;
+  }
+
+  .p404__main {
+    padding: 60px 0;
+  }
+
+  .p404__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .p404__pic {
+    width: 257px;
+  }
+
+  .p404__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  .no-branding .p404-wrap {
+    margin: 0 0 0 0;
+  }
+
+  .p404__similar {
+    margin: 40px 28px 20px 0;
+  }
+
+  .p404__similar-line {
+    margin-left: 28px;
+  }
+
+  .p404__similar-title {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0 30px 28px;
+  }
+}
+/*R1024 */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .p404-wrap {
+    width: 920px;
+    margin: 0 auto;
+  }
+
+  .p404__main {
+    padding: 40px 0 70px;
+  }
+
+  .p404__title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .p404__pic {
+    margin: 27px 0 18px;
+    width: 257px;
+  }
+
+  .p404__text {
+    font-size: 16px;
+    line-height: 20px;
+    width: 360px;
+    margin: 0 auto;
+  }
+
+  .p404__similar {
+    width: 920px;
+    margin: 60px auto 40px;
+  }
+
+  .p404__similar-title {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0 19px;
+  }
+}
+/*R1440 */
+@media (min-width: 1440px) {
+  .p404-wrap {
+    width: 1240px;
+    margin: 0 auto;
+  }
+
+  .p404__main {
+    padding: 80px 0;
+  }
+
+  .p404__title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .p404__pic {
+    width: 308px;
+  }
+
+  .p404__text {
+    font-size: 18px;
+    line-height: 20px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .p404__similar {
+    width: 1240px;
+    margin: 80px auto 40px;
+  }
+
+  .p404__similar-title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 10px 0 30px;
+  }
+}
