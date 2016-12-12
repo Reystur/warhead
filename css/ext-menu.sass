@@ -48,31 +48,19 @@
     padding: 20px 0 30px
 
   .dropdown-menu__search
-    display: block
-    border-radius: 3px
-    background-color: $color10
-    box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03)
     height: 42px
-    margin: 0 20px
-
-  .dropdown-menu__search-go
-    float: right
-    height: 22px
-    width: 22px
-    padding: 10px
-    background: url("../img/search-badge-mobile.png") no-repeat center center
-    background-size: 22px 22px
-
-  .dropdown-menu__search-input-box
-    padding-left: 10px
-    margin-right: 47px
+    display: block
+    margin: 20px 20px 0
+    position: relative
 
   .dropdown-menu__search-input
-    font-size: 16px
-    line-height: 40px
-    font-family: $font-medium
-    color: $color1
-    width: 100%
+    padding: 8px 30px 8px 8px
+    background: url(../img/search-badge.png) no-repeat 98% center
+    background-size: 21px 21px
+    outline: none
+    &:focus
+      background: url(../img/search-badge-mobile.png) no-repeat 98% center
+      background-size: 21px 21px
 
   .dropdown-menu__main-menu
     margin: 16px 20px 0
