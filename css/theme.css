@@ -2,6 +2,13 @@
   background: url("../img/no-branind.png") repeat-x, #fff;
 }
 
+/*R320 */
+@media (max-width: 763px) {
+  .no-branding {
+    background-image: none;
+    background-color: #fff;
+  }
+}
 /*R764 */
 @media (min-width: 764px) and (max-width: 1023px) {
   .no-branding {
