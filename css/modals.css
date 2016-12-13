@@ -68,7 +68,8 @@
   width: 33.33%;
   text-align: center;
 }
-.modal-socials a {
+
+.modal-social__link {
   width: 58px;
   height: 58px;
   box-sizing: border-box;
@@ -78,10 +79,11 @@
   display: inline-block;
   font-size: 29px;
   padding-top: 15px;
+  -webkit-transform: translateZ(0);
   transition: color 0.5s, border 0.5s, background-color 0.5s;
   text-align: center;
 }
-.modal-socials a:hover {
+.modal-social__link:hover {
   color: #fff;
   border: 1px solid #4593d4;
   background-color: #4593d4;
@@ -125,7 +127,8 @@
 .modal-wg-net {
   text-align: center;
 }
-.modal-wg-net img {
+
+.modal-wg-net__pic {
   width: 100px;
   height: 100px;
 }
@@ -157,6 +160,7 @@
   border: 1px solid #dcdcdc;
   display: block;
   box-sizing: border-box;
+  -webkit-transform: translateZ(0);
   transition: background-color 0.5s, border 0.5s;
 }
 .modal-news__link .icon {
@@ -165,6 +169,7 @@
   display: inline-block;
   padding-top: 21px;
   vertical-align: top;
+  -webkit-transform: translateZ(0);
   transition: color 0.5s;
 }
 .modal-news__link:first-child {
@@ -189,6 +194,7 @@
   vertical-align: top;
   color: #8a8a8a;
   font-family: brutal_regular, sans-serif;
+  -webkit-transform: translateZ(0);
   transition: color 0.5s;
 }
 
@@ -200,10 +206,11 @@
   color: #213036;
   font-family: brutal_regular, sans-serif;
 }
-.modal-news__text a {
+
+.modal-news__text-link {
   color: #4693d4;
 }
-.modal-news__text a:hover {
+.modal-news__text-link:hover {
   text-decoration: underline;
 }
 
@@ -308,7 +315,8 @@
   position: relative;
   top: 1px;
 }
-.modal-profile__medal img {
+
+.modal-profile__medal-pic {
   width: 10px;
   height: 15px;
 }

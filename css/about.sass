@@ -1,3 +1,75 @@
+.about__title-line
+  width: 90px
+  height: 3px
+  background-color: $color12
+
+.about__title
+  font-family: $font-bold
+  color: $color2
+
+.about__intro
+  font-family: $font-regular
+  color: $color2
+
+.about__author-box_grey
+  background-color: $color16
+
+.about__author-box:after
+  display: table
+  content: ""
+  clear: both
+
+.author__pic
+  width: 100%
+  height: 100%
+  display: block
+
+.author__name
+  font-family: $font-medium
+  color: $color1
+
+.author__signature
+  font-family: $font-regular
+  color: $color1
+
+.author__medal
+  display: inline-block
+  vertical-align: baseline
+  margin-right: 4px
+  position: relative
+  top: 3px
+
+.author__medal-pic
+  width: 10px
+  height: 15px
+  display: block
+
+.author__rank
+  color: $color5
+  font-family: $font-regular
+
+.author__article-count-link
+  color: $color5
+  font-family: $font-regular
+  &:hover
+    text-decoration: underline
+
+.author__bio
+  color: $color2
+  font-family: $font-regular
+
+.about__most-active-box
+  background-color: $color4
+
+.about__most-active-line
+  width: 40px
+  height: 3px
+  background-color: $color13
+
+.about__most-active-title
+  color: $color2
+  font-family: $font-bold
+
 /*R320
 @media (max-width: $tablet - 1 + px)
   .about
@@ -6,23 +78,17 @@
   .about__description-box
     margin: 40px 20px
 
-  .about__title-line
-    width: 90px
-    height: 3px
-    background-color: $color12
+  .about__description-box_join
+    margin-bottom: 0
 
   .about__title
-    font-family: $font-bold
     font-size: 34px
     line-height: 38px
-    color: $color2
     margin: 10px 0 0
 
   .about__intro
-    font-family: $font-regular
     font-size: 16px
     line-height: 22px
-    color: $color2
     margin: 19px 0 0
 
   .about__author-box
@@ -32,7 +98,6 @@
     padding: 40px 20px 30px
     margin-top: 0
     margin-bottom: 0
-    background-color: $color16
     .author
       margin-top: 30px
       &:first-child
@@ -44,91 +109,49 @@
     margin-top: 40px
     margin-bottom: 30px
 
-  .about__author-box:after
-    display: table
-    content: ""
-    clear: both
-
   .author__pic-box
     width: 62px
     height: 62px
     margin-bottom: 13px
     float: left
 
-  .author__pic
-    width: 100%
-    height: 100%
-    display: block
-
   .author__info
     margin-left: 74px
 
   .author__name
-    font-family: $font-medium
     font-size: 18px
     line-height: 22px
-    color: $color1
 
   .author__signature
     margin-top: 12px
-    font-family: $font-regular
     font-size: 14px
     line-height: 16px
-    color: $color1
 
   .author__rank-box
     margin-top: 1px
-
-  .author__medal
-    display: inline-block
-    vertical-align: baseline
-    margin-right: 4px
-    position: relative
-    top: 3px
-    img
-      width: 10px
-      height: 15px
 
   .author__rank
     margin-left: 10px
     font-size: 14px
     line-height: 28px
-    color: $color5
-    font-family: $font-regular
 
   .author__article-count
     margin-top: 1px
     font-size: 14px
     line-height: 16px
-    color: $color5
-    font-family: $font-regular
-    a
-      color: $color5
-      &:hover
-        text-decoration: underline
 
   .author__bio
     margin-top: 28px
-    color: $color2
     font-size: 14px
     line-height: 20px
-    font-family: $font-regular
 
   .about__most-active-box
     padding: 20px
-    background-color: $color4
-
-  .about__most-active-line
-    width: 40px
-    height: 3px
-    background-color: $color13
 
   .about__most-active-title
     margin-top: 11px
-    color: $color2
     font-size: 25px
     line-height: 27px
-    font-family: $font-bold
 
 /*R764
 @media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
@@ -139,25 +162,16 @@
     margin: 13px 120px 60px 92px
 
   .about__description-box_join
-    margin: 60px 120px 60px 92px
-
-  .about__title-line
-    width: 90px
-    height: 3px
-    background-color: $color12
+    margin: 60px 120px 0 92px
 
   .about__title
-    font-family: $font-bold
     font-size: 34px
     line-height: 38px
-    color: $color2
     margin: 20px 0
 
   .about__intro
-    font-family: $font-regular
     font-size: 20px
     line-height: 28px
-    color: $color2
     margin: 40px 0 0
 
   .about__author-box
@@ -169,7 +183,6 @@
     padding: 40px 0 40px 28px
     margin-top: 0
     margin-bottom: 0
-    background-color: $color16
 
   .author
     width: 50%
@@ -180,76 +193,41 @@
     &:first-child, &:nth-child(2)
       margin-top: 0
 
-  .about__author-box:after
-    display: table
-    content: ""
-    clear: both
-
   .author__pic-box
     width: 65px
     height: 65px
     margin-bottom: 13px
     float: left
 
-  .author__pic
-    width: 100%
-    height: 100%
-    display: block
-
   .author__info
     margin-left: 92px
 
   .author__name
-    font-family: $font-medium
     font-size: 24px
     line-height: 26px
-    color: $color1
 
   .author__signature
     margin-top: 15px
-    font-family: $font-regular
     font-size: 16px
     line-height: 18px
-    color: $color1
 
   .author__rank-box
     margin-top: 4px
-
-  .author__medal
-    display: inline-block
-    vertical-align: baseline
-    margin-right: 4px
-    position: relative
-    top: 3px
-    img
-      width: 10px
-      height: 15px
 
   .author__rank
     margin-left: 10px
     font-size: 14px
     line-height: 28px
-    color: $color5
-    font-family: $font-regular
 
   .author__article-count
     margin-top: 12px
     font-size: 14px
     line-height: 16px
-    color: $color5
-    font-family: $font-regular
-    a
-      color: $color5
-      &:hover
-        text-decoration: underline
-
 
   .author__bio
     margin-top: 26px
-    color: $color2
     font-size: 16px
     line-height: 22px
-    font-family: $font-regular
 
   .about__most-active
     position: relative
@@ -262,20 +240,12 @@
     padding: 19px 33px 15px 19px
     top: -38px
     left: 9px
-    background-color: $color4
     border-radius: 3px
-
-  .about__most-active-line
-    width: 40px
-    height: 3px
-    background-color: $color13
 
   .about__most-active-title
     margin-top: 11px
-    color: $color2
     font-size: 25px
     line-height: 26px
-    font-family: $font-bold
 
 /*R1024
 @media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
@@ -287,25 +257,16 @@
     margin: 10px 251px 60px 172px
 
   .about__description-box_join
-    margin: 60px 152px 60px 172px
-
-  .about__title-line
-    width: 90px
-    height: 3px
-    background-color: $color12
+    margin: 60px 152px 0 172px
 
   .about__title
-    font-family: $font-bold
     font-size: 34px
     line-height: 38px
-    color: $color2
     margin: 20px 0
 
   .about__intro
-    font-family: $font-regular
     font-size: 20px
     line-height: 28px
-    color: $color2
     margin: 5px 0
 
   .about__author-box
@@ -317,7 +278,6 @@
     padding: 62px 52px 44px
     margin-top: 0
     margin-bottom: 0
-    background-color: $color16
 
   .author
     width: 200px
@@ -335,11 +295,6 @@
   .author_big
     width: 440px
 
-  .about__author-box:after
-    display: table
-    content: ""
-    clear: both
-
   .author__pic-box
     width: 65px
     height: 65px
@@ -350,19 +305,12 @@
     height: 100px
     float: left
 
-  .author__pic
-    width: 100%
-    height: 100%
-    display: block
-
   .author__info_big
     margin-left: 120px
 
   .author__name
-    font-family: $font-medium
     font-size: 18px
     line-height: 25px
-    color: $color1
 
   .author__name_big
     font-size: 25px
@@ -370,51 +318,28 @@
 
   .author__signature
     margin-top: 4px
-    font-family: $font-regular
     font-size: 14px
     line-height: 16px
-    color: $color1
 
   .author__signature_big
     margin-top: 11px
     font-size: 18px
     line-height: 28px
 
-  .author__medal
-    display: inline-block
-    vertical-align: baseline
-    margin-right: 4px
-    position: relative
-    top: 3px
-    img
-      width: 10px
-      height: 15px
-
   .author__rank
     margin-left: 10px
     font-size: 14px
     line-height: 28px
-    color: $color5
-    font-family: $font-regular
 
   .author__article-count
     margin-top: 10px
     font-size: 14px
     line-height: 16px
-    color: $color5
-    font-family: $font-regular
-    a
-      color: $color5
-      &:hover
-        text-decoration: underline
-
 
   .author__bio
     margin-top: 24px
-    color: $color2
     font-size: 14px
     line-height: 20px
-    font-family: $font-regular
 
   .author__bio_big
     margin-top: 26px
@@ -433,21 +358,12 @@
     padding: 19px 33px 13px 19px
     top: -38px
     left: 9px
-    background-color: $color4
     border-radius: 3px
-
-  .about__most-active-line
-    width: 40px
-    height: 3px
-    background-color: $color13
 
   .about__most-active-title
     margin-top: 12px
-    color: $color2
     font-size: 25px
     line-height: 29px
-    font-family: $font-bold
-
 
 /*R1440
 @media (min-width: $desktop-wide + px)
@@ -456,28 +372,19 @@
     margin: 0 auto
 
   .about__description-box
-    margin: 34px 387px 76px 260px
+    margin: 34px 387px 0 260px
 
   .about__description-box_join
     margin: 60px 387px 30px 260px
 
-  .about__title-line
-    width: 90px
-    height: 3px
-    background-color: $color12
-
   .about__title
-    font-family: $font-bold
     font-size: 36px
     line-height: 38px
-    color: $color2
     margin: 20px 0
 
   .about__intro
-    font-family: $font-regular
     font-size: 18px
     line-height: 28px
-    color: $color2
     margin: 10px 0 0
 
   .about__author-box
@@ -489,7 +396,6 @@
     padding: 70px 100px
     margin-top: 0
     margin-bottom: 0
-    background-color: $color16
 
   .author
     width: 278px
@@ -510,11 +416,6 @@
     &:first-child
       margin-left: 0
 
-  .about__author-box:after
-    display: table
-    content: ""
-    clear: both
-
   .author__pic-box
     width: 91px
     height: 91px
@@ -525,19 +426,12 @@
     height: 140px
     float: left
 
-  .author__pic
-    width: 100%
-    height: 100%
-    display: block
-
   .author__info_big
     margin-left: 155px
 
   .author__name
-    font-family: $font-medium
     font-size: 24px
     line-height: 25px
-    color: $color1
 
   .author__name_big
     font-size: 30px
@@ -545,51 +439,28 @@
 
   .author__signature
     margin-top: 14px
-    font-family: $font-regular
     font-size: 14px
     line-height: 16px
-    color: $color1
 
   .author__signature_big
     margin: 11px 0
     font-size: 20px
     line-height: 22px
 
-  .author__medal
-    display: inline-block
-    vertical-align: baseline
-    margin-right: 4px
-    position: relative
-    top: 3px
-    img
-      width: 10px
-      height: 15px
-
   .author__rank
     margin-left: 10px
     font-size: 16px
     line-height: 28px
-    color: $color5
-    font-family: $font-regular
 
   .author__article-count
     margin-top: 10px
     font-size: 16px
     line-height: 16px
-    color: $color5
-    font-family: $font-regular
-    a
-      color: $color5
-      &:hover
-        text-decoration: underline
-
 
   .author__bio
     margin-top: 24px
-    color: $color2
     font-size: 16px
     line-height: 20px
-    font-family: $font-regular
 
   .author__bio_big
     margin-top: 26px
@@ -608,19 +479,9 @@
     padding: 19px 36px 17px 24px
     top: -38px
     left: 76px
-    background-color: $color4
     border-radius: 3px
-
-  .about__most-active-line
-    width: 40px
-    height: 3px
-    background-color: $color13
 
   .about__most-active-title
     margin-top: 7px
-    color: $color2
     font-size: 30px
     line-height: 32px
-    font-family: $font-bold
-
-
