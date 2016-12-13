@@ -1,13 +1,28 @@
 .comment-link__theme
   display: none
 
+.comment-link
+  position: relative
+  display: block
+  background-color: $color16
+
+.comment-link__pic
+  width: 100%
+  height: 100%
+  display: block
+
+.comment-link__title
+  color: $color1
+  font-family: $font-bold
+
+.comment-link__text
+  color: $color5
+  font-family: $font-regular
+
 /*R320
 @media (max-width: $tablet - 1 + px)
   .comment-link
-    position: relative
     height: 147px
-    display: block
-    background-color: $color16
     &:after
       position: absolute
       content: ""
@@ -22,10 +37,6 @@
     width: 147px
     height: 147px
     float: left
-  .comment-link__pic
-    width: 100%
-    height: 100%
-    display: block
   .comment-link__text-box
     margin: 0 13px 0 167px
   .comment-link__title
@@ -57,10 +68,7 @@
 @media (min-width: $tablet + px) and (max-width: $desktop - 1 + px)
   .comment-link
     margin-left: 28px
-    position: relative
     height: 120px
-    display: block
-    background-color: #f8f8f8
     &:after
       position: absolute
       content: ""
@@ -76,36 +84,23 @@
     width: 120px
     height: 120px
     float: left
-  .comment-link__pic
-    width: 100%
-    height: 100%
-    display: block
   .comment-link__text-box
     margin: 0 60px 0 160px
   .comment-link__title
     padding-top: 19px
     font-size: 18px
     line-height: 22px
-    color: $color1
-    font-family: $font-bold
-  .comment-link__theme
-    display: none
   .comment-link__text
     margin-top: 2px
     font-size: 18px
     line-height: 22px
-    color: $color5
-    font-family: $font-regular
 
 /*R1024
 @media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px)
   .comment-link
     margin-left: 80px
     width: 640px
-    position: relative
     height: 120px
-    display: block
-    background-color: #f8f8f8
     &:after
       position: absolute
       content: ""
@@ -121,36 +116,23 @@
     width: 120px
     height: 120px
     float: left
-  .comment-link__pic
-    width: 100%
-    height: 100%
-    display: block
   .comment-link__text-box
     margin: 0 60px 0 160px
   .comment-link__title
     padding-top: 19px
     font-size: 18px
     line-height: 22px
-    color: $color1
-    font-family: $font-bold
-  .comment-link__theme
-    display: none
   .comment-link__text
     margin-top: 2px
     font-size: 18px
     line-height: 22px
-    color: $color5
-    font-family: $font-regular
 
 /*R1440
 @media (min-width: $desktop-wide + px)
   .comment-link
     margin-left: 120px
     width: 840px
-    position: relative
     height: 160px
-    display: block
-    background-color: $color16
     &:after
       position: absolute
       content: ""
@@ -166,23 +148,13 @@
     width: 160px
     height: 160px
     float: left
-  .comment-link__pic
-    width: 100%
-    height: 100%
-    display: block
   .comment-link__text-box
     margin: 0 150px 0 197px
   .comment-link__title
     padding-top: 19px
     font-size: 24px
     line-height: 28px
-    color: $color1
-    font-family: $font-bold
-  .comment-link__theme
-    display: none
   .comment-link__text
     margin-top: 2px
     font-size: 24px
     line-height: 28px
-    color: $color5
-    font-family: $font-regular

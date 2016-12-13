@@ -1357,6 +1357,10 @@ body {
     line-height: 36px;
   }
 }
+.footer {
+  background-color: #213036;
+}
+
 .footer__fb {
   height: 20px;
   width: 10px;
@@ -1413,17 +1417,22 @@ body {
   color: #67b2d0;
 }
 
+.footer__link {
+  font-family: brutal_regular, sans-serif;
+  color: #4e6873;
+}
 .footer__link:hover {
   color: #67b2d0;
   text-decoration: underline;
 }
 
+.footer__copyright {
+  font-family: brutal_regular, sans-serif;
+  color: #4e6873;
+}
+
 /*R320 */
 @media (max-width: 763px) {
-  .footer {
-    background-color: #213036;
-  }
-
   .footer__wrapper {
     margin: 0 auto;
   }
@@ -1439,8 +1448,6 @@ body {
   .footer__link {
     font-size: 16px;
     line-height: 34px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
     display: block;
     text-align: center;
   }
@@ -1452,8 +1459,6 @@ body {
   .footer__copyright {
     font-size: 14px;
     line-height: 20px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
     padding: 37px 28px 0;
     text-align: center;
   }
@@ -1473,7 +1478,6 @@ body {
 @media (min-width: 764px) and (max-width: 1023px) {
   .footer {
     height: 109px;
-    background-color: #213036;
   }
 
   .footer__wrapper {
@@ -1492,8 +1496,6 @@ body {
   .footer__link {
     font-size: 12px;
     line-height: 26px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
     display: block;
     float: left;
   }
@@ -1510,8 +1512,6 @@ body {
   .footer__copyright {
     font-size: 12px;
     line-height: 26px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
   }
 
   .footer__socials-box {
@@ -1537,7 +1537,6 @@ body {
 @media (min-width: 1024px) and (max-width: 1439px) {
   .footer {
     height: 109px;
-    background-color: #213036;
   }
 
   .footer__wrapper {
@@ -1557,8 +1556,6 @@ body {
   .footer__link {
     font-size: 12px;
     line-height: 26px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
     display: block;
     float: left;
   }
@@ -1578,8 +1575,6 @@ body {
   .footer__copyright {
     font-size: 12px;
     line-height: 26px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
   }
 
   .footer__socials-box {
@@ -1609,7 +1604,6 @@ body {
 @media (min-width: 1440px) {
   .footer {
     height: 155px;
-    background-color: #213036;
   }
 
   .footer__wrapper {
@@ -1629,8 +1623,6 @@ body {
   .footer__link {
     font-size: 14px;
     line-height: 28px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
     display: block;
     float: left;
   }
@@ -1647,8 +1639,6 @@ body {
   .footer__copyright {
     font-size: 14px;
     line-height: 28px;
-    font-family: brutal_regular, sans-serif;
-    color: #4e6873;
   }
 
   .footer__socials-box {
@@ -1735,6 +1725,15 @@ body {
   font-size: 20px;
 }
 
+.newsletter__title {
+  color: #47453e;
+}
+
+.newsletter__social-title {
+  color: #47453e;
+}
+
+/*R320 */
 @media (max-width: 763px) {
   .newsletter {
     margin: 60px 20px 0;
@@ -1743,9 +1742,8 @@ body {
   .newsletter__title {
     font-size: 18px;
     line-height: 28px;
-    font-family: brutal_medium, sans-serif;
-    color: #47453e;
     text-align: left;
+    font-family: brutal_medium, sans-serif;
   }
 
   .newsletter__input-box {
@@ -1776,7 +1774,6 @@ body {
     font-family: brutal_medium, sans-serif;
     text-align: left;
     margin-top: 30px;
-    color: #47453e;
   }
 
   .newsletter__social-box {
@@ -1833,7 +1830,6 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-family: brutal_regular, sans-serif;
-    color: #47453e;
     text-align: left;
   }
 
@@ -1866,7 +1862,6 @@ body {
     line-height: 22px;
     font-family: brutal_regular, sans-serif;
     text-align: center;
-    color: #47453e;
   }
 
   .newsletter__social-box {
@@ -1901,7 +1896,6 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-family: brutal_regular, sans-serif;
-    color: #47453e;
     text-align: center;
   }
 
@@ -1935,7 +1929,6 @@ body {
     font-family: brutal_regular, sans-serif;
     text-align: center;
     margin-top: 30px;
-    color: #47453e;
   }
 
   .newsletter__social-box {
@@ -1959,7 +1952,6 @@ body {
     font-size: 20px;
     line-height: 30px;
     font-family: brutal_regular, sans-serif;
-    color: #47453e;
     text-align: center;
   }
 
@@ -1988,7 +1980,6 @@ body {
     font-family: brutal_regular, sans-serif;
     text-align: center;
     margin-top: 43px;
-    color: #47453e;
   }
 
   .newsletter__social-box {
@@ -2220,6 +2211,15 @@ body {
   background-color: #f6f6f6;
 }
 
+.likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite {
+  font-family: brutal_regular, sans-serif;
+  color: #47453e;
+}
+
+.likes__to-favorite {
+  color: #4693d4;
+}
+
 .authors__material-a {
   color: #8a8a8a;
 }
@@ -2331,8 +2331,6 @@ body {
   .article__author-name-link {
     font-size: 16px;
     line-height: 16px;
-    font-family: brutal_medium, sans-serif;
-    color: #47453e;
   }
 
   .article__connections {
@@ -2388,8 +2386,6 @@ body {
     font-size: 16px;
     line-height: 18px;
     padding: 14px 0;
-    font-family: brutal_regular, sans-serif;
-    color: #47453e;
   }
 
   .likes__fb-box {
@@ -2414,10 +2410,6 @@ body {
     float: none;
     width: auto;
     margin-bottom: 20px;
-  }
-
-  .likes__to-favorite {
-    color: #4693d4;
   }
 }
 /*R764 */
@@ -2520,8 +2512,6 @@ body {
     font-size: 16px;
     line-height: 18px;
     padding: 14px 0;
-    font-family: brutal_regular, sans-serif;
-    color: #47453e;
   }
 
   .likes__fb-box {
@@ -2546,10 +2536,6 @@ body {
     border-radius: 0 3px 3px 0;
     width: 36%;
   }
-
-  .likes__to-favorite {
-    color: #4693d4;
-  }
 }
 /*R1024 */
 @media (min-width: 1024px) and (max-width: 1439px) {
@@ -2565,6 +2551,10 @@ body {
     height: 400px;
     margin: 70px 0 0 40px;
     overflow: hidden;
+  }
+  .banner img {
+    width: 100%;
+    height: 100%;
   }
 
   .same-articles {
@@ -2670,8 +2660,6 @@ body {
     font-size: 16px;
     line-height: 18px;
     padding: 14px 0;
-    font-family: brutal_regular, sans-serif;
-    color: #47453e;
   }
 
   .likes__fb-box {
@@ -2696,10 +2684,6 @@ body {
     border-radius: 0 3px 3px 0;
     width: 36%;
   }
-
-  .likes__to-favorite {
-    color: #4693d4;
-  }
 }
 /*R1440 */
 @media (min-width: 1440px) {
@@ -2715,6 +2699,10 @@ body {
     height: 534px;
     margin: 120px 0 0 60px;
     overflow: hidden;
+  }
+  .banner img {
+    width: 100%;
+    height: 100%;
   }
 
   .same-articles {
@@ -2858,8 +2846,6 @@ body {
     font-size: 16px;
     line-height: 18px;
     padding: 14px 0;
-    font-family: brutal_regular, sans-serif;
-    color: #47453e;
   }
 
   .likes__fb-box {
@@ -2883,10 +2869,6 @@ body {
     float: right;
     border-radius: 0 3px 3px 0;
     width: 36%;
-  }
-
-  .likes__to-favorite {
-    color: #4693d4;
   }
 }
 .article-stats {
@@ -2936,6 +2918,7 @@ body {
 }
 
 .same-article {
+  background-color: #f8f8f8;
   display: block;
 }
 .same-article:visited .same-article__intro {
@@ -2951,12 +2934,18 @@ body {
 
 .same-article__title {
   text-transform: uppercase;
+  font-family: brutal_bold, sans-serif;
+  color: #f7ab32;
+}
+
+.same-article__intro {
+  font-family: brutal_medium, sans-serif;
+  color: #213036;
 }
 
 /*R320 */
 @media (max-width: 763px) {
   .same-article {
-    background-color: #f8f8f8;
     margin-bottom: 20px;
     position: relative;
     height: 147px;
@@ -2990,8 +2979,6 @@ body {
     display: block;
     font-size: 12px;
     line-height: 14px;
-    font-family: brutal_bold, sans-serif;
-    color: #f7ab32;
     width: 4%;
     margin-left: 51%;
     padding-top: 18px;
@@ -3002,8 +2989,6 @@ body {
     margin: 5px 0 0 51%;
     font-size: 14px;
     line-height: 22px;
-    font-family: brutal_medium, sans-serif;
-    color: #213036;
     width: 44%;
   }
 
@@ -3016,7 +3001,6 @@ body {
 /*R764 */
 @media (min-width: 764px) and (max-width: 1023px) {
   .same-article {
-    background-color: #f8f8f8;
     padding-bottom: 14px;
     width: 47%;
     float: left;
@@ -3075,8 +3059,6 @@ body {
     margin: 13px 16px 5px;
     font-size: 14px;
     line-height: 16px;
-    font-family: brutal_bold, sans-serif;
-    color: #f7ab32;
   }
 
   .same-article__title_big {
@@ -3090,8 +3072,6 @@ body {
     margin: 5px 16px 5px;
     font-size: 16px;
     line-height: 22px;
-    font-family: brutal_medium, sans-serif;
-    color: #213036;
   }
 
   .same-article__intro_big {
@@ -3113,7 +3093,6 @@ body {
 /*R1024 */
 @media (min-width: 1024px) and (max-width: 1439px) {
   .same-article {
-    background-color: #f8f8f8;
     width: 240px;
     padding-bottom: 14px;
     margin-bottom: 30px;
@@ -3194,8 +3173,6 @@ body {
     margin: 13px 16px 5px 16px;
     font-size: 14px;
     line-height: 16px;
-    font-family: brutal_bold, sans-serif;
-    color: #f7ab32;
   }
 
   .same-article__title_big {
@@ -3208,8 +3185,6 @@ body {
     margin: 5px 16px 5px;
     font-size: 16px;
     line-height: 22px;
-    font-family: brutal_medium, sans-serif;
-    color: #213036;
   }
 
   .same-article__intro_big {
@@ -3230,7 +3205,6 @@ body {
 /*R1440 */
 @media (min-width: 1440px) {
   .same-article {
-    background-color: #f8f8f8;
     width: 320px;
     padding-bottom: 14px;
     margin-bottom: 30px;
@@ -3311,8 +3285,6 @@ body {
     margin: 20px 40px 5px 40px;
     font-size: 16px;
     line-height: 18px;
-    font-family: brutal_bold, sans-serif;
-    color: #f7ab32;
   }
 
   .same-article__title_big {
@@ -3327,8 +3299,6 @@ body {
     margin: 5px 40px;
     font-size: 18px;
     line-height: 24px;
-    font-family: brutal_medium, sans-serif;
-    color: #213036;
   }
 
   .same-article__intro_big {
@@ -3352,13 +3322,32 @@ body {
   display: none;
 }
 
+.comment-link {
+  position: relative;
+  display: block;
+  background-color: #f8f8f8;
+}
+
+.comment-link__pic {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.comment-link__title {
+  color: #213036;
+  font-family: brutal_bold, sans-serif;
+}
+
+.comment-link__text {
+  color: #4693d4;
+  font-family: brutal_regular, sans-serif;
+}
+
 /*R320 */
 @media (max-width: 763px) {
   .comment-link {
-    position: relative;
     height: 147px;
-    display: block;
-    background-color: #f8f8f8;
   }
   .comment-link:after {
     position: absolute;
@@ -3376,12 +3365,6 @@ body {
     width: 147px;
     height: 147px;
     float: left;
-  }
-
-  .comment-link__pic {
-    width: 100%;
-    height: 100%;
-    display: block;
   }
 
   .comment-link__text-box {
@@ -3424,10 +3407,7 @@ body {
 @media (min-width: 764px) and (max-width: 1023px) {
   .comment-link {
     margin-left: 28px;
-    position: relative;
     height: 120px;
-    display: block;
-    background-color: #f8f8f8;
   }
   .comment-link:after {
     position: absolute;
@@ -3448,12 +3428,6 @@ body {
     float: left;
   }
 
-  .comment-link__pic {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
   .comment-link__text-box {
     margin: 0 60px 0 160px;
   }
@@ -3462,20 +3436,12 @@ body {
     padding-top: 19px;
     font-size: 18px;
     line-height: 22px;
-    color: #213036;
-    font-family: brutal_bold, sans-serif;
-  }
-
-  .comment-link__theme {
-    display: none;
   }
 
   .comment-link__text {
     margin-top: 2px;
     font-size: 18px;
     line-height: 22px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 }
 /*R1024 */
@@ -3483,10 +3449,7 @@ body {
   .comment-link {
     margin-left: 80px;
     width: 640px;
-    position: relative;
     height: 120px;
-    display: block;
-    background-color: #f8f8f8;
   }
   .comment-link:after {
     position: absolute;
@@ -3507,12 +3470,6 @@ body {
     float: left;
   }
 
-  .comment-link__pic {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
   .comment-link__text-box {
     margin: 0 60px 0 160px;
   }
@@ -3521,20 +3478,12 @@ body {
     padding-top: 19px;
     font-size: 18px;
     line-height: 22px;
-    color: #213036;
-    font-family: brutal_bold, sans-serif;
-  }
-
-  .comment-link__theme {
-    display: none;
   }
 
   .comment-link__text {
     margin-top: 2px;
     font-size: 18px;
     line-height: 22px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 }
 /*R1440 */
@@ -3542,10 +3491,7 @@ body {
   .comment-link {
     margin-left: 120px;
     width: 840px;
-    position: relative;
     height: 160px;
-    display: block;
-    background-color: #f8f8f8;
   }
   .comment-link:after {
     position: absolute;
@@ -3566,12 +3512,6 @@ body {
     float: left;
   }
 
-  .comment-link__pic {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
   .comment-link__text-box {
     margin: 0 150px 0 197px;
   }
@@ -3580,20 +3520,12 @@ body {
     padding-top: 19px;
     font-size: 24px;
     line-height: 28px;
-    color: #213036;
-    font-family: brutal_bold, sans-serif;
-  }
-
-  .comment-link__theme {
-    display: none;
   }
 
   .comment-link__text {
     margin-top: 2px;
     font-size: 24px;
     line-height: 28px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 }
 .comments {
@@ -5388,6 +5320,151 @@ body {
   margin-bottom: 0;
 }
 
+.profile__info-name {
+  color: #213036;
+  font-family: brutal_medium, sans-serif;
+}
+
+.profile__shade {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
+}
+
+.profile__shade_small {
+  width: 25px;
+}
+
+.profile__info-signature {
+  color: #213036;
+  font-family: brutal_regular, sans-serif;
+}
+
+.profile__info-medal {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+}
+
+.profile__info-medal-pic {
+  width: 10px;
+  height: 15px;
+}
+
+.profile__info-rank {
+  color: #4693d4;
+  font-family: brutal_regular, sans-serif;
+}
+
+.profile__info-bio {
+  color: #47453e;
+  font-family: brutal_regular, sans-serif;
+}
+
+.profile__socials-title {
+  color: #47453e;
+  font-family: brutal_medium, sans-serif;
+}
+
+.profile__social-link {
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+}
+.profile__social-link:last-child {
+  margin-bottom: 0;
+}
+.profile__social-link:hover .profile__social-name {
+  text-decoration: underline;
+}
+.profile__social-link:hover .profile__social-icon-box {
+  color: #fff;
+  border: solid 1px #4693d4;
+  background-color: #4693d4;
+}
+
+.profile__social-icon-box {
+  float: left;
+  border-radius: 3px;
+  border: solid 1px #dcdcdc;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  color: #4693d4;
+  -webkit-transform: translateZ(0);
+  transition: color 0.5s, border 0.5s, background-color 0.5s;
+}
+
+.profile__social-icon {
+  text-align: center;
+  line-height: 1;
+  padding-top: 10px;
+}
+
+.profile__social-name {
+  margin-left: 50px;
+  color: #4693d4;
+  font-family: brutal_regular, sans-serif;
+  line-height: 40px;
+  width: 150%;
+}
+
+.tabs__tab {
+  display: block;
+  float: left;
+  background-color: #f8f8f8;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transition: border 0.5s;
+  cursor: pointer;
+}
+.tabs__tab:hover .tabs__count {
+  color: #e6502d;
+}
+
+.tabs__tab_active {
+  background-color: #fff;
+}
+.tabs__tab_active .tabs__count {
+  color: #e6502d;
+}
+.tabs__tab_active:hover .tabs__count {
+  color: #e6502d;
+}
+
+.tabs__icon-box {
+  color: #dcdcdc;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.tabs__name {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 3px;
+  font-family: brutal_medium, sans-serif;
+  color: #4593d4;
+  border-bottom: 1px dashed #4593d4;
+}
+
+.tabs__count {
+  color: #213036;
+  font-family: brutal_medium, sans-serif;
+  -webkit-transform: translateZ(0);
+  transition: color 0.5s;
+}
+
 /*R320 */
 @media (max-width: 763px) {
   .profile {
@@ -5424,58 +5501,28 @@ body {
     width: 150%;
     font-size: 25px;
     line-height: 29px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
   }
 
   .profile__shade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
     width: 50px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-  }
-
-  .profile__shade_small {
-    width: 25px;
   }
 
   .profile__info-signature {
     font-size: 18px;
     line-height: 28px;
-    color: #213036;
-    font-family: brutal_regular, sans-serif;
     margin-top: 7px;
-  }
-
-  .profile__info-medal {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 4px;
-    position: relative;
-    top: 3px;
-  }
-
-  .profile__info-medal-pic {
-    width: 10px;
-    height: 15px;
   }
 
   .profile__info-rank {
     margin-left: 10px;
     font-size: 14px;
     line-height: 28px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__info-bio {
     margin-top: 23px;
     font-size: 16px;
     line-height: 22px;
-    color: #47453e;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__edit-link-box {
@@ -5493,56 +5540,15 @@ body {
   .profile__socials-title {
     font-size: 16px;
     line-height: 24px;
-    color: #47453e;
-    font-family: brutal_medium, sans-serif;
     margin-bottom: 17px;
   }
 
-  .profile__social-link {
-    height: 40px;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .profile__social-link:last-child {
-    margin-bottom: 0;
-  }
-  .profile__social-link:hover .profile__social-name {
-    text-decoration: underline;
-  }
-  .profile__social-link:hover .profile__social-icon-box {
-    color: #fff;
-    border: solid 1px #4693d4;
-    background-color: #4693d4;
-  }
-
-  .profile__social-icon-box {
-    float: left;
-    border-radius: 3px;
-    border: solid 1px #dcdcdc;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    color: #4693d4;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s, border 0.5s, background-color 0.5s;
-  }
-
   .profile__social-icon {
-    text-align: center;
     font-size: 18px;
-    line-height: 1;
-    padding-top: 10px;
   }
 
   .profile__social-name {
-    margin-left: 50px;
     font-size: 14px;
-    line-height: 40px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
-    width: 150%;
   }
 
   .tabs {
@@ -5575,23 +5581,12 @@ body {
   }
 
   .tabs__tab {
-    display: block;
-    float: left;
     height: 71px;
     border-bottom: 2px solid #4593d4;
-    position: relative;
-    background-color: #f8f8f8;
-    -webkit-transform: translateZ(0);
-    transition: border 0.5s;
-    cursor: pointer;
   }
 
   .tabs__tab_active {
-    background-color: #fff;
     border-bottom: 4px solid #faaf3f;
-  }
-  .tabs__tab_active .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:after {
     position: absolute;
@@ -5623,11 +5618,6 @@ body {
   }
 
   .tabs__icon-box {
-    display: inline-block;
-    vertical-align: top;
-    color: #dcdcdc;
-    font-size: 24px;
-    line-height: 1;
     margin-right: 0;
   }
 
@@ -5640,10 +5630,6 @@ body {
     text-align: center;
     font-size: 20px;
     line-height: 22px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s;
   }
 
   .profile__tab {
@@ -5711,58 +5697,24 @@ body {
     width: 150%;
     font-size: 25px;
     line-height: 32px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-  }
-
-  .profile__shade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-  }
-
-  .profile__shade_small {
-    width: 25px;
   }
 
   .profile__info-signature {
     font-size: 18px;
     line-height: 28px;
-    color: #213036;
-    font-family: brutal_regular, sans-serif;
     margin-top: 7px;
-  }
-
-  .profile__info-medal {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 4px;
-    position: relative;
-    top: 3px;
-  }
-
-  .profile__info-medal-pic {
-    width: 10px;
-    height: 15px;
   }
 
   .profile__info-rank {
     margin-left: 10px;
     font-size: 14px;
     line-height: 28px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__info-bio {
     margin-top: 23px;
     font-size: 16px;
     line-height: 22px;
-    color: #47453e;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__edit-link-box {
@@ -5784,56 +5736,15 @@ body {
   .profile__socials-title {
     font-size: 16px;
     line-height: 24px;
-    color: #47453e;
-    font-family: brutal_medium, sans-serif;
     margin-bottom: 17px;
   }
 
-  .profile__social-link {
-    height: 40px;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .profile__social-link:last-child {
-    margin-bottom: 0;
-  }
-  .profile__social-link:hover .profile__social-name {
-    text-decoration: underline;
-  }
-  .profile__social-link:hover .profile__social-icon-box {
-    color: #fff;
-    border: solid 1px #4693d4;
-    background-color: #4693d4;
-  }
-
-  .profile__social-icon-box {
-    float: left;
-    border-radius: 3px;
-    border: solid 1px #dcdcdc;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    color: #4693d4;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s, border 0.5s, background-color 0.5s;
-  }
-
   .profile__social-icon {
-    text-align: center;
     font-size: 18px;
-    line-height: 1;
-    padding-top: 10px;
   }
 
   .profile__social-name {
-    margin-left: 50px;
     font-size: 14px;
-    line-height: 40px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
-    width: 150%;
   }
 
   .tabs {
@@ -5866,35 +5777,18 @@ body {
   }
 
   .tabs__tab {
-    display: block;
-    float: left;
     height: 126px;
     border-bottom: 4px solid #4593d4;
-    position: relative;
-    background-color: #f8f8f8;
-    -webkit-transform: translateZ(0);
-    transition: border 0.5s;
-    cursor: pointer;
   }
   .tabs__tab:hover {
     border-bottom: 4px solid #faaf3f;
   }
-  .tabs__tab:hover .tabs__count {
-    color: #e6502d;
-  }
 
   .tabs__tab_active {
-    background-color: #fff;
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:hover {
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active:hover .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:after {
     position: absolute;
@@ -5929,34 +5823,11 @@ body {
     text-align: center;
   }
 
-  .tabs__icon-box {
-    display: inline-block;
-    vertical-align: top;
-    color: #dcdcdc;
-    font-size: 24px;
-    line-height: 1;
-  }
-
-  .tabs__name {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 16px;
-    line-height: 18px;
-    padding-top: 3px;
-    font-family: brutal_medium, sans-serif;
-    color: #4593d4;
-    border-bottom: 1px dashed #4593d4;
-  }
-
   .tabs__count {
     padding-top: 5px;
     text-align: center;
     font-size: 42px;
     line-height: 52px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s;
   }
 
   .profile__tab {
@@ -6024,58 +5895,24 @@ body {
     width: 150%;
     font-size: 25px;
     line-height: 32px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-  }
-
-  .profile__shade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-  }
-
-  .profile__shade_small {
-    width: 25px;
   }
 
   .profile__info-signature {
     font-size: 18px;
     line-height: 28px;
-    color: #213036;
-    font-family: brutal_regular, sans-serif;
     margin-top: 7px;
-  }
-
-  .profile__info-medal {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 4px;
-    position: relative;
-    top: 3px;
-  }
-
-  .profile__info-medal-pic {
-    width: 10px;
-    height: 15px;
   }
 
   .profile__info-rank {
     margin-left: 10px;
     font-size: 14px;
     line-height: 28px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__info-bio {
     margin-top: 23px;
     font-size: 16px;
     line-height: 22px;
-    color: #47453e;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__edit-link-box {
@@ -6097,56 +5934,15 @@ body {
   .profile__socials-title {
     font-size: 16px;
     line-height: 24px;
-    color: #47453e;
-    font-family: brutal_medium, sans-serif;
     margin-bottom: 17px;
   }
 
-  .profile__social-link {
-    height: 40px;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .profile__social-link:last-child {
-    margin-bottom: 0;
-  }
-  .profile__social-link:hover .profile__social-name {
-    text-decoration: underline;
-  }
-  .profile__social-link:hover .profile__social-icon-box {
-    color: #fff;
-    border: solid 1px #4693d4;
-    background-color: #4693d4;
-  }
-
-  .profile__social-icon-box {
-    float: left;
-    border-radius: 3px;
-    border: solid 1px #dcdcdc;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    color: #4693d4;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s, border 0.5s, background-color 0.5s;
-  }
-
   .profile__social-icon {
-    text-align: center;
     font-size: 18px;
-    line-height: 1;
-    padding-top: 10px;
   }
 
   .profile__social-name {
-    margin-left: 50px;
     font-size: 14px;
-    line-height: 40px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
-    width: 150%;
   }
 
   .tabs {
@@ -6179,35 +5975,18 @@ body {
   }
 
   .tabs__tab {
-    display: block;
-    float: left;
     height: 126px;
     border-bottom: 4px solid #4593d4;
-    position: relative;
-    background-color: #f8f8f8;
-    -webkit-transform: translateZ(0);
-    transition: border 0.5s;
-    cursor: pointer;
   }
   .tabs__tab:hover {
     border-bottom: 4px solid #faaf3f;
   }
-  .tabs__tab:hover .tabs__count {
-    color: #e6502d;
-  }
 
   .tabs__tab_active {
-    background-color: #fff;
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:hover {
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active:hover .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:after {
     position: absolute;
@@ -6242,34 +6021,11 @@ body {
     text-align: center;
   }
 
-  .tabs__icon-box {
-    display: inline-block;
-    vertical-align: top;
-    color: #dcdcdc;
-    font-size: 24px;
-    line-height: 1;
-  }
-
-  .tabs__name {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 16px;
-    line-height: 18px;
-    padding-top: 3px;
-    font-family: brutal_medium, sans-serif;
-    color: #4593d4;
-    border-bottom: 1px dashed #4593d4;
-  }
-
   .tabs__count {
     padding-top: 5px;
     text-align: center;
     font-size: 48px;
     line-height: 52px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s;
   }
 
   .profile__tab {
@@ -6338,28 +6094,11 @@ body {
     width: 150%;
     font-size: 30px;
     line-height: 32px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-  }
-
-  .profile__shade {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), #ffffff);
-  }
-
-  .profile__shade_small {
-    width: 25px;
   }
 
   .profile__info-signature {
     font-size: 20px;
     line-height: 28px;
-    color: #213036;
-    font-family: brutal_regular, sans-serif;
     margin-top: 14px;
   }
 
@@ -6367,33 +6106,16 @@ body {
     margin-top: 5px;
   }
 
-  .profile__info-medal {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 4px;
-    position: relative;
-    top: 3px;
-  }
-
-  .profile__info-medal-pic {
-    width: 10px;
-    height: 15px;
-  }
-
   .profile__info-rank {
     margin-left: 10px;
     font-size: 16px;
     line-height: 28px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__info-bio {
     margin-top: 23px;
     font-size: 18px;
     line-height: 28px;
-    color: #47453e;
-    font-family: brutal_regular, sans-serif;
   }
 
   .profile__edit-link-box {
@@ -6414,56 +6136,15 @@ body {
   .profile__socials-title {
     font-size: 20px;
     line-height: 24px;
-    color: #47453e;
-    font-family: brutal_medium, sans-serif;
     margin-bottom: 17px;
   }
 
-  .profile__social-link {
-    height: 40px;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    margin-bottom: 20px;
-  }
-  .profile__social-link:last-child {
-    margin-bottom: 0;
-  }
-  .profile__social-link:hover .profile__social-name {
-    text-decoration: underline;
-  }
-  .profile__social-link:hover .profile__social-icon-box {
-    color: #fff;
-    border: solid 1px #4693d4;
-    background-color: #4693d4;
-  }
-
-  .profile__social-icon-box {
-    float: left;
-    border-radius: 3px;
-    border: solid 1px #dcdcdc;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    color: #4693d4;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s, border 0.5s, background-color 0.5s;
-  }
-
   .profile__social-icon {
-    text-align: center;
     font-size: 20px;
-    line-height: 1;
-    padding-top: 10px;
   }
 
   .profile__social-name {
-    margin-left: 50px;
     font-size: 16px;
-    line-height: 40px;
-    color: #4693d4;
-    font-family: brutal_regular, sans-serif;
-    width: 150%;
   }
 
   .tabs {
@@ -6496,35 +6177,18 @@ body {
   }
 
   .tabs__tab {
-    display: block;
-    float: left;
     height: 126px;
     border-bottom: 4px solid #4593d4;
-    position: relative;
-    background-color: #f8f8f8;
-    -webkit-transform: translateZ(0);
-    transition: border 0.5s;
-    cursor: pointer;
   }
   .tabs__tab:hover {
     border-bottom: 4px solid #faaf3f;
   }
-  .tabs__tab:hover .tabs__count {
-    color: #e6502d;
-  }
 
   .tabs__tab_active {
-    background-color: #fff;
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:hover {
     border-bottom: 8px solid #faaf3f;
-  }
-  .tabs__tab_active:hover .tabs__count {
-    color: #e6502d;
   }
   .tabs__tab_active:after {
     position: absolute;
@@ -6559,34 +6223,11 @@ body {
     text-align: center;
   }
 
-  .tabs__icon-box {
-    display: inline-block;
-    vertical-align: top;
-    color: #dcdcdc;
-    font-size: 24px;
-    line-height: 1;
-  }
-
-  .tabs__name {
-    display: inline-block;
-    vertical-align: top;
-    font-size: 16px;
-    line-height: 18px;
-    padding-top: 3px;
-    font-family: brutal_medium, sans-serif;
-    color: #4593d4;
-    border-bottom: 1px dashed #4593d4;
-  }
-
   .tabs__count {
     padding-top: 5px;
     text-align: center;
     font-size: 48px;
     line-height: 52px;
-    color: #213036;
-    font-family: brutal_medium, sans-serif;
-    -webkit-transform: translateZ(0);
-    transition: color 0.5s;
   }
 
   .profile__tab {
