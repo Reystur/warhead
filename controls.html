@@ -1,97 +1,133 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/icons/styles.css">
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/icons/styles.css" rel="stylesheet" />
     <title>Controls</title>
-</head>
-<body class="no-branding" style="padding: 20px">
-<div style="width: 400px; margin: 0 auto; padding: 40px; border: 1px solid grey; border-radius: 3px">
-    <div class="w-input-label-box">
-        <div class="w-input-label">Input:</div>
-    </div>
-    <div class="">
-        <input type="text" class="w-input" value="Some text">
-        <div class="w-input-error">Сообщение об ошибке</div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-input-label">Select:</div>
-    </div>
-    <div class="w-dropdown">
+  </head>
+  <body class="no-branding" style="padding: 20px">
+    <div style="width: 400px; margin: 0 auto; padding: 40px; border: 1px solid grey; border-radius: 3px">
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Input:
+        </div>
+      </div>
+      <div>
+        <input class="w-input" type="text" value="Some text" />
+        <div class="w-input-error">
+          Сообщение об ошибке
+        </div>
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Select:
+        </div>
+      </div>
+      <div class="w-dropdown">
         <div class="w-dropdown__arrow">
-            <div class="icon icon-w-arr-down"></div>
+          <div class="icon icon-w-arr-down"></div>
         </div>
-        <div class="w-dropdown__origin">Lv.  Military Otaku</div>
+        <div class="w-dropdown__origin">
+          Lv.  Military Otaku
+        </div>
         <div class="w-dropdown__extend">
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
         </div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-input-label">Radio:</div>
-    </div>
-    <div class="">
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Radio:
+        </div>
+      </div>
+      <div>
         <div class="w-radio-box">
-            <div class="w-radio">
-                <div class="w-radio-icon"></div>
-                <span class="w-radio-text">Yes</span>
-            </div>
+          <div class="w-radio">
+            <div class="w-radio-icon"></div>
+            <span class="w-radio-text">Yes</span>
+          </div>
         </div>
         <div class="w-radio-box">
-            <div class="w-radio">
-                <div class="w-radio-icon w-radio-icon_active"></div>
-                <span class="w-radio-text">No</span>
-            </div>
+          <div class="w-radio">
+            <div class="w-radio-icon w-radio-icon_active"></div>
+            <span class="w-radio-text">No</span>
+          </div>
         </div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-input-label">Checkbox:</div>
-    </div>
-    <div class="">
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Checkbox:
+        </div>
+      </div>
+      <div>
         <div class="w-checkbox-box">
-            <div class="w-checkbox">
-                <div class="w-checkbox-icon"></div>
-                <span class="w-checkbox-text">Yes</span>
-            </div>
+          <div class="w-checkbox">
+            <div class="w-checkbox-icon"></div>
+            <span class="w-checkbox-text">Yes</span>
+          </div>
         </div>
         <div class="w-checkbox-box">
-            <div class="w-checkbox">
-                <div class="w-checkbox-icon w-checkbox-icon_active"></div>
-                <span class="w-checkbox-text">No</span>
-            </div>
+          <div class="w-checkbox">
+            <div class="w-checkbox-icon w-checkbox-icon_active"></div>
+            <span class="w-checkbox-text">No</span>
+          </div>
         </div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-input-label">Textarea:</div>
-    </div>
-    <div class="">
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Textarea:
+        </div>
+      </div>
+      <div>
         <textarea class="w-textarea">Photographs are a way of preserving a moment in our lives for the rest of our lives. Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy. It surely seems old fashioned to talk about 35mm film and non-digital cameras in today’s day and age.</textarea>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-btn">Да</div>
-        <div class="w-btn w-btn_cancel">Нет</div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-btn w-btn_block">Да</div>
-    </div>
-    <div class="w-input-label-box">
-        <div class="w-input-label">Select active:</div>
-    </div>
-    <div class="w-dropdown w-dropdown-active">
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-btn">
+          Да
+        </div>
+        <div class="w-btn w-btn_cancel">
+          Нет
+        </div>
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-btn w-btn_block">
+          Да
+        </div>
+      </div>
+      <div class="w-input-label-box">
+        <div class="w-input-label">
+          Select active:
+        </div>
+      </div>
+      <div class="w-dropdown w-dropdown-active">
         <div class="w-dropdown__arrow">
-            <div class="icon icon-w-arr-down"></div>
+          <div class="icon icon-w-arr-down"></div>
         </div>
-        <div class="w-dropdown__origin">Lv.  Military Otaku</div>
+        <div class="w-dropdown__origin">
+          Lv.  Military Otaku
+        </div>
         <div class="w-dropdown__extend">
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
-            <div class="w-dropdown__extend-element">Lv.  Military Otaku</div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
+          <div class="w-dropdown__extend-element">
+            Lv.  Military Otaku
+          </div>
         </div>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
