@@ -710,6 +710,13 @@ body {
     padding: 4px 7px 2px 7px;
   }
 
+  /* converted font fix for firefox */
+  @-moz-document url-prefix() {
+    .header__menu-link {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
   .header__menu-arrow {
     top: 6px;
   }
@@ -847,6 +854,13 @@ body {
     padding: 4px 9px 2px 9px;
   }
 
+  /* converted font fix for firefox */
+  @-moz-document url-prefix() {
+    .header__menu-link {
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+  }
   .header__menu-more.header__menu-link_active:after {
     top: 70px;
   }
