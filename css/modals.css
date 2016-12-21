@@ -48,7 +48,7 @@
   box-sizing: border-box;
   border: 1px solid #dcdcdc;
   border-radius: 3px;
-  color: #4593d4;
+  color: #4693D4;
   display: inline-block;
   font-size: 29px;
   padding-top: 15px;
@@ -58,8 +58,8 @@
 }
 .modal-social__link:hover {
   color: #fff;
-  border: 1px solid #4593d4;
-  background-color: #4593d4;
+  border: 1px solid #4693D4;
+  background-color: #4693D4;
 }
 
 .modal-socials__fb {
@@ -83,7 +83,7 @@
   font-size: 16px;
   line-height: 16px;
   font-family: brutal_regular, sans-serif;
-  color: #4693d4;
+  color: #4693D4;
 }
 .modal-box__bot-link:hover {
   text-decoration: underline;
@@ -137,7 +137,7 @@
   transition: background-color 0.5s, border 0.5s;
 }
 .modal-news__link .icon {
-  color: #4593d4;
+  color: #4693D4;
   font-size: 28px;
   display: inline-block;
   padding-top: 21px;
@@ -149,8 +149,8 @@
   margin-bottom: 20px;
 }
 .modal-news__link:hover {
-  border: 1px solid #4593d4;
-  background-color: #4593d4;
+  border: 1px solid #4693D4;
+  background-color: #4693D4;
 }
 .modal-news__link:hover .icon {
   color: #fff;
@@ -181,7 +181,7 @@
 }
 
 .modal-news__text-link {
-  color: #4693d4;
+  color: #4693D4;
 }
 .modal-news__text-link:hover {
   text-decoration: underline;

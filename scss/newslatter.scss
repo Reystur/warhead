@@ -1,8 +1,8 @@
 .newsletter__social-fb, .newsletter__social-vk, .newsletter__social-tw, .newsletter__social-od {
-  color: $color9;
+  color: $active-text;
 
   &:hover {
-    color: $color18;
+    color: $newslatter-hover;
   }
 }
 
@@ -44,11 +44,11 @@
 }
 
 .newsletter__title {
-  color: $color2;
+  color: $main-text;
 }
 
 .newsletter__social-title {
-  color: $color2;
+  color: $main-text;
 }
 
 /*R320 */
@@ -136,7 +136,7 @@
     padding: 30px 40px;
     height: 130px;
     border-radius: 3px;
-    background-color: $color4;
+    background-color: $default-bg;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -208,7 +208,7 @@
     padding: 20px;
     width: 200px;
     border-radius: 3px;
-    background-color: $color4;
+    background-color: $default-bg;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -264,7 +264,7 @@
     padding: 24px;
     width: 272px;
     border-radius: 3px;
-    background-color: $color4;
+    background-color: $default-bg;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   }
 

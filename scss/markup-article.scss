@@ -1,33 +1,33 @@
 .markup-article {
   p {
     font-family: $font-regular;
-    color: $color2;
+    color: $markup-text;
 
     &.shutted-text {
-      color: $color7;
+      color: $markup-shutted;
     }
   }
 
   a {
-    color: $color5;
+    color: $markup-a;
 
     &:hover {
       text-decoration: underline;
     }
 
     &:visited {
-      color: $color20;
+      color: $markup-a-visited;
     }
   }
 
   h2 {
     font-family: $font-medium;
-    color: $color2;
+    color: $markup-text;
   }
 
   .half-pic__note {
     font-family: $font-regular;
-    color: $color7;
+    color: $markup-shutted;
   }
 
   blockquote {
@@ -36,7 +36,7 @@
 
     p {
       font-family: $font-medium;
-      color: $color1;
+      color: $markup-p;
     }
   }
 
@@ -49,7 +49,7 @@
 
     li {
       font-family: $font-regular;
-      color: $color2;
+      color: $markup-text;
       background: url("../img/rectangle-blue.png") left 8px no-repeat;
       background-size: 6px;
     }
@@ -58,7 +58,7 @@
   ol {
     li {
       font-family: $font-regular;
-      color: $color2;
+      color: $markup-text;
     }
   }
 }

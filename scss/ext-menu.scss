@@ -1,5 +1,5 @@
 .dropdown-menu {
-  background-color: $color4;
+  background-color: $default-bg;
   position: absolute;
   width: 100%;
   top: 100%;
@@ -12,28 +12,28 @@
 
 .dropdown-menu__main-link {
   font-family: $font-medium;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 .dropdown-menu__all-categories-show {
   font-family: $font-regular;
-  color: $color5;
-  border-bottom: dashed 1px $color5;
+  color: $active-text;
+  border-bottom: dashed 1px $active-text;
 }
 
 .dropdown-menu__all-categories-box {
-  background-color: $color16;
+  background-color: $additional-bg;
 }
 
 .dropdown-menu__all-category-new {
   float: right;
   font-family: $font-regular;
-  color: $color5;
+  color: $active-text;
 }
 
 .dropdown-menu__all-category-link {
   font-family: $font-medium;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 .dropdown-menu__all-category-link_new {
@@ -42,13 +42,13 @@
 
 .dropdown-menu__all-categories-hide {
   font-family: $font-regular;
-  color: $color5;
-  border-bottom: dashed 1px $color5;
+  color: $active-text;
+  border-bottom: dashed 1px $active-text;
 }
 
 .dropdown-menu__site-menu-link {
   font-family: $font-medium;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 /*R320 */
@@ -90,7 +90,7 @@
   .dropdown-menu__all-categories-show-box {
     margin: 22px 20px 10px;
     padding-bottom: 30px;
-    border-bottom: 1px solid $color6;
+    border-bottom: 1px solid $shutted-border;
   }
 
   .dropdown-menu__all-categories-show {
@@ -217,7 +217,7 @@
     right: 80px;
     width: 200px;
     padding-left: 28px;
-    border-left: 1px $color6 solid;
+    border-left: 1px $shutted-border solid;
   }
 
   .dropdown-menu__site-menu-link {
@@ -229,7 +229,7 @@
 /*R1024 */
 @media (min-width: $desktop + px) and (max-width: $desktop-wide - 1 + px) {
   .dropdown-menu {
-    border-top: 3px solid $color3;
+    border-top: 3px solid $active-border;
   }
 
   .dropdown-menu__wrapper {
@@ -332,7 +332,7 @@
 /*R1440 */
 @media (min-width: $desktop-wide + px) {
   .dropdown-menu {
-    border-top: 10px solid $color3;
+    border-top: 10px solid $active-border;
   }
 
   .dropdown-menu__wrapper {

@@ -2,6 +2,10 @@
   margin-right: 5px;
 }
 
+.profile__edit-link-icon{
+  margin-right: 7px;
+}
+
 .profile__comments-article {
   margin-bottom: 40px;
 
@@ -11,7 +15,7 @@
 }
 
 .profile__info-name {
-  color: $color1;
+  color: $main-text_darker;
   font-family: $font-medium;
 }
 
@@ -29,7 +33,7 @@
 }
 
 .profile__info-signature {
-  color: $color1;
+  color: $main-text_darker;
   font-family: $font-regular;
 }
 
@@ -47,17 +51,17 @@
 }
 
 .profile__info-rank {
-  color: $color5;
+  color: $active-text;
   font-family: $font-regular;
 }
 
 .profile__info-bio {
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 
 .profile__socials-title {
-  color: $color2;
+  color: $main-text;
   font-family: $font-medium;
 }
 
@@ -78,9 +82,9 @@
     }
 
     .profile__social-icon-box {
-      color: $color4;
-      border: solid 1px $color5;
-      background-color: $color5;
+      color: $additional-text;
+      border: solid 1px $active-text;
+      background-color: $active-text;
     }
   }
 }
@@ -88,11 +92,11 @@
 .profile__social-icon-box {
   float: left;
   border-radius: 3px;
-  border: solid 1px $color6;
+  border: solid 1px $shutted-border;
   width: 40px;
   height: 40px;
   box-sizing: border-box;
-  color: $color5;
+  color: $active-text;
   -webkit-transform: translateZ(0);
   transition: color 0.5s, border 0.5s, background-color 0.5s;
 }
@@ -105,7 +109,7 @@
 
 .profile__social-name {
   margin-left: 50px;
-  color: $color5;
+  color: $active-text;
   font-family: $font-regular;
   line-height: 40px;
   width: 150%;
@@ -114,7 +118,7 @@
 .tabs__tab {
   display: block;
   float: left;
-  background-color: $color16;
+  background-color: $additional-bg;
   position: relative;
   -webkit-transform: translateZ(0);
   transition: border 0.5s;
@@ -122,27 +126,27 @@
 
   &:hover {
     .tabs__count {
-      color: $color13;
+      color: $tab-active-count;
     }
   }
 }
 
 .tabs__tab_active {
-  background-color: $color4;
+  background-color: $default-bg;
 
   .tabs__count {
-    color: $color13;
+    color: $tab-active-count;
   }
 
   &:hover {
     .tabs__count {
-      color: $color13;
+      color: $tab-active-count;
     }
   }
 }
 
 .tabs__icon-box {
-  color: $color6;
+  color: $tab-icon;
   display: inline-block;
   vertical-align: top;
   font-size: 24px;
@@ -156,12 +160,12 @@
   line-height: 18px;
   padding-top: 3px;
   font-family: $font-medium;
-  color: $color9;
-  border-bottom: 1px dashed $color9;
+  color: $active-text;
+  border-bottom: 1px dashed $active-text;
 }
 
 .tabs__count {
-  color: $color1;
+  color: $main-text_darker;
   font-family: $font-medium;
   -webkit-transform: translateZ(0);
   transition: color 0.5s;
@@ -294,11 +298,11 @@
 
   .tabs__tab {
     height: 71px;
-    border-bottom: 2px solid $color9;
+    border-bottom: 2px solid $active-text;
   }
 
   .tabs__tab_active {
-    border-bottom: 4px solid $color12;
+    border-bottom: 4px solid $tab-active;
 
     &:after {
       position: absolute;
@@ -353,13 +357,13 @@
     width: 40px;
     height: 3px;
     margin-left: 20px;
-    background-color: $color12;
+    background-color: $title-line-a;
   }
 
   .profile__tab-title {
     font-size: 25px;
     line-height: 37px;
-    color: $color2;
+    color: $main-text;
     font-family: $font-bold;
     margin: 10px 20px 17px;
   }
@@ -503,18 +507,18 @@
 
   .tabs__tab {
     height: 126px;
-    border-bottom: 4px solid $color9;
+    border-bottom: 4px solid $active-text;
 
     &:hover {
-      border-bottom: 4px solid $color12;
+      border-bottom: 4px solid $tab-active;
     }
   }
 
   .tabs__tab_active {
-    border-bottom: 8px solid $color12;
+    border-bottom: 8px solid $tab-active;
 
     &:hover {
-      border-bottom: 8px solid $color12;
+      border-bottom: 8px solid $tab-active;
     }
 
     &:after {
@@ -531,7 +535,7 @@
     }
 
     .tabs__name {
-      color: $color1;
+      color: $main-text_darker;
       border-bottom: 1px solid transparent;
     }
   }
@@ -718,18 +722,18 @@
 
   .tabs__tab {
     height: 126px;
-    border-bottom: 4px solid $color9;
+    border-bottom: 4px solid $active-text;
 
     &:hover {
-      border-bottom: 4px solid $color12;
+      border-bottom: 4px solid $tab-active;
     }
   }
 
   .tabs__tab_active {
-    border-bottom: 8px solid $color12;
+    border-bottom: 8px solid $tab-active;
 
     &:hover {
-      border-bottom: 8px solid $color12;
+      border-bottom: 8px solid $tab-active;
     }
 
     &:after {
@@ -746,7 +750,7 @@
     }
 
     .tabs__name {
-      color: $color1;
+      color: $main-text_darker;
       border-bottom: 1px solid transparent;
     }
   }
@@ -938,18 +942,18 @@
 
   .tabs__tab {
     height: 126px;
-    border-bottom: 4px solid $color9;
+    border-bottom: 4px solid $active-text;
 
     &:hover {
-      border-bottom: 4px solid $color12;
+      border-bottom: 4px solid $tab-active;
     }
   }
 
   .tabs__tab_active {
-    border-bottom: 8px solid $color12;
+    border-bottom: 8px solid $tab-active;
 
     &:hover {
-      border-bottom: 8px solid $color12;
+      border-bottom: 8px solid $tab-active;
     }
 
     &:after {
@@ -966,7 +970,7 @@
     }
 
     .tabs__name {
-      color: $color1;
+      color: $main-text_darker;
       border-bottom: 1px solid transparent;
     }
   }

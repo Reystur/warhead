@@ -1,5 +1,5 @@
 .header {
-  background-color: $color1;
+  background-color: $darken-bg;
   clear: both;
   position: relative;
 }
@@ -29,7 +29,7 @@
   }
 
   &:hover:after {
-    border: 2px solid $color3;
+    border: 2px solid $header-active;
   }
 }
 
@@ -70,13 +70,13 @@
 
 .header__menu-link {
   display: block;
-  color: $color4;
+  color: $additional-text;
   font-family: $font-medium;
   float: left;
   position: relative;
 
   &:hover {
-    color: $color3;
+    color: $header-active;
     text-decoration: underline;
   }
 }
@@ -93,11 +93,11 @@
 }
 
 .header__menu-link_active {
-  color: $color1;
-  background-color: $color3;
+  color: $main-text_darker;
+  background-color: $header-active;
 
   &:hover {
-    color: $color1;
+    color: $main-text_darker;
     text-decoration: none;
   }
 }
@@ -129,7 +129,7 @@
 .header__search {
   float: right;
   border-radius: 3px;
-  background-color: $color10;
+  background-color: $controls-input-bg;
   margin: 0;
 }
 
@@ -159,7 +159,7 @@
 }
 
 .header__tagline {
-  color: $color3;
+  color: $header-active;
   font-family: $font-regular;
 }
 
@@ -168,50 +168,50 @@
 }
 
 .header__fb {
-  color: $color17;
+  color: $header-icon;
   padding: 5px;
   display: block;
   float: right;
   font-size: 27px;
 
   &:hover {
-    color: $color14;
+    color: $header-icon-hover;
   }
 }
 
 .header__vk {
-  color: $color17;
+  color: $header-icon;
   padding: 5px;
   display: block;
   float: right;
   font-size: 33px;
 
   &:hover {
-    color: $color14;
+    color: $header-icon-hover;
   }
 }
 
 .header__tw {
-  color: $color17;
+  color: $header-icon;
   padding: 5px;
   display: block;
   float: right;
   font-size: 29px;
 
   &:hover {
-    color: $color14;
+    color: $header-icon-hover;
   }
 }
 
 .header__od {
-  color: $color17;
+  color: $header-icon;
   padding: 5px;
   display: block;
   float: right;
   font-size: 28px;
 
   &:hover {
-    color: $color14;
+    color: $header-icon-hover;
   }
 }
 

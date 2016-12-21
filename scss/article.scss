@@ -18,11 +18,11 @@
   padding: 2px;
   width: 25px;
   height: 25px;
-  color: $color2;
+  color: $main-text;
   font-size: 25px;
 
   &:hover {
-    color: $color9;
+    color: $active-text;
   }
 }
 
@@ -59,7 +59,7 @@
   }
 
   &:hover:after {
-    border: 2px solid $color9;
+    border: 2px solid $active-text;
   }
 }
 
@@ -97,14 +97,14 @@
   font-size: 16px;
   line-height: 16px;
   font-family: $font-medium;
-  color: $color2;
+  color: $main-text;
 
   //transition: color .5s, border .5s
   border-bottom: 1px solid transparent;
 
   &:hover {
-    color: $color9;
-    border-bottom: 1px solid $color9;
+    color: $active-text;
+    border-bottom: 1px solid $active-text;
   }
 }
 
@@ -120,15 +120,15 @@
   font-size: 14px;
   line-height: 16px;
   font-family: $font-medium;
-  color: $color2;
+  color: $main-text;
   display: inline-block;
 
   //transition: color .5s, border .5s
   border-bottom: 1px solid transparent;
 
   &:hover {
-    color: $color5;
-    border-bottom: 1px solid $color5;
+    color: $active-text;
+    border-bottom: 1px solid $active-text;
   }
 }
 
@@ -140,7 +140,7 @@
 
 .article__dot-icon {
   font-size: 3px;
-  color: $color2;
+  color: $main-text;
 }
 
 .article__tags {
@@ -151,14 +151,14 @@
   font-size: 12px;
   line-height: 16px;
   font-family: $font-regular;
-  color: $color2;
+  color: $main-text;
 
   //transition: color .5s, border .5s
   border-bottom: 1px solid transparent;
 
   &:hover {
-    color: $color5;
-    border-bottom: 1px solid $color5;
+    color: $active-text;
+    border-bottom: 1px solid $active-text;
   }
 }
 
@@ -166,7 +166,7 @@
   font-size: 14px;
   line-height: 22px;
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .likes__likeicon {
@@ -200,7 +200,7 @@
 }
 
 .likes__fbicon, .likes__vkicon, .likes__twicon, .likes__odicon {
-  color: $color5;
+  color: $active-text;
 }
 
 .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box {
@@ -213,20 +213,20 @@
 
 .likes__fb, .likes__vk, .likes__tw, .likes__od, .likes__to-favorite {
   font-family: $font-regular;
-  color: $color2;
+  color: $main-text;
 }
 
 .likes__to-favorite {
-  color: $color5;
+  color: $active-text;
 }
 
 .authors__material-a {
-  color: $color7;
+  color: $shutted-text;
 }
 
 .same-articles__title {
   font-family: $font-medium;
-  color: $color2;
+  color: $main-text;
 }
 
 .same-articles__box_horizontal:after {
@@ -237,34 +237,34 @@
 
 .article__title {
   font-family: $font-bold;
-  color: $color2;
-  background-color: $color4;
+  color: $main-text;
+  background-color: $default-bg;
 }
 
 .authors__label {
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .authors__list {
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .author__list-link {
   text-decoration: underline;
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .authors__materials-label {
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .authors__material {
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
   text-decoration: underline;
   background: url("../img/rectangle-grey.png") left center no-repeat;
   background-size: 6px;
@@ -314,6 +314,10 @@
     width: 30px;
     height: 30px;
     background-size: 30px;
+  }
+
+  .article__dot-black{
+    display: none;
   }
 
   .article__aurhor-pics-box {
@@ -375,7 +379,7 @@
   .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box {
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid $color6;
+    border: 1px solid $shutted-border;
     width: 25%;
     float: left;
     height: 45px;
@@ -462,7 +466,7 @@
 
   .authors {
     margin: 40px 60px 40px 68px;
-    border-left: 3px solid $color6;
+    border-left: 3px solid $shutted-border;
     padding-left: 38px;
   }
 
@@ -502,7 +506,7 @@
   .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box {
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid $color6;
+    border: 1px solid $shutted-border;
     width: 16%;
     float: left;
     height: 45px;
@@ -612,7 +616,7 @@
 
   .authors {
     margin: 40px 60px 40px 92px;
-    border-left: 3px solid $color6;
+    border-left: 3px solid $shutted-border;
     padding-left: 38px;
   }
 
@@ -652,7 +656,7 @@
   .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box {
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid $color6;
+    border: 1px solid $shutted-border;
     width: 16%;
     float: left;
     height: 45px;
@@ -799,7 +803,7 @@
 
   .authors {
     margin: 70px 60px 40px 160px;
-    border-left: 3px solid $color6;
+    border-left: 3px solid $shutted-border;
     padding-left: 58px;
   }
 
@@ -840,7 +844,7 @@
   .likes__fb-box, .likes__vk-box, .likes__tw-box, .likes__od-box, .likes__to-favorite-box {
     text-align: center;
     box-sizing: border-box;
-    border: 1px solid $color6;
+    border: 1px solid $shutted-border;
     width: 16%;
     float: left;
     height: 45px;

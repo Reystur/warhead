@@ -6,7 +6,7 @@
   width: 400px;
   padding: 40px;
   border-radius: 3px;
-  background-color: $color4;
+  background-color: $default-bg;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   position: relative;
 }
@@ -30,7 +30,7 @@
   font-size: 24px;
   line-height: 24px;
   font-family: $font-medium;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 .modal-socials {
@@ -53,9 +53,9 @@
   width: 58px;
   height: 58px;
   box-sizing: border-box;
-  border: 1px solid $color6;
+  border: 1px solid $shutted-border;
   border-radius: 3px;
-  color: $color9;
+  color: $active-text;
   display: inline-block;
   font-size: 29px;
   padding-top: 15px;
@@ -64,9 +64,9 @@
   text-align: center;
 
   &:hover {
-    color: $color4;
-    border: 1px solid $color9;
-    background-color: $color9;
+    color: $additional-text;
+    border: 1px solid $active-text;
+    background-color: $active-text;
   }
 }
 
@@ -91,7 +91,7 @@
   font-size: 16px;
   line-height: 16px;
   font-family: $font-regular;
-  color: $color5;
+  color: $active-text;
 
   &:hover {
     text-decoration: underline;
@@ -101,7 +101,7 @@
 .modal-box__text {
   font-size: 16px;
   line-height: 22px;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
   margin: 15px 0;
 }
@@ -139,14 +139,14 @@
   padding-left: 21px;
   height: 66px;
   border-radius: 3px;
-  border: 1px solid $color6;
+  border: 1px solid $shutted-border;
   display: block;
   box-sizing: border-box;
   -webkit-transform: translateZ(0);
   transition: background-color 0.5s, border 0.5s;
 
   .icon {
-    color: $color9;
+    color: $active-text;
     font-size: 28px;
     display: inline-block;
     padding-top: 21px;
@@ -160,15 +160,15 @@
   }
 
   &:hover {
-    border: 1px solid $color9;
-    background-color: $color9;
+    border: 1px solid $active-text;
+    background-color: $active-text;
 
     .icon {
-      color: $color4;
+      color: $additional-text;
     }
 
     .modal-news__link-text {
-      color: $color4;
+      color: $additional-text;
     }
   }
 }
@@ -179,7 +179,7 @@
   line-height: 18px;
   display: inline-block;
   vertical-align: top;
-  color: $color7;
+  color: $shutted-text;
   font-family: $font-regular;
   -webkit-transform: translateZ(0);
   transition: color 0.5s;
@@ -190,12 +190,12 @@
   clear: both;
   font-size: 16px;
   line-height: 18px;
-  color: $color1;
+  color: $main-text_darker;
   font-family: $font-regular;
 }
 
 .modal-news__text-link {
-  color: $color5;
+  color: $active-text;
 
   &:hover {
     text-decoration: underline;
@@ -236,7 +236,7 @@
   margin-left: 103px;
   font-size: 16px;
   line-height: 22px;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 

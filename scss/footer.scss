@@ -1,5 +1,5 @@
 .footer {
-  background-color: $color1;
+  background-color: $darken-bg;
 }
 
 .footer__fb {
@@ -10,10 +10,10 @@
   float: right;
   margin-right: 48px;
   font-size: 20px;
-  color: $color17;
+  color: $footer-icon;
 
   &:hover {
-    color: $color14;
+    color: $footer-hover;
   }
 }
 
@@ -25,10 +25,10 @@
   float: right;
   margin-right: 48px;
   font-size: 24px;
-  color: $color17;
+  color: $footer-icon;
 
   &:hover {
-    color: $color14;
+    color: $footer-hover;
   }
 }
 
@@ -40,10 +40,10 @@
   float: right;
   margin-right: 49px;
   font-size: 22px;
-  color: $color17;
+  color: $footer-icon;
 
   &:hover {
-    color: $color14;
+    color: $footer-hover;
   }
 }
 
@@ -55,26 +55,26 @@
   float: right;
   margin-right: 10px;
   font-size: 20px;
-  color: $color17;
+  color: $footer-icon;
 
   &:hover {
-    color: $color14;
+    color: $footer-hover;
   }
 }
 
 .footer__link {
   font-family: $font-regular;
-  color: $color8;
+  color: $footer-text;
 
   &:hover {
-    color: $color14;
+    color: $footer-hover;
     text-decoration: underline;
   }
 }
 
 .footer__copyright {
   font-family: $font-regular;
-  color: $color8;
+  color: $footer-text;
 }
 
 /*R320 */
@@ -208,7 +208,7 @@
     float: left;
 
     &:hover {
-      color: $color14;
+      color: $footer-hover;
     }
   }
 

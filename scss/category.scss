@@ -1,17 +1,17 @@
 .category__description-box {
   border-radius: 3px;
-  background-color: $color4;
+  background-color: $additional-text;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 .category__title-line {
   width: 90px;
   height: 3px;
-  background-color: $color12;
+  background-color: $title-line-a;
 }
 
 .category__title {
-  color: $color2;
+  color: $main-text;
   font-family: $font-bold;
 }
 
@@ -27,12 +27,12 @@
 
 .category__description-box-left {
   float: left;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 
 .category__description-box-right {
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 
@@ -54,16 +54,16 @@
   }
 }
 
-.category__main-article_orange {
-  background-color: $color3;
+.category__main-article_a {
+  background-color: $main-article-orange;
 }
 
-.category__main-article_red {
-  background-color: $color13;
+.category__main-article_b {
+  background-color: $main-article-red;
 }
 
-.category__main-article_blue {
-  background-color: $color14;
+.category__main-article_c {
+  background-color: $main-article-blue;
 }
 
 .category__main-article-pic {
@@ -89,7 +89,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: $color1;
+  background-color: $darken-bg;
   opacity: 0;
   -webkit-transform: translateZ(0);
   transition: opacity 0.5s;
@@ -112,30 +112,30 @@
 
 .category__main-article-inner-title {
   font-family: $font-bold;
-  color: $color3;
+  color: $article-title;
 }
 
 .category__main-article-inner-text {
   font-family: $font-bold;
-  color: $color4;
+  color: $additional-text;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .category__popular-line {
   width: 40px;
   height: 3px;
-  background-color: $color3;
+  background-color: $title-line-a;
 }
 
 .category__earlier-line {
   width: 40px;
   height: 3px;
-  background-color: $color14;
+  background-color: $title-line-b;
 }
 
 .category__sub-title {
   font-family: $font-bold;
-  color: $color2;
+  color: $main-text;
 }
 
 /*R320 */

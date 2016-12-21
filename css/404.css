@@ -1,14 +1,3 @@
-.no-branding .wrapper {
-  padding-top: 0;
-  width: auto;
-}
-.no-branding .p404-wrap {
-  width: auto;
-}
-.no-branding .p404 {
-  background-color: #fff;
-}
-
 .p404-wrap {
   background-color: #213036;
 }
@@ -82,10 +71,6 @@
 }
 /*R764 */
 @media (min-width: 764px) and (max-width: 1023px) {
-  .p404-wrap {
-    margin: 0 28px;
-  }
-
   .p404__main {
     padding: 60px 0;
   }
@@ -131,6 +116,10 @@
     margin: 0 auto;
   }
 
+  .p404-wrap_no-branding {
+    width: auto;
+  }
+
   .p404__main {
     padding: 40px 0 70px;
   }
@@ -168,6 +157,10 @@
   .p404-wrap {
     width: 1240px;
     margin: 0 auto;
+  }
+
+  .p404-wrap_no-branding {
+    width: auto;
   }
 
   .p404__main {

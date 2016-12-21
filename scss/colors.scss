@@ -1,20 +1,101 @@
-$color1: #213036;
-$color2: #47453e;
-$color3: #f7ab32;
-$color4: #fff;
-$color5: #4693d4;
-$color6: #dcdcdc;
-$color7: #8a8a8a;
-$color8: #4e6873;
-$color9: #4593d4;
-$color10: #f5f5f5;
-$color11: #949494;
-$color12: #faaf3f;
-$color13: #e6502d;
-$color14: #67b2d0;
-$color15: #a2d0e3;
-$color16: #f8f8f8;
-$color17: #577b89;
-$color18: #347bb6;
-$color19: #adaeae;
-$color20: #67b2cf;
+//$color1: #213036;
+//$color4: #fff;
+//$color2: #47453e;
+//$color3: #f7ab32;
+//$color13: #e6502d; //7 about title line; cat article-red; ctrls error; pop article box; tabs active
+//$color18: #347bb6; //5 comments submit btn hover, icons hover; newslatter icon hover
+//$color5: #4693d4; //37
+//$color9: #4593d4; //39 art share color, author-pic hover, author-name hover; comments submit-bg, icons-btns, author hover; ctrls btn border, btn bg hover, dropdown arrow bg, dropdown ext bg hover, radio hover, checkbox hover; modals social icon, social icon bg hover; newslatter icon; profile tab text, tab inactive border
+//$color14: #67b2d0; //13 404 title line; cat title line; footer & header social hover
+//$color20: #67b2cf; //1 markup link
+//$color15: #a2d0e3; //2  ctrls input & textarea focus outline
+//$color6: #dcdcdc; //13 article likes border, authors border; ext border bottom; modals link border; profile social borders,tabs icons;
+//$color10: #f5f5f5; //9 comments textarea; ctrls input,dropdown,textarea; header search
+//$color7: #8a8a8a; //16 article date, authors; ctrls - btn cancel, radio checkbox; markup shutted; modal news link; search subtitle
+//$color11: #949494; //1 control - label
+//$color19: #adaeae; //2 comment dot and date
+//$color16: #f8f8f8; //9 bg - about alt, com-link, ext-menu alt, profile tab, same article
+//$color17: #577b89; //8 header+footer links
+//$color8: #4e6873; //2 footer text link
+//$color12: #faaf3f; //13 about title line;  cat title line; profile title line, tabs ative
+
+$palette: (
+  "Ebony Clay": #213036,
+
+  "Armadillo": #47453e,
+  "White": #fff,
+  "Sea Buckthorn": #f7ab32,
+  "Cinnabar": #e6502d,
+  "Yellow Orange": #faaf3f,
+  "Blue Bayoux": #4e6873,
+  "Smalt Blue": #577b89,
+  "Boston Blue": #347bb6,
+  "Havelock Blue": #4693D4,
+  "Danube": #67b2d0,
+  "Regent St Blue": #a2d0e3,
+  "Gray": #8a8a8a,
+  "Edward": #adaeae,
+  "Alto": #dcdcdc,
+  "Wild Sand": #f5f5f5,
+  "Alabaster": #f8f8f8,
+);
+
+$additional-bg: map-get($palette, 'Alabaster');
+$default-bg: map-get($palette, 'White');
+$darken-bg: map-get($palette, 'Ebony Clay');
+
+$main-text: map-get($palette, 'Armadillo');
+$main-text_darker: map-get($palette, 'Ebony Clay');
+$active-text: map-get($palette, 'Havelock Blue');
+$shutted-text: map-get($palette, 'Gray');
+$additional-text: map-get($palette, 'White');
+$article-title: map-get($palette, 'Sea Buckthorn');
+
+$shutted-border: map-get($palette, 'Alto');
+$active-border: map-get($palette, 'Sea Buckthorn');
+
+$same-article-visited: map-get($palette, 'Danube');
+
+$main-article-blue: map-get($palette, 'Danube');
+$main-article-red: map-get($palette, 'Cinnabar');
+$main-article-orange: map-get($palette, 'Sea Buckthorn');
+
+$pop-article: map-get($palette, 'Cinnabar');
+$pop-article-a: map-get($palette, 'Smalt Blue');
+$pop-article-b: map-get($palette, 'Ebony Clay');
+$pop-article-c: map-get($palette, 'Armadillo');
+
+$newslatter-hover: map-get($palette, 'Boston Blue');
+
+$title-line-a: map-get($palette, 'Sea Buckthorn');
+$title-line-b: map-get($palette, 'Danube');
+$title-line-c: map-get($palette, 'Cinnabar');
+
+$tab-active: map-get($palette, 'Yellow Orange');
+$tab-active-count: map-get($palette, 'Cinnabar');
+$tab-icon: map-get($palette, 'Alto');
+
+$header-icon: map-get($palette, 'Smalt Blue');
+$header-icon-hover: map-get($palette, 'Danube');
+$header-active: map-get($palette, 'Sea Buckthorn');
+
+$footer-text: map-get($palette, 'Blue Bayoux');
+$footer-icon: map-get($palette, 'Smalt Blue');
+$footer-hover: map-get($palette, 'Danube');
+
+$markup-a: map-get($palette, 'Havelock Blue');
+$markup-a-visited: map-get($palette, 'Danube');
+$markup-shutted: map-get($palette, 'Gray');
+$markup-text: map-get($palette, 'Armadillo');
+$markup-p: map-get($palette, 'Ebony Clay');
+
+$controls-focused: map-get($palette, 'Regent St Blue');
+$controls-shutted: map-get($palette, 'Gray');
+$controls-input-bg: map-get($palette, 'Wild Sand');
+$controls-active: map-get($palette, 'Havelock Blue');
+$controls-error: map-get($palette, 'Cinnabar');
+$controls-active-text: map-get($palette, 'White');
+$controls-bg: map-get($palette, 'White');
+
+$comments-time: map-get($palette, 'Edward');
+$comments-active: map-get($palette, 'Boston Blue');

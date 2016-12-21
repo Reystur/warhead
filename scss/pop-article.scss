@@ -32,7 +32,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: $color1;
+  background-color: $main-text_darker;
   opacity: 0;
   -webkit-transform: translateZ(0);
   transition: opacity 0.5s;
@@ -43,31 +43,31 @@
   position: relative;
   box-sizing: border-box;
   border-radius: 3px;
-  background-color: $color13;
+  background-color: $pop-article;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
 
-.pop-article__box_color_0 {
-  background-color: #587b89;
+.pop-article__box_color_a {
+  background-color: $pop-article-a;
 }
 
-.pop-article__box_color_1 {
-  background-color: $color1;
+.pop-article__box_color_b {
+  background-color: $pop-article-b;
 }
 
-.pop-article__box_color_2 {
-  background-color: $color2;
+.pop-article__box_color_c {
+  background-color: $pop-article-c;
 }
 
 .pop-article__title {
   font-family: $font-bold;
-  color: $color3;
+  color: $article-title;
 }
 
 .pop-article__text {
   font-family: $font-medium;
-  color: $color4;
+  color: $additional-text;
 }
 
 /*R320 */

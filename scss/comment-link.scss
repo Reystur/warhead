@@ -5,7 +5,7 @@
 .comment-link {
   position: relative;
   display: block;
-  background-color: $color16;
+  background-color: $additional-bg;
 }
 
 .comment-link__pic {
@@ -15,12 +15,12 @@
 }
 
 .comment-link__title {
-  color: $color1;
+  color: $main-text_darker;
   font-family: $font-bold;
 }
 
 .comment-link__text {
-  color: $color5;
+  color: $active-text;
   font-family: $font-regular;
 }
 
@@ -61,7 +61,7 @@
     padding-top: 21px;
     font-size: 12px;
     line-height: 16px;
-    color: $color3;
+    color: $article-title;
     font-family: $font-bold;
   }
 
@@ -69,7 +69,7 @@
     margin-top: 6px;
     font-size: 14px;
     line-height: 20px;
-    color: $color1;
+    color: $main-text_darker;
     font-family: $font-medium;
     max-height: 85px;
     overflow: hidden;
@@ -81,7 +81,7 @@
     right: 0;
     bottom: 0;
     height: 100px;
-    background-image: linear-gradient(to bottom, rgba(247, 247, 247, 0), $color16);
+    background-image: linear-gradient(to bottom, rgba(247, 247, 247, 0), $additional-bg);
   }
 }
 

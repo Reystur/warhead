@@ -3,9 +3,9 @@
   padding: 5px 10px;
   box-sizing: border-box;
   font-family: $font-medium;
-  color: $color5;
-  background-color: $color4;
-  border: solid 1px $color9;
+  color: $active-text;
+  background-color: $controls-bg;
+  border: solid 1px $controls-active;
   cursor: pointer;
   -webkit-transform: translateZ(0);
   transition: background-color 0.5s, color 0.5s;
@@ -14,20 +14,20 @@
   border-radius: 5px;
 
   &:hover {
-    background-color: $color9;
-    color: $color4;
+    background-color: $controls-active;
+    color: $controls-active-text;
     border-radius: 5px;
   }
 }
 
 .w-btn_cancel {
-  color: $color7;
-  background-color: $color4;
-  border: solid 1px $color7;
+  color: $controls-shutted;
+  background-color: $controls-bg;
+  border: solid 1px $controls-shutted;
 
   &:hover {
-    background-color: $color7;
-    color: $color4;
+    background-color: $controls-shutted;
+    color: $controls-active-text;
   }
 }
 
@@ -45,17 +45,17 @@
   padding: 5px 12px;
   font-size: 16px;
   line-height: 32px;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
   border-radius: 3px;
-  background-color: $color10;
+  background-color: $controls-input-bg;
   border: solid 1px transparent;
   box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03);
   outline: none;
 
   &:focus {
     box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5);
-    border: solid 1px $color15;
+    border: solid 1px $controls-focused;
   }
 }
 
@@ -66,14 +66,14 @@
 .w-input-label {
   font-size: 16px;
   line-height: 20px;
-  color: $color11;
+  color: $controls-shutted;
   font-family: $font-regular;
 }
 
 .w-input-error {
   font-size: 13px;
   line-height: 20px;
-  color: $color13;
+  color: $controls-error;
 }
 
 .w-dropdown {
@@ -82,7 +82,7 @@
   height: 42px;
   box-sizing: border-box;
   border-radius: 3px;
-  background-color: $color10;
+  background-color: $controls-input-bg;
   border: solid 1px transparent;
   box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03);
   cursor: pointer;
@@ -105,9 +105,9 @@
   width: 42px;
   height: 26px;
   padding-top: 16px;
-  background-color: $color9;
+  background-color: $controls-active;
   font-size: 13px;
-  color: $color4;
+  color: $controls-active-text;
   text-align: center;
   border-radius: 0 3px 3px 0;
 }
@@ -117,7 +117,7 @@
   margin-right: 45px;
   font-size: 16px;
   line-height: 32px;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 
@@ -128,7 +128,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  background-color: $color10;
+  background-color: $controls-input-bg;
   border-radius: 3px;
 }
 
@@ -136,34 +136,34 @@
   padding: 13px 12px;
   font-size: 16px;
   line-height: 16px;
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 
   &:hover {
-    background-color: $color9;
-    color: $color4;
+    background-color: $controls-active;
+    color: $controls-active-text;
   }
 }
 
 .w-textarea {
   font-size: 16px;
   line-height: 22px;
-  color: $color2;
+  color: $main-text;
   padding: 10px 12px;
   height: 70px;
   border-radius: 3px;
-  background-color: $color10;
+  background-color: $controls-input-bg;
   box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.03);
   overflow-y: auto;
   width: 100%;
   box-sizing: border-box;
   resize: none;
-  border: solid 1px $color10;
+  border: solid 1px $controls-input-bg;
   outline: none;
 
   &:focus {
     box-shadow: 0 0 3px 0 rgba(103, 177, 207, 0.5);
-    border: solid 1px $color15;
+    border: solid 1px $controls-focused;
   }
 }
 
@@ -177,11 +177,11 @@
 
   &:hover {
     .w-radio-icon {
-      border: solid 1px $color9;
+      border: solid 1px $controls-active;
     }
 
     .w-radio-text {
-      color: $color9;
+      color: $controls-active;
     }
   }
 }
@@ -190,7 +190,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: solid 1px $color7;
+  border: solid 1px $controls-shutted;
   box-sizing: border-box;
   border-radius: 50%;
   position: relative;
@@ -198,13 +198,13 @@
 }
 
 .w-radio-icon_active {
-  border: solid 1px $color9;
+  border: solid 1px $controls-active;
 
   &:after {
     display: block;
     content: "";
     position: absolute;
-    background-color: $color9;
+    background-color: $controls-active;
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -216,7 +216,7 @@
 .w-radio-text {
   padding-top: 2px;
   margin-left: 5px;
-  color: $color2;
+  color: $main-text;
   font-size: 16px;
   line-height: 20px;
   vertical-align: top;
@@ -232,11 +232,11 @@
 
   &:hover {
     .w-checkbox-icon {
-      border: solid 1px $color9;
+      border: solid 1px $controls-active;
     }
 
     .w-checkbox-text {
-      color: $color9;
+      color: $controls-active;
     }
   }
 }
@@ -245,7 +245,7 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: solid 1px $color7;
+  border: solid 1px $controls-shutted;
   box-sizing: border-box;
   border-radius: 3px;
   position: relative;
@@ -253,7 +253,7 @@
 }
 
 .w-checkbox-icon_active {
-  border: solid 1px $color9;
+  border: solid 1px $controls-active;
 
   &:after {
     display: block;
@@ -261,8 +261,8 @@
     position: absolute;
     width: 6px;
     height: 10px;
-    border-bottom: 2px solid $color9;
-    border-right: 2px solid $color9;
+    border-bottom: 2px solid $controls-active;
+    border-right: 2px solid $controls-active;
     top: 1px;
     left: 5px;
     transform: rotate(45deg);
@@ -272,7 +272,7 @@
 .w-checkbox-text {
   padding-top: 2px;
   margin-left: 5px;
-  color: $color2;
+  color: $main-text;
   font-size: 16px;
   line-height: 20px;
   vertical-align: top;

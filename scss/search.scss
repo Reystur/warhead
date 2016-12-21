@@ -1,12 +1,12 @@
 .search__line {
   width: 40px;
   height: 3px;
-  background-color: $color3;
+  background-color: $title-line-c;
 }
 
 .search__title {
   font-family: $font-bold;
-  color: $color2;
+  color: $main-text;
 }
 
 .search__inputs-box {
@@ -15,17 +15,17 @@
 
 .search__result-text {
   font-family: $font-bold;
-  color: $color2;
+  color: $main-text;
 }
 
 .search__comments-title {
   font-family: $font-bold;
-  color: $color2;
+  color: $main-text;
 }
 
 .search__comments-text {
   font-family: $font-regular;
-  color: $color7;
+  color: $shutted-text;
 }
 
 .search__comments-article {

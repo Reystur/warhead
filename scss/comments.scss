@@ -5,7 +5,7 @@
 .comments__header {
   font-size: 30px;
   padding-bottom: 40px;
-  color: $color2;
+  color: $main-text;
 }
 
 .comments__avatar-pic, .comments__autor_avatar-pic {
@@ -20,7 +20,7 @@
 
 .comments__textarea {
   border-radius: 5px 5px;
-  background: $color10;
+  background: $controls-input-bg;
   margin-left: 115px;
   padding-bottom: 50px;
 }
@@ -28,15 +28,15 @@
 .comments__textarea-input {
   width: 100%;
   height: 112px;
-  background: $color10;
-  border: 1px solid $color10;
+  background: $controls-input-bg;
+  border: 1px solid $controls-input-bg;
   padding: 16px 20px;
   box-sizing: border-box;
   resize: none;
   font-size: 18px;
   line-height: 26px;
   font-family: $font-regular;
-  color: $color2;
+  color: $main-text;
   outline: none;
 }
 
@@ -45,18 +45,18 @@
 }
 
 .comments__button {
-  background-color: $color9;
+  background-color: $controls-active;
   border-radius: 3px;
   font-size: 16px;
   text-align: center;
   width: 160px;
-  color: $color4;
+  color: $additional-text;
   padding: 11px 0;
   display: block;
   font-family: $font-regular;
 
   &:hover {
-    background-color: $color18;
+    background-color: $comments-active;
   }
 }
 
@@ -95,17 +95,17 @@
 }
 
 .comments__button-b {
-  color: $color9;
+  color: $controls-active;
   font-size: 15px;
 
   &:hover {
-    color: $color18;
+    color: $comments-active;
   }
 }
 
 .comments__comment {
   margin-top: 50px;
-  color: $color1;
+  color: $main-text_darker;
   position: relative;
 }
 
@@ -138,12 +138,12 @@
 
 .comments__commentarea-autorname {
   display: inline-block;
-  color: $color1;
+  color: $main-text_darker;
   float: left;
 
   &:hover {
-    color: $color9;
-    border-bottom: 1px solid $color9;
+    color: $active-text;
+    border-bottom: 1px solid $active-text;
   }
 }
 
@@ -154,14 +154,14 @@
 }
 
 .comments__dot-blue {
-  color: $color5;
+  color: $active-text;
   float: left;
   margin: 9px 17px 0 17px;
   font-size: 3px;
 }
 
 .comments__dot-grey {
-  color: $color19;
+  color: $comments-time;
   float: left;
   margin: 9px 17px 0 17px;
   font-size: 3px;
@@ -174,7 +174,7 @@
 
 .comments__commentarea-achives {
   margin-top: 10px;
-  color: $color5;
+  color: $active-text;
 }
 
 .comments__commentarea-achives_left {
@@ -209,12 +209,12 @@
 
 .comments__footer-reply {
   font-size: 14px;
-  border-bottom: 1px dashed $color5;
-  color: $color5;
+  border-bottom: 1px dashed $active-text;
+  color: $active-text;
   line-height: 23px;
 
   &:hover {
-    color: $color18;
+    color: $comments-active;
   }
 }
 
@@ -227,16 +227,16 @@
   font-size: 16px;
   margin-top: 2px;
   display: block;
-  color: $color5;
+  color: $active-text;
   margin-right: 5px;
 
   &:hover {
-    color: $color18;
+    color: $comments-active;
   }
 }
 
 .comments__like-counts {
-  color: $color5;
+  color: $active-text;
   font-size: 14px;
   padding: 0 4px 0 4px;
   display: inline-block;
@@ -245,7 +245,7 @@
 }
 
 .comments__datetime {
-  color: $color19;
+  color: $comments-time;
   font-size: 14px;
   line-height: 23px;
   float: left;

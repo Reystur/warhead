@@ -1,21 +1,21 @@
 .about__title-line {
   width: 90px;
   height: 3px;
-  background-color: $color12;
+  background-color: $title-line-a;
 }
 
 .about__title {
   font-family: $font-bold;
-  color: $color2;
+  color: $main-text;
 }
 
 .about__intro {
   font-family: $font-regular;
-  color: $color2;
+  color: $main-text;
 }
 
 .about__author-box_grey {
-  background-color: $color16;
+  background-color: $additional-bg;
 }
 
 .about__author-box:after {
@@ -32,12 +32,12 @@
 
 .author__name {
   font-family: $font-medium;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 .author__signature {
   font-family: $font-regular;
-  color: $color1;
+  color: $main-text_darker;
 }
 
 .author__medal {
@@ -55,12 +55,12 @@
 }
 
 .author__rank {
-  color: $color5;
+  color: $active-text;
   font-family: $font-regular;
 }
 
 .author__article-count-link {
-  color: $color5;
+  color: $active-text;
   font-family: $font-regular;
 
   &:hover {
@@ -69,22 +69,22 @@
 }
 
 .author__bio {
-  color: $color2;
+  color: $main-text;
   font-family: $font-regular;
 }
 
 .about__most-active-box {
-  background-color: $color4;
+  background-color: $default-bg;
 }
 
 .about__most-active-line {
   width: 40px;
   height: 3px;
-  background-color: $color13;
+  background-color: $title-line-c;
 }
 
 .about__most-active-title {
-  color: $color2;
+  color: $main-text;
   font-family: $font-bold;
 }
 
