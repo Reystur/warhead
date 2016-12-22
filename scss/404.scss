@@ -2,21 +2,6 @@
 @import "resolutions";
 @import "colors";
 
-//.no-branding {
-//  .wrapper {
-//    padding-top: 0;
-//    width: auto;
-//  }
-//
-//  .p404-wrap {
-//    width: auto;
-//  }
-//
-//  .p404 {
-//    background-color: $default-bg;
-//  }
-//}
-
 .p404-wrap {
   background-color: $darken-bg;
 }
@@ -91,10 +76,6 @@
 
 /*R764 */
 @media (min-width: $tablet + px) and (max-width: $desktop - 1 + px) {
-  //.p404-wrap {
-  //  margin: 0 28px;
-  //}
-
   .p404__main {
     padding: 60px 0;
   }
@@ -113,12 +94,6 @@
     line-height: 20px;
     width: 360px;
     margin: 0 auto;
-  }
-
-  .no-branding {
-    .p404-wrap {
-      margin: 0 0 0 0;
-    }
   }
 
   .p404__similar {

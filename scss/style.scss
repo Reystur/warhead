@@ -56,7 +56,16 @@ body {
 }
 
 .wrapper {
-  padding: 50px 0 60px;
+  padding-bottom: 60px;
+}
+
+.wrapper_default{
+  padding-top: 50px;
+}
+
+.wrapper_404{
+  width: auto;
+  padding-top: 0;
 }
 
 /*R320 */
@@ -65,7 +74,7 @@ body {
     min-width: 320px;
   }
 
-  .wrapper_404{
+  .wrapper_default {
     padding-top: 0;
   }
 }
@@ -75,10 +84,6 @@ body {
   body {
     overflow-x: hidden;
   }
-
-  .wrapper_404{
-    padding-top: 0;
-  }
 }
 
 /*R1024 */
@@ -87,7 +92,7 @@ body {
     overflow-x: hidden;
   }
 
-  .wrapper {
+  .wrapper_default {
     width: 1024px;
     margin: 0 auto;
     position: relative;
@@ -100,17 +105,12 @@ body {
     overflow-x: hidden;
   }
 
-  .wrapper {
+  .wrapper_default {
     width: 1440px;
     margin: 0 auto;
     position: relative;
     padding-bottom: 80px;
   }
-}
-
-.wrapper_no-branding{
-  width: auto;
-  padding-top: 0;
 }
 
 @import "controls";

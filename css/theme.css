@@ -19,7 +19,7 @@
     background: url("../img/bg-pic/bg-pic.jpg") repeat-x center 80px;
     background-size: auto 500px;
   }
-  .branding_hybrid-wars .wrapper {
+  .branding_hybrid-wars .wrapper_default {
     padding-top: 260px;
   }
   .branding_hybrid-wars .wrapper_404 {
@@ -37,7 +37,10 @@
     background: url("../img/bg-pic/bg-pic.jpg") repeat-x center 100px;
     background-size: auto 760px;
   }
-  .branding_hybrid-wars .wrapper {
+  .branding_hybrid-wars .wrapper_default {
+    padding-top: 450px;
+  }
+  .branding_hybrid-wars .wrapper_404 {
     padding-top: 450px;
   }
   .branding_hybrid-wars .right-col {
@@ -54,7 +57,10 @@
     background: url("../img/bg-pic/bg-pic@2x.jpg") repeat-x center 132px;
     background-size: auto 986px;
   }
-  .branding_hybrid-wars .wrapper {
+  .branding_hybrid-wars .wrapper_default {
+    padding-top: 584px;
+  }
+  .branding_hybrid-wars .wrapper_404 {
     padding-top: 584px;
   }
   .branding_hybrid-wars .right-col {
