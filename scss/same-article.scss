@@ -111,10 +111,6 @@
     box-sizing: border-box;
     border-radius: 0;
 
-    .same-article__pic-box-img {
-      border-radius: 3px 3px 0 0;
-    }
-
     &:first-child {
       padding-top: 0;
       margin-right: 0;
@@ -131,12 +127,6 @@
 
   .same-article__pic-box {
     display: block;
-  }
-
-  .same-article__pic-box-img {
-    display: block;
-    width: 100%;
-    height: auto;
   }
 
   .same-article__pic-box-img {
@@ -208,28 +198,29 @@
     &:nth-child(odd) {
       margin-left: 0;
     }
+  }
 
-    /* 3 4 7 8 11 12 */
-    &:nth-child(4n-1), &:nth-child(4n) {
-      .same-article__pic-box-img {
-        border-radius: 0 3px 3px 0;
-      }
+  /* 3 4 7 8 11 12 */
+  //&:nth-child(4n-1), &:nth-child(4n) {
+  .same-article_right {
+    .same-article__pic-box-img {
+      border-radius: 0 3px 3px 0;
+    }
 
-      .same-article__pic-box_big {
-        float: right;
-      }
+    .same-article__pic-box_big {
+      float: right;
+    }
 
-      .same-article__title_big {
-        margin: 0 240px 0 40px;
-      }
+    .same-article__title_big {
+      margin: 0 240px 0 40px;
+    }
 
-      .same-article__intro_big {
-        margin: 12px 240px 0 40px;
-      }
+    .same-article__intro_big {
+      margin: 12px 240px 0 40px;
+    }
 
-      .same-article__stats_big {
-        left: 40px;
-      }
+    .same-article__stats_big {
+      left: 40px;
     }
   }
 
@@ -331,28 +322,29 @@
     &:nth-child(odd) {
       margin-left: 0;
     }
+  }
 
-    /* 3 4 7 8 11 12 */
-    &:nth-child(4n-1), &:nth-child(4n) {
-      .same-article__pic-box-img {
-        border-radius: 0 3px 3px 0;
-      }
+  /* 3 4 7 8 11 12 */
+  //&:nth-child(4n-1), &:nth-child(4n) {
+  .same-article_right {
+    .same-article__pic-box-img {
+      border-radius: 0 3px 3px 0;
+    }
 
-      .same-article__pic-box_big {
-        float: right;
-      }
+    .same-article__pic-box_big {
+      float: right;
+    }
 
-      .same-article__title_big {
-        margin: 0 320px 0 40px;
-      }
+    .same-article__title_big {
+      margin: 0 320px 0 40px;
+    }
 
-      .same-article__intro_big {
-        margin: 15px 320px 0 40px;
-      }
+    .same-article__intro_big {
+      margin: 15px 320px 0 40px;
+    }
 
-      .same-article__stats_big {
-        left: 40px;
-      }
+    .same-article__stats_big {
+      left: 40px;
     }
   }
 

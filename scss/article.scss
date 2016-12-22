@@ -423,6 +423,12 @@
     margin: 50px 28px 0;
   }
 
+  .same-articles:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
   .same-articles__title {
     margin: 20px 0;
     font-size: 18px;
