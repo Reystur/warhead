@@ -1,44 +1,38 @@
-.newsletter__social-fb, .newsletter__social-vk, .newsletter__social-tw, .newsletter__social-od {
+.newsletter__icon {
   color: $active-text;
+  display: block;
+  float: left;
 
   &:hover {
     color: $newslatter-hover;
   }
 }
 
-.newsletter__social-fb {
+.newsletter__icon_fb {
   width: 10px;
   height: 20px;
-  display: block;
-  float: left;
   margin-left: 2px;
   font-size: 20px;
 }
 
-.newsletter__social-vk {
+.newsletter__icon_vk {
   width: 25px;
   height: 20px;
-  display: block;
-  float: left;
   margin-left: 42px;
   font-size: 24px;
   margin-top: -1px;
 }
 
-.newsletter__social-tw {
+.newsletter__icon_tw {
   width: 21px;
   height: 20px;
-  display: block;
-  float: left;
   margin-left: 40px;
   font-size: 21px;
 }
 
-.newsletter__social-od {
+.newsletter__icon_ok {
   width: 12px;
   height: 20px;
-  display: block;
-  float: left;
   margin-left: 38px;
   font-size: 20px;
 }
@@ -99,14 +93,14 @@
     margin-top: 22px;
   }
 
-  .newsletter__social-fb {
+  .newsletter__icon_fb {
     width: 15px;
     height: 30px;
     margin-left: 0;
     font-size: 30px;
   }
 
-  .newsletter__social-vk {
+  .newsletter__icon_vk {
     width: 37px;
     height: 30px;
     margin-left: 42px;
@@ -114,14 +108,14 @@
     font-size: 35px;
   }
 
-  .newsletter__social-tw {
+  .newsletter__icon_tw {
     width: 30px;
     height: 30px;
     margin-left: 34px;
     font-size: 31px;
   }
 
-  .newsletter__social-od {
+  .newsletter__icon_ok {
     width: 18px;
     height: 30px;
     margin-left: 32px;
@@ -188,15 +182,15 @@
     margin-top: 22px;
   }
 
-  .newsletter__social-fb {
+  .newsletter__icon_fb {
     margin-left: 10px;
   }
 
-  .newsletter__social-tw {
+  .newsletter__icon_tw {
     margin-left: 34px;
   }
 
-  .newsletter__social-od {
+  .newsletter__icon_ok {
     margin-left: 32px;
   }
 }
@@ -308,13 +302,13 @@
     margin-top: 30px;
   }
 
-  .newsletter__social-fb {
+  .newsletter__icon_fb {
     width: 15px;
     height: 30px;
     font-size: 30px;
   }
 
-  .newsletter__social-vk {
+  .newsletter__icon_vk {
     width: 37px;
     height: 30px;
     margin-left: 55px;
@@ -322,14 +316,14 @@
     margin-top: -2px;
   }
 
-  .newsletter__social-tw {
+  .newsletter__icon_tw {
     width: 30px;
     height: 30px;
     margin-left: 53px;
     font-size: 30px;
   }
 
-  .newsletter__social-od {
+  .newsletter__icon_ok {
     width: 18px;
     height: 30px;
     margin-left: 53px;

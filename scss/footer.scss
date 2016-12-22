@@ -2,14 +2,10 @@
   background-color: $darken-bg;
 }
 
-.footer__fb {
-  height: 20px;
-  width: 10px;
+.footer__icon{
   padding: 5px;
   display: block;
   float: right;
-  margin-right: 48px;
-  font-size: 20px;
   color: $footer-icon;
 
   &:hover {
@@ -17,49 +13,32 @@
   }
 }
 
-.footer__vk {
+.footer__icon_fb {
+  height: 20px;
+  width: 10px;
+  margin-right: 48px;
+  font-size: 20px;
+}
+
+.footer__icon_vk {
   width: 24px;
   height: 20px;
-  padding: 5px;
-  display: block;
-  float: right;
   margin-right: 48px;
   font-size: 24px;
-  color: $footer-icon;
-
-  &:hover {
-    color: $footer-hover;
-  }
 }
 
-.footer__tw {
+.footer__icon_tw {
   height: 20px;
   width: 21px;
-  padding: 5px;
-  display: block;
-  float: right;
   margin-right: 49px;
   font-size: 22px;
-  color: $footer-icon;
-
-  &:hover {
-    color: $footer-hover;
-  }
 }
 
-.footer__od {
+.footer__icon_ok {
   height: 20px;
   width: 10px;
-  padding: 5px;
-  display: block;
-  float: right;
   margin-right: 10px;
   font-size: 20px;
-  color: $footer-icon;
-
-  &:hover {
-    color: $footer-hover;
-  }
 }
 
 .footer__link {
@@ -116,7 +95,7 @@
     margin: 0 auto;
   }
 
-  .footer__od {
+  .footer__icon_ok {
     margin-right: 0;
   }
 }
@@ -168,15 +147,15 @@
     width: 35%;
   }
 
-  .footer__fb {
+  .footer__icon_fb {
     margin-right: 43px;
   }
 
-  .footer__vk {
+  .footer__icon_vk {
     margin-right: 43px;
   }
 
-  .footer__tw {
+  .footer__icon_tw {
     margin-right: 43px;
   }
 }
@@ -206,10 +185,6 @@
     line-height: 26px;
     display: block;
     float: left;
-
-    &:hover {
-      color: $footer-hover;
-    }
   }
 
   .footer__link-dot {
@@ -233,19 +208,7 @@
     width: 35%;
   }
 
-  .footer__fb {
-    margin-right: 43px;
-  }
-
-  .footer__vk {
-    margin-right: 43px;
-  }
-
-  .footer__tw {
-    margin-right: 43px;
-  }
-
-  .footer__od {
+  .footer__icon {
     margin-right: 43px;
   }
 }
@@ -298,16 +261,14 @@
     width: 25%;
   }
 
-  .footer__fb {
-    background-size: 13px 28px;
+  .footer__icon_fb {
     width: 13px;
     height: 28px;
     margin-right: 43px;
     font-size: 27px;
   }
 
-  .footer__vk {
-    background-size: 35px 20px;
+  .footer__icon_vk {
     width: 35px;
     height: 28px;
     margin-right: 43px;
@@ -315,16 +276,14 @@
     font-size: 35px;
   }
 
-  .footer__tw {
-    background-size: 30px 24px;
+  .footer__icon_tw {
     width: 30px;
     height: 28px;
     margin-right: 39px;
     font-size: 30px;
   }
 
-  .footer__od {
-    background-size: 16px 28px;
+  .footer__icon_od {
     width: 16px;
     height: 28px;
     margin-right: 47px;
