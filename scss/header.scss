@@ -90,6 +90,11 @@
   top: 8px;
   right: 5px;
   font-size: 11px;
+
+  &:before{
+    @include icon();
+    @include icon-arr-down();
+  }
 }
 
 .header__menu-link_active {
@@ -123,6 +128,11 @@
 
   &:hover {
     text-decoration: none;
+  }
+
+  &:before{
+    @include icon();
+    @include icon-arr();
   }
 }
 
@@ -176,22 +186,42 @@
   &:hover {
     color: $header-icon-hover;
   }
+
+  &:before{
+    @include icon();
+  }
 }
 
 .header__icon_fb {
   font-size: 27px;
+
+  &:before{
+    @include icon-fb();
+  }
 }
 
 .header__icon_vk {
   font-size: 33px;
+
+  &:before{
+    @include icon-vk();
+  }
 }
 
 .header__icon_tw {
   font-size: 29px;
+
+  &:before{
+    @include icon-tw();
+  }
 }
 
 .header__icon_ok {
   font-size: 28px;
+
+  &:before{
+    @include icon-ok();
+  }
 }
 
 /*R320 */

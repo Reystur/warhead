@@ -42,4 +42,45 @@
 .article-stats__icon {
   float: left;
   margin: 1px 12px 0 0;
+
+  &:before{
+    @include icon();
+  }
 }
+
+.article-stats__icon_layka {
+  &:before{
+    @include icon-layka();
+  }
+}
+
+.article-stats__icon_point {
+  &:before{
+    @include icon-point();
+  }
+}
+
+.article-stats__icon_comment {
+  &:before{
+    @include icon-comment();
+  }
+}
+
+//.article-stats__favs
+//  .article-stats__icon.article-stats__icon_layka
+//  span 217
+//.article-stats__dot
+//  .article-stats__icon.article-stats__icon_point
+//.article-stats__comments
+//  .article-stats__icon.article-stats__icon_comment
+//  span 103
+//
+//
+//.article-stats__favs.article-stats__favs_white
+//  .article-stats__icon.article-stats__icon_layka
+//  span 217
+//.article-stats__dot.article-stats__dot_white
+//  .article-stats__icon.article-stats__icon_point
+//.article-stats__comments.article-stats__comments_white
+//  .article-stats__icon.article-stats__icon_comment
+//  span 103

@@ -11,6 +11,10 @@
   &:hover {
     color: $footer-hover;
   }
+
+  &:before{
+    @include icon();
+  }
 }
 
 .footer__icon_fb {
@@ -18,6 +22,10 @@
   width: 10px;
   margin-right: 48px;
   font-size: 20px;
+
+  &:before{
+    @include icon-fb();
+  }
 }
 
 .footer__icon_vk {
@@ -25,6 +33,10 @@
   height: 20px;
   margin-right: 48px;
   font-size: 24px;
+
+  &:before{
+    @include icon-vk();
+  }
 }
 
 .footer__icon_tw {
@@ -32,6 +44,10 @@
   width: 21px;
   margin-right: 49px;
   font-size: 22px;
+
+  &:before{
+    @include icon-tw();
+  }
 }
 
 .footer__icon_ok {
@@ -39,6 +55,10 @@
   width: 10px;
   margin-right: 10px;
   font-size: 20px;
+
+  &:before{
+    @include icon-ok();
+  }
 }
 
 .footer__link {
@@ -283,7 +303,7 @@
     font-size: 30px;
   }
 
-  .footer__icon_od {
+  .footer__icon_ok {
     width: 16px;
     height: 28px;
     margin-right: 47px;
