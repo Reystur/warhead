@@ -94,12 +94,53 @@
   padding-right: 31px;
 }
 
-.comments__button-b {
+.comments__form-icon {
   color: $controls-active;
   font-size: 15px;
+  cursor: pointer;
 
   &:hover {
     color: $comments-active;
+  }
+  &:before{
+    @include icon();
+  }
+}
+
+.comments__form-icon_b{
+  &:before{
+    @include icon-b();
+  }
+}
+
+.comments__form-icon_i{
+  &:before{
+    @include icon-i();
+  }
+}
+
+.comments__form-icon_s{
+  &:before{
+    @include icon-s();
+  }
+}
+
+.comments__form-icon_face{
+  &:before{
+    @include icon-face();
+  }
+}
+
+.comments__form-icon_clip{
+  &:before{
+    @include icon-clip();
+  }
+}
+
+.comments__dot-icon{
+  &:before{
+    @include icon();
+    @include icon-point();
   }
 }
 
@@ -223,7 +264,7 @@
   float: left;
 }
 
-.comments__like {
+.comments__like-icon {
   font-size: 16px;
   margin-top: 2px;
   display: block;
@@ -232,6 +273,10 @@
 
   &:hover {
     color: $comments-active;
+  }
+  &:before{
+    @include icon();
+    @include icon-layka();
   }
 }
 

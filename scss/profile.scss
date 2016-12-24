@@ -2,8 +2,37 @@
   margin-right: 5px;
 }
 
+.tabs__icon{
+  &:before{
+    @include icon();
+  }
+}
+
+.tabs__icon_layka{
+  &:before{
+    @include icon();
+  }
+}
+
+.tabs__icon_article{
+  &:before{
+    @include icon-article();
+  }
+}
+
+.tabs__icon_excomment{
+  &:before{
+    @include icon-excomment();
+  }
+}
+
 .profile__edit-link-icon{
   margin-right: 7px;
+
+  &:before{
+    @include icon();
+    @include icon-pan();
+  }
 }
 
 .profile__comments-article {
@@ -105,6 +134,46 @@
   text-align: center;
   line-height: 1;
   padding-top: 10px;
+
+  &:before{
+    @include icon();
+  }
+}
+
+.profile__social-icon_fb {
+  &:before{
+    @include icon-fb();
+  }
+}
+
+.profile__social-icon_tw {
+  &:before{
+    @include icon-tw();
+  }
+}
+
+.profile__social-icon_vk {
+  &:before{
+    @include icon-vk();
+  }
+}
+
+.profile__social-icon_ok {
+  &:before{
+    @include icon-ok();
+  }
+}
+
+.profile__social-icon_g {
+  &:before{
+    @include icon-g();
+  }
+}
+
+.profile__social-icon_in {
+  &:before{
+    @include icon-in();
+  }
 }
 
 .profile__social-name {

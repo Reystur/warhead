@@ -1,6 +1,7 @@
 @import "resolutions";
 @import "fonts";
 @import "colors";
+@import "icons";
 
 .modal-box {
   width: 400px;
@@ -70,16 +71,50 @@
   }
 }
 
-.modal-socials__link_fb {
+.modal-socials__link_top {
   margin-bottom: 15px;
 }
 
-.modal-socials__link_vk {
-  margin-bottom: 15px;
+.modal-social__icon{
+  &:before{
+    @include icon();
+  }
 }
 
-.modal-socials__link_tw {
-  margin-bottom: 15px;
+.modal-social__icon_fb{
+  &:before{
+    @include icon-fb();
+  }
+}
+
+.modal-social__icon_vk{
+  &:before{
+    @include icon-vk();
+  }
+}
+
+.modal-social__icon_tw{
+  &:before{
+    @include icon-tw();
+  }
+}
+
+.modal-social__icon_ok{
+  &:before{
+    @include icon-ok();
+  }
+}
+
+.modal-social__icon_in{
+  &:before{
+    @include icon-in();
+  }
+}
+
+.modal-social__icon_g{
+  &:before{
+    @include icon-g();
+  }
 }
 
 .modal-box__bot-link-box {
@@ -171,6 +206,33 @@
   vertical-align: top;
   -webkit-transform: translateZ(0);
   transition: color 0.5s;
+  &:before{
+    @include icon();
+  }
+}
+
+.modal-news__icon_fb{
+  &:before{
+    @include icon-fb();
+  }
+}
+
+.modal-news__icon_vk{
+  &:before{
+    @include icon-vk();
+  }
+}
+
+.modal-news__icon_tw{
+  &:before{
+    @include icon-tw();
+  }
+}
+
+.modal-news__icon_g{
+  &:before{
+    @include icon-g();
+  }
 }
 
 .modal-news__link-text {

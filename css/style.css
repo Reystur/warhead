@@ -191,7 +191,7 @@ body {
   position: relative;
 }
 
-.w-dropdown-active .icon-w-arr-down {
+.w-dropdown-active .w-dropdown__icon {
   transform: rotate(180deg) translate(0, 5px);
 }
 .w-dropdown-active .w-dropdown__extend {
@@ -209,6 +209,18 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 0 3px 3px 0;
+}
+
+.w-dropdown__icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\74";
 }
 
 .w-dropdown__origin {
@@ -1722,12 +1734,25 @@ body {
 .newsletter__icon:hover {
   color: #347bb6;
 }
+.newsletter__icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .newsletter__icon_fb {
   width: 10px;
   height: 20px;
   margin-left: 2px;
   font-size: 20px;
+}
+.newsletter__icon_fb:before {
+  content: "\68";
 }
 
 .newsletter__icon_vk {
@@ -1737,6 +1762,9 @@ body {
   font-size: 24px;
   margin-top: -1px;
 }
+.newsletter__icon_vk:before {
+  content: "\6f";
+}
 
 .newsletter__icon_tw {
   width: 21px;
@@ -1744,12 +1772,18 @@ body {
   margin-left: 40px;
   font-size: 21px;
 }
+.newsletter__icon_tw:before {
+  content: "\6e";
+}
 
 .newsletter__icon_ok {
   width: 12px;
   height: 20px;
   margin-left: 38px;
   font-size: 20px;
+}
+.newsletter__icon_ok:before {
+  content: "\6b";
 }
 
 .newsletter__title {
@@ -2069,6 +2103,18 @@ body {
   color: #4693D4;
 }
 
+.article__share-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\72";
+}
+
 .article__aurhor-pics-box {
   width: 76px;
   height: 79px;
@@ -2173,6 +2219,17 @@ body {
   font-size: 3px;
   color: #47453e;
 }
+.article__dot-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\70";
+}
 
 .article__tags {
   display: inline-block;
@@ -2217,30 +2274,55 @@ body {
   float: left;
   color: #4693D4;
 }
+.likes__icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 .likes__icon_like {
   margin: -2px 12px 0 0;
   font-size: 20px;
+}
+.likes__icon_like:before {
+  content: "\61";
 }
 
 .likes__icon_fb {
   margin: -2px 12px 0 0;
   font-size: 20px;
 }
+.likes__icon_fb:before {
+  content: "\68";
+}
 
 .likes__icon_vk {
   margin: -5px 12px 0 0;
   font-size: 25px;
+}
+.likes__icon_vk:before {
+  content: "\6f";
 }
 
 .likes__icon_tw {
   margin: -2px 12px 0 0;
   font-size: 20px;
 }
+.likes__icon_tw:before {
+  content: "\6e";
+}
 
 .likes__icon_ok {
   margin: -2px 12px 0 0;
   font-size: 20px;
+}
+.likes__icon_ok:before {
+  content: "\6b";
 }
 
 .authors__material-a {
@@ -2336,7 +2418,6 @@ body {
   .article__share-link {
     width: 30px;
     height: 30px;
-    background-size: 30px;
   }
 
   .article__dot-black {
@@ -3671,12 +3752,55 @@ body {
   padding-right: 31px;
 }
 
-.comments__button-b {
+.comments__form-icon {
   color: #4693D4;
   font-size: 15px;
+  cursor: pointer;
 }
-.comments__button-b:hover {
+.comments__form-icon:hover {
   color: #347bb6;
+}
+.comments__form-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.comments__form-icon_b:before {
+  content: "\65";
+}
+
+.comments__form-icon_i:before {
+  content: "\66";
+}
+
+.comments__form-icon_s:before {
+  content: "\71";
+}
+
+.comments__form-icon_face:before {
+  content: "\64";
+}
+
+.comments__form-icon_clip:before {
+  content: "\63";
+}
+
+.comments__dot-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\70";
 }
 
 .comments__comment {
@@ -3797,15 +3921,26 @@ body {
   float: left;
 }
 
-.comments__like {
+.comments__like-icon {
   font-size: 16px;
   margin-top: 2px;
   display: block;
   color: #4693D4;
   margin-right: 5px;
 }
-.comments__like:hover {
+.comments__like-icon:hover {
   color: #347bb6;
+}
+.comments__like-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\61";
 }
 
 .comments__like-counts {
@@ -5361,8 +5496,49 @@ body {
   margin-right: 5px;
 }
 
+.tabs__icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabs__icon_layka:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabs__icon_article:before {
+  content: "\62";
+}
+
+.tabs__icon_excomment:before {
+  content: "\79";
+}
+
 .profile__edit-link-icon {
   margin-right: 7px;
+}
+.profile__edit-link-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\7a";
 }
 
 .profile__comments-article {
@@ -5458,6 +5634,40 @@ body {
   text-align: center;
   line-height: 1;
   padding-top: 10px;
+}
+.profile__social-icon:before {
+  font-family: "warhead" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.profile__social-icon_fb:before {
+  content: "\68";
+}
+
+.profile__social-icon_tw:before {
+  content: "\6e";
+}
+
+.profile__social-icon_vk:before {
+  content: "\6f";
+}
+
+.profile__social-icon_ok:before {
+  content: "\6b";
+}
+
+.profile__social-icon_g:before {
+  content: "\77";
+}
+
+.profile__social-icon_in:before {
+  content: "\78";
 }
 
 .profile__social-name {

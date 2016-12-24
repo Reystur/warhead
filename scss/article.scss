@@ -26,6 +26,13 @@
   }
 }
 
+.article__share-icon {
+  &:before{
+    @include icon();
+    @include icon-share();
+  }
+}
+
 .article__aurhor-pics-box {
   width: 76px;
   height: 79px;
@@ -141,6 +148,10 @@
 .article__dot-icon {
   font-size: 3px;
   color: $main-text;
+  &:before{
+    @include icon();
+    @include icon-point();
+  }
 }
 
 .article__tags {
@@ -189,31 +200,56 @@
 .likes__icon{
   float: left;
   color: $active-text;
+
+  &:before{
+    @include icon();
+  }
 }
 
 .likes__icon_like {
   margin: (-2px) 12px 0 0;
   font-size: 20px;
+
+  &:before{
+    @include icon-layka();
+  }
 }
 
 .likes__icon_fb {
   margin: (-2px) 12px 0 0;
   font-size: 20px;
+
+  &:before{
+    @include icon-fb();
+  }
 }
 
 .likes__icon_vk {
   margin: (-5px) 12px 0 0;
   font-size: 25px;
+
+  &:before{
+    @include icon-vk();
+  }
 }
 
 .likes__icon_tw {
   margin: (-2px) 12px 0 0;
   font-size: 20px;
+
+
+  &:before{
+    @include icon-tw();
+  }
 }
 
 .likes__icon_ok {
   margin: (-2px) 12px 0 0;
   font-size: 20px;
+
+  &:before{
+    @include icon-ok();
+  }
 }
 
 .authors__material-a {
@@ -309,7 +345,6 @@
   .article__share-link {
     width: 30px;
     height: 30px;
-    background-size: 30px;
   }
 
   .article__dot-black{

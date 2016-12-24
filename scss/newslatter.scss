@@ -6,6 +6,9 @@
   &:hover {
     color: $newslatter-hover;
   }
+  &:before{
+    @include icon();
+  }
 }
 
 .newsletter__icon_fb {
@@ -13,6 +16,9 @@
   height: 20px;
   margin-left: 2px;
   font-size: 20px;
+  &:before{
+    @include icon-fb();
+  }
 }
 
 .newsletter__icon_vk {
@@ -21,6 +27,9 @@
   margin-left: 42px;
   font-size: 24px;
   margin-top: -1px;
+  &:before{
+    @include icon-vk();
+  }
 }
 
 .newsletter__icon_tw {
@@ -28,6 +37,9 @@
   height: 20px;
   margin-left: 40px;
   font-size: 21px;
+  &:before{
+    @include icon-tw();
+  }
 }
 
 .newsletter__icon_ok {
@@ -35,6 +47,9 @@
   height: 20px;
   margin-left: 38px;
   font-size: 20px;
+  &:before{
+    @include icon-ok();
+  }
 }
 
 .newsletter__title {
