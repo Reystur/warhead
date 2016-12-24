@@ -252,7 +252,7 @@
   }
 }
 
-.authors__material-a {
+.authors__material-link {
   color: $shutted-text;
 }
 
@@ -283,7 +283,7 @@
   color: $shutted-text;
 }
 
-.author__list-link {
+.author__link {
   text-decoration: underline;
   font-family: $font-regular;
   color: $shutted-text;
@@ -517,7 +517,7 @@
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 14px;
     line-height: 28px;
   }
@@ -667,7 +667,7 @@
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 14px;
     line-height: 28px;
   }
@@ -855,7 +855,7 @@
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 16px;
     line-height: 28px;
   }

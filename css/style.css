@@ -2324,7 +2324,7 @@ body {
   content: "\6b";
 }
 
-.authors__material-a {
+.authors__material-link {
   color: #8a8a8a;
 }
 
@@ -2355,7 +2355,7 @@ body {
   color: #8a8a8a;
 }
 
-.author__list-link {
+.author__link {
   text-decoration: underline;
   font-family: brutal_regular, sans-serif;
   color: #8a8a8a;
@@ -2588,7 +2588,7 @@ body {
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 14px;
     line-height: 28px;
   }
@@ -2736,7 +2736,7 @@ body {
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 14px;
     line-height: 28px;
   }
@@ -2922,7 +2922,7 @@ body {
     line-height: 28px;
   }
 
-  .author__list-link {
+  .author__link {
     font-size: 16px;
     line-height: 28px;
   }
