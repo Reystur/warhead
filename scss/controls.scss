@@ -1,4 +1,4 @@
-.w-btn {
+.btn {
   display: inline-block;
   padding: 5px 10px;
   box-sizing: border-box;
@@ -20,7 +20,7 @@
   }
 }
 
-.w-btn_cancel {
+.btn_cancel {
   color: $controls-shutted;
   background-color: $controls-bg;
   border: solid 1px $controls-shutted;
@@ -31,13 +31,13 @@
   }
 }
 
-.w-btn_block {
+.btn_block {
   display: block;
   width: 100%;
   text-align: center;
 }
 
-.w-input {
+.input {
   display: block;
   width: 100%;
   height: 42px;
@@ -59,24 +59,24 @@
   }
 }
 
-.w-input-label-box {
+.input-label-box {
   margin: 10px 0 5px;
 }
 
-.w-input-label {
+.input-label {
   font-size: 16px;
   line-height: 20px;
   color: $controls-shutted;
   font-family: $font-regular;
 }
 
-.w-input-error {
+.input-error {
   font-size: 13px;
   line-height: 20px;
   color: $controls-error;
 }
 
-.w-dropdown {
+.select {
   display: block;
   width: 100%;
   height: 42px;
@@ -89,17 +89,17 @@
   position: relative;
 }
 
-.w-dropdown-active {
-  .w-dropdown__icon {
+.select_active {
+  .select__icon {
     transform: rotate(180deg) translate(0, 5px);
   }
 
-  .w-dropdown__extend {
+  .select__options {
     display: block;
   }
 }
 
-.w-dropdown__arrow {
+.select__pic {
   display: block;
   float: right;
   width: 42px;
@@ -112,14 +112,14 @@
   border-radius: 0 3px 3px 0;
 }
 
-.w-dropdown__icon{
+.select__icon{
   &:before{
     @include icon();
     @include icon-arr-down();
   }
 }
 
-.w-dropdown__origin {
+.select__selected {
   padding: 5px 12px;
   margin-right: 45px;
   font-size: 16px;
@@ -128,7 +128,7 @@
   font-family: $font-regular;
 }
 
-.w-dropdown__extend {
+.select__options {
   display: none;
   position: absolute;
   top: 44px;
@@ -139,7 +139,7 @@
   border-radius: 3px;
 }
 
-.w-dropdown__extend-element {
+.select__option {
   padding: 13px 12px;
   font-size: 16px;
   line-height: 16px;
@@ -152,7 +152,7 @@
   }
 }
 
-.w-textarea {
+.textarea {
   font-size: 16px;
   line-height: 22px;
   color: $main-text;
@@ -174,26 +174,26 @@
   }
 }
 
-.w-radio-box {
+.radio-box {
   margin-top: 10px;
 }
 
-.w-radio {
+.radio {
   display: inline-block;
   cursor: pointer;
 
   &:hover {
-    .w-radio-icon {
+    .radio-icon {
       border: solid 1px $controls-active;
     }
 
-    .w-radio-text {
+    .radio-text {
       color: $controls-active;
     }
   }
 }
 
-.w-radio-icon {
+.radio-icon {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -204,7 +204,7 @@
   vertical-align: top;
 }
 
-.w-radio-icon_active {
+.radio-icon_active {
   border: solid 1px $controls-active;
 
   &:after {
@@ -220,7 +220,7 @@
   }
 }
 
-.w-radio-text {
+.radio-text {
   padding-top: 2px;
   margin-left: 5px;
   color: $main-text;
@@ -229,26 +229,26 @@
   vertical-align: top;
 }
 
-.w-checkbox-box {
+.checkbox-box {
   margin-top: 10px;
 }
 
-.w-checkbox {
+.checkbox {
   display: inline-block;
   cursor: pointer;
 
   &:hover {
-    .w-checkbox-icon {
+    .checkbox-icon {
       border: solid 1px $controls-active;
     }
 
-    .w-checkbox-text {
+    .checkbox-text {
       color: $controls-active;
     }
   }
 }
 
-.w-checkbox-icon {
+.checkbox-icon {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -259,7 +259,7 @@
   vertical-align: top;
 }
 
-.w-checkbox-icon_active {
+.checkbox-icon_active {
   border: solid 1px $controls-active;
 
   &:after {
@@ -276,7 +276,7 @@
   }
 }
 
-.w-checkbox-text {
+.checkbox-text {
   padding-top: 2px;
   margin-left: 5px;
   color: $main-text;
