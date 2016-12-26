@@ -290,13 +290,6 @@ body {
   cursor: pointer;
 }
 
-.checkbox-label, .radio-label {
-  position: relative;
-  color: #47453e;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .checkbox + .checkbox-label:before, .radio + .radio-label:before {
   background: #fff;
   display: inline-block;
@@ -309,6 +302,23 @@ body {
   border-radius: 50%;
   position: relative;
   margin-right: 5px;
+}
+
+.checkbox-label, .radio-label {
+  position: relative;
+  color: #47453e;
+  font-size: 16px;
+  line-height: 20px;
+}
+.checkbox-label:hover, .radio-label:hover {
+  color: #4693D4;
+}
+.checkbox-label:hover:before, .radio-label:hover:before {
+  border: solid 1px #4693D4;
+}
+
+.checkbox:checked + .checkbox-label, .radio:checked + .radio-label {
+  color: #4693D4;
 }
 
 .checkbox + .checkbox-label:before {

@@ -188,13 +188,6 @@
   cursor: pointer;
 }
 
-.checkbox-label, .radio-label {
-  position: relative;
-  color: $main-text;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .checkbox + .checkbox-label:before, .radio + .radio-label:before {
   background: $default-bg;
   display: inline-block;
@@ -207,6 +200,25 @@
   border-radius: 50%;
   position: relative;
   margin-right: 5px;
+}
+
+.checkbox-label, .radio-label {
+  position: relative;
+  color: $main-text;
+  font-size: 16px;
+  line-height: 20px;
+
+  &:hover{
+    color: $controls-active;
+  }
+
+  &:hover:before{
+    border: solid 1px $controls-active;
+  }
+}
+
+.checkbox:checked + .checkbox-label, .radio:checked + .radio-label {
+  color: $controls-active;
 }
 
 .checkbox + .checkbox-label:before {
