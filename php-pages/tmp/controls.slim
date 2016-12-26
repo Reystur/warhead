@@ -14,37 +14,35 @@ html
         input.input type="text" value=("Some text") /
         .input-error Error message
       .input-label-box
-        .input-label Select:
-      .select
-        .select__pic
-          .select__icon
-        .select__selected Lv.  Military Otaku
-        .select__options
-          .select__option Lv.  Military Otaku
-          .select__option Lv.  Military Otaku
-          .select__option Lv.  Military Otaku
-      .input-label-box
         .input-label Radio:
       div
-        .radio-box
-          .radio
-            .radio-icon
-            span.radio-text Yes
-        .radio-box
-          .radio
-            .radio-icon.radio-icon_active
-            span.radio-text No
+        .checkbox-box
+          input#checkbox-1.checkbox[name="checkbox-1" type="checkbox" checked]
+          label.checkbox-label[for="checkbox-1"]
+            | First Choice
+        .checkbox-box
+          input#checkbox-2.checkbox[name="checkbox-2" type="checkbox"]
+          label.checkbox-label[for="checkbox-2"]
+            | Second Choice
+        .checkbox-box
+          input#checkbox-3.checkbox[name="checkbox-3" type="checkbox"]
+          label.checkbox-label[for="checkbox-3"]
+            | Third Choice
       .input-label-box
         .input-label Checkbox:
       div
-        .checkbox-box
-          .checkbox
-            .checkbox-icon
-            span.checkbox-text Yes
-        .checkbox-box
-          .checkbox
-            .checkbox-icon.checkbox-icon_active
-            span.checkbox-text No
+        .radio-box
+          input#radio-1.radio[name="radio-group-1" type="radio" checked]
+          label.radio-label[for="radio-1"]
+            | First Choice
+        .radio-box
+          input#radio-2.radio[name="radio-group-1" type="radio"]
+          label.radio-label[for="radio-2"]
+            | Second Choice
+        .radio-box
+          input#radio-3.radio[name="radio-group-1" type="radio"]
+          label.radio-label[for="radio-3"]
+            | Third Choice
       .input-label-box
         .input-label Textarea:
       div
@@ -54,6 +52,24 @@ html
         .btn.btn_cancel Cancel
       .input-label-box
         .btn.btn_block Button block
+      .input-label-box
+        .input-label Native-select
+      div
+        div.native-select__box
+          select.native-select
+            option.native-select_option One
+            option.native-select_option Two
+            option.native-select_option Three
+      .input-label-box
+        .input-label Select:
+      .select
+        .select__pic
+          .select__icon
+        .select__selected Lv.  Military Otaku
+        .select__options
+          .select__option Lv.  Military Otaku
+          .select__option Lv.  Military Otaku
+          .select__option Lv.  Military Otaku
       .input-label-box
         .input-label Select active:
       .select.select_active
